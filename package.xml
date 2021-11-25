@@ -10,5 +10,9 @@
         <members>AddAccountTeamMember</members>
         <name>ApexPage</name>
     </types>
+    <types>
+        <members>Account.Already_visited__c</members>
+        <name>CustomField</name>
+    </types>
     <version>52.0</version>
 </Package>
