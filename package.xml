@@ -12,7 +12,40 @@
     </types>
     <types>
         <members>Account.Already_visited__c</members>
+        <members>Case.Active_BUs__c</members>
+        <members>Lead.Active_BUs__c</members>
+        <members>Opportunity.Active_BUs__c</members>
+        <members>Opportunity.NewCustomer__c</members>
+        <members>Opportunity.NewMarket__c</members>
+        <members>Opportunity.NewSKProduct__c</members>
+        <members>Opportunity_Competitor__c.Account__c</members>
+        <members>Opportunity_Competitor__c.Competitor_account__c</members>
+        <members>Opportunity_Competitor__c.Opportunity__c</members>
+        <members>Opportunity_Competitor__c.Proposed_Quantity__c</members>
+        <members>Opportunity_Competitor__c.Supplier_Product_Reference__c</members>
+        <members>Product2.Product_Sub_Family__c</members>
+        <members>Sample__c.Active_BUs__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity_Competitor__c-Competitor Offers Layout</members>
+        <members>Product2-Commercial Product</members>
+        <members>Sample__c-Sample Request without SAP</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Opportunity.Add_Products_to_the_Opportunity</members>
+        <members>Opportunity.OPP_VR1_MandatoryProductsSampling</members>
+        <members>Opportunity.OPP_VR2_MandatoryFieldsCustomerFeedback</members>
+        <members>Opportunity.OPP_VR3_MandatoryFieldsClosed</members>
+        <members>Opportunity.Oppty_stage_set_to_Closed_Won_Or_Closed</members>
+        <members>Opportunity.PSR000754_Make_Application1_Required</members>
+        <members>Opportunity.R4_Contact_required_to_move_to_stage</members>
+        <members>Opportunity.R4_Fill_in_My_Reference_field</members>
+        <members>Opportunity.R4_Prevent_user_to_select_CECA_for_BU</members>
+        <members>Opportunity.Stage_cannot_be_changed_until_approved</members>
+        <name>ValidationRule</name>
     </types>
     <version>52.0</version>
 </Package>
