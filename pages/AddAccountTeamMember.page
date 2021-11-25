@@ -1,0 +1,37 @@
+<apex:page standardController="Sample_Team__c" recordSetVar="sampleteam" tabStyle="Sample_Team__c">
+    
+     
+    <apex:includeLightning />
+    <div class="slds" style="margin-top:10px;margin-left:10px;"> 
+        <div id="lightning" />
+    </div>
+   <script>
+    var sampleId ="{!$CurrentPage.parameters.Id}";
+    
+   var visualForceFunction = function(event)
+            {
+                alert('in event');
+            };
+
+   
+        $Lightning.use("c:CallAddAccountTeamMem", function() {
+        $Lightning.createComponent("c:AddAccountTeamMem",
+                                      {
+                                   recordId : '{!$CurrentPage.parameters.Id}',
+                                    },
+                                  
+            "lightning",
+             function(component) {
+                 
+                 $A.eventService.addHandler({ "event": "e.force:navigateToSObject", "handler" : function(event){
+                 if (typeof sforce != 'undefined' && sforce.one) {
+                     console.log("In Vf Event");
+                     }
+                 }
+                                            });
+              });
+        });
+    
+    </script>
+  
+</apex:page>
