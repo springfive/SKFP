@@ -1,145 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>DisableCustomerPortal</excludeButtons>
+    <excludeButtons>DisablePartnerPortal</excludeButtons>
+    <excludeButtons>DisablePrmSuperUser</excludeButtons>
+    <excludeButtons>EnablePrmSuperUser</excludeButtons>
+    <excludeButtons>PrintableView</excludeButtons>
+    <excludeButtons>Share</excludeButtons>
+    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <label>Opportunity Information</label>
+        <label>Contact Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Opportunity_Number__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
+                <behavior>Required</behavior>
+                <field>Title</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>AccountId</field>
+                <behavior>Edit</behavior>
+                <field>MobilePhone</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Active_BUs__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Green_Project__c</field>
+                <behavior>Edit</behavior>
+                <field>Inactive__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>StageName</field>
+                <field>Email</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CloseDate</field>
+                <field>AccountId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Probability</field>
+                <field>Phone</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalOpportunityQuantity</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Amount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>CurrencyIsoCode</field>
+                <behavior>Edit</behavior>
+                <field>BU__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
-        <label>Description</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Opportunity_Description__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>NBD</label>
+        <label>Additional Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NBD__c</field>
+                <field>Language__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Current_year_potential__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Next_year_potential__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Market Application</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>BU_Application_1__c</field>
+                <field>Job_Function__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Region__c</field>
+                <field>LeadSource</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>BU_Application_2__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Opportunity Type</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>NewCustomer__c</field>
+                <behavior>Edit</behavior>
+                <field>Job_Department__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>NewMarket__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>NewSKProduct__c</field>
+                <behavior>Edit</behavior>
+                <field>Key_Contact__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -148,41 +85,38 @@
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Additional Information</label>
+        <label>Address Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Main_Contact__c</field>
+                <behavior>Edit</behavior>
+                <field>MailingAddress</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Opportunity_Won_Lost_Reason__c</field>
+                <field>Region__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>LeadSource</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Won_Lost_Reason_Details__c</field>
+                <field>Additional_Address__c</field>
             </layoutItems>
         </layoutColumns>
-        <style>TwoColumnsLeftToRight</style>
+        <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Opportunity follow-up notes</label>
+        <label>Other Information</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Next_Steps__c</field>
+                <field>LinkedIn__c</field>
             </layoutItems>
         </layoutColumns>
-        <style>OneColumn</style>
+        <layoutColumns/>
+        <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -230,6 +164,36 @@
             <actionType>StandardButton</actionType>
             <sortOrder>2</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Contact.Create_CVR</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>3</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewTask</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewEvent</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SendEmail</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>6</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.TextPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.ContentPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>8</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -251,62 +215,82 @@
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>FeedItem.ContentNote</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>FeedItem.LinkPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.PollPost</quickActionName>
         </quickActionListItems>
     </quickActionList>
+    <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <component>runtime_sales_social:socialPanel</component>
+            </layoutItem>
+        </relatedContentItems>
+    </relatedContent>
     <relatedLists>
-        <fields>MemberName</fields>
-        <fields>OppAccessLevel</fields>
-        <fields>TeamMemberRole</fields>
-        <relatedList>RelatedOpportunitySalesTeam</relatedList>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCCONRELATION.IS_DIRECT</fields>
+        <fields>ACCCONRELATION.ROLES</fields>
+        <relatedList>RelatedContactAccountRelationList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Product2</fields>
-        <fields>Quantity</fields>
-        <fields>UnitPrice</fields>
-        <fields>TotalPrice</fields>
-        <fields>ListPrice</fields>
-        <fields>ProductCode</fields>
-        <relatedList>RelatedLineItemList</relatedList>
+        <fields>NAME</fields>
+        <fields>Call_Visit_Report_Title__c</fields>
+        <fields>Sold_to_Account__c</fields>
+        <fields>BU__c</fields>
+        <fields>Owner_Full_Name__c</fields>
+        <fields>Visit_Date__c</fields>
+        <fields>Call_Visit_Report_Status__c</fields>
+        <relatedList>Call_Visit_Report__c.Contact__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>CASES.CASE_NUMBER</fields>
+        <fields>OWNER_NAME</fields>
+        <fields>CASES.SUBJECT</fields>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>CASES.RECORDTYPE</fields>
+        <fields>BU__c</fields>
+        <fields>Priority__c</fields>
+        <fields>CASES.STATUS</fields>
+        <relatedList>RelatedCaseList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>OPPORTUNITY.NAME</fields>
+        <fields>OPPORTUNITY.STAGE_NAME</fields>
+        <fields>OPPORTUNITY.AMOUNT</fields>
+        <fields>OPPORTUNITY.CLOSE_DATE</fields>
+        <relatedList>RelatedOpportunityList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>QUOTE.QUOTENUMBER</fields>
-        <fields>Quote_Owner__c</fields>
         <fields>QUOTE.NAME</fields>
-        <fields>BU__c</fields>
-        <fields>CONTACT.FULL_NAME</fields>
-        <fields>Ship_To_Account__c</fields>
-        <fields>QUOTE.STATUS</fields>
+        <fields>QUOTE.EXPIRATIONDATE</fields>
+        <fields>QUOTE.ISSYNCING</fields>
+        <fields>QUOTE.SUBTOTAL</fields>
+        <fields>QUOTE.TOTALPRICE</fields>
+        <fields>CreatedBy</fields>
         <relatedList>RelatedQuoteList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Sample_ID__c</fields>
+        <fields>NAME</fields>
         <fields>Sample_Name__c</fields>
-        <fields>Account_Name__c</fields>
-        <fields>OWNER.FIRST_NAME</fields>
-        <fields>OWNER.LAST_NAME</fields>
-        <fields>Pricing_Type__c</fields>
-        <fields>BU__c</fields>
-        <fields>Status__c</fields>
-        <relatedList>Opportunity_Sample_Relationship__c.Opportunity__c</relatedList>
+        <fields>Sample_Account__c</fields>
+        <fields>Sample_Record_Type__c</fields>
+        <fields>Sample_Pricing_Type__c</fields>
+        <fields>Sample_Status__c</fields>
+        <relatedList>Sample_Contact_Relationship__c.Contact__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Call_Visit_Report__c.NAME</fields>
-        <fields>Call_Visit_Report__c.Call_Visit_Report_Title__c</fields>
-        <fields>Call_Visit_Report__c.BU__c</fields>
-        <fields>Owner.CUSTENT_OWNER_NAME</fields>
-        <fields>Call_Visit_Report__c.Visit_Date__c</fields>
-        <fields>Call_Visit_Report__c.Call_Visit_Report_Status__c</fields>
-        <relatedList>CVR_Opportunity_Association__c.Opportunity__c</relatedList>
+        <fields>Account_Plan__c</fields>
+        <fields>Title__c</fields>
+        <relatedList>AP_Contact__c.Contact__c</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <relatedList>RelatedOpportunityHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
@@ -318,7 +302,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h3X00000kBYE4</masterLabel>
+        <masterLabel>00h3X00000kBYE3</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

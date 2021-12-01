@@ -3,6 +3,7 @@
     <fields>
         <fullName>Active_BUs__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Lead in relationship with the following BU(s)</inlineHelpText>
         <label>Active BUs</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -14,4 +15,144 @@
         </valueSet>
         <visibleLines>4</visibleLines>
     </fields>
+    <fields>
+        <fullName>BU_Application_2__c</fullName>
+        <externalId>false</externalId>
+        <label>BU Application 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BU_Application_1__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>BU_application_2_values</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FOAM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FUEL &amp; CHEMICAL CONTAINERS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>THERMOADHESIVE FILM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>AGRICULTURAL FILM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>ALU PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>BITUMEN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>CABLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>INDUSTRIAL LAMINATE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>PIPE &amp; TUBE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>PV PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>FLEXIBLE COEXTRUSION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>FLEXIBLE EXTRUSION COATING LAMINATION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>HOT MEL ADHESIVE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>INKS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>RIGID PACKAGING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COMPATIBILIZER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COUPLING AGENT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>IMPACT MODIFIER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>RECYCLING</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BU__c</fullName>
+        <defaultValue>CASE( $User.BU__c,&apos;Acrylics&apos;,&apos;Acrylics&apos;, 
+&apos;Altuglas&apos;,&apos;Altuglas&apos;, 
+&apos;Bostik - Consumer &amp; construction (C&amp;C)&apos;,&apos;Bostik - Consumer &amp; construction (C&amp;C)&apos;, 
+&apos;Bostik - Industrial Adhesives (IA)&apos;,&apos;Bostik - Industrial Adhesives (IA)&apos;, 
+&apos;Bostik - Non Wovens (NW)&apos;,&apos;Bostik - Non Wovens (NW)&apos;, 
+&apos;Coatex&apos;,&apos;Coatex&apos;, 
+&apos;Coating Resins&apos;,&apos;Coating Resins&apos;, 
+&apos;Fluorogases&apos;,&apos;Fluorogases&apos;, 
+&apos;Functional additives&apos;,&apos;Functional additives&apos;, 
+&apos;Molecular Sieves&apos;,&apos;Molecular Sieves&apos;, 
+&apos;Oxygenated &amp; derivated&apos;,&apos;Oxygenated &amp; derivated&apos;, 
+&apos;Sartomer&apos;,&apos;Sartomer&apos;, 
+&apos;Technical Polymers&apos;,&apos;Technical Polymers&apos;, 
+&apos;Tensioactives and Oil gas additives&apos;,&apos;Tensioactives and Oil gas additives&apos;, 
+&apos;Thiochemicals&apos;,&apos;Thiochemicals&apos;, 
+&apos;&apos; 
+)</defaultValue>
+        <description>R1_R0081_ Field value changed to Multi-Select</description>
+        <externalId>false</externalId>
+        <label>BU</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <validationRules>
+        <fullName>Lead_VR1_MandatoryCountry</fullName>
+        <active>true</active>
+        <description>It is Mandatory to fill the country field to be able to convert a lead.</description>
+        <errorConditionFormula>ISPICKVAL(Status,&quot;Converted&quot;)
+ &amp;&amp; 
+ISBLANK(Country)</errorConditionFormula>
+        <errorMessage>Please enter a value for the Country field.</errorMessage>
+    </validationRules>
 </CustomObject>
