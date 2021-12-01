@@ -81,7 +81,23 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Admin</members>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Guest License User</members>
+        <members>Identity User</members>
+        <members>Interface User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>Sales Insights Integration User</members>
         <members>Sales User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>Website User</members>
         <name>Profile</name>
     </types>
     <types>
