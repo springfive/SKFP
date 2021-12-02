@@ -142,7 +142,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity_Competitor__c.Proposed_Quantity__c</field>
         <readable>true</readable>
