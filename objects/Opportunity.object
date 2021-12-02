@@ -267,32 +267,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>New_Product__c</fullName>
-        <description>R1_R-0263</description>
-        <externalId>false</externalId>
-        <inlineHelpText>SK product which is less than 5 years old.</inlineHelpText>
-        <label>New SK Product</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Next_Steps__c</fullName>
         <description>Field created as part of PSR-000712 as Next Step is standard field with text data type and requirement is for rich text field.</description>
         <externalId>false</externalId>
