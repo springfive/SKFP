@@ -39,7 +39,6 @@
         <members>Opportunity.NewCustomer__c</members>
         <members>Opportunity.NewMarket__c</members>
         <members>Opportunity.NewSKProduct__c</members>
-        <members>Opportunity.New_Product__c</members>
         <members>Opportunity.Next_Steps__c</members>
         <members>Opportunity.Next_year_potential__c</members>
         <members>Opportunity_Competitor__c.Account__c</members>
