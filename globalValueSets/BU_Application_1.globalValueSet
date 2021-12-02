@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AUTOMOTIVE</fullName>
+        <default>false</default>
+        <label>AUTOMOTIVE</label>
+    </customValue>
+    <customValue>
+        <fullName>COMPOUNDING</fullName>
+        <default>false</default>
+        <label>COMPOUNDING</label>
+    </customValue>
+    <customValue>
+        <fullName>CONSTRUCTION &amp; INDUSTRIAL</fullName>
+        <default>false</default>
+        <label>CONSTRUCTION &amp; INDUSTRIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>PACKAGING</fullName>
+        <default>false</default>
+        <label>PACKAGING</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Pressure Sensitive Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Pressure Sensitive Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Sealants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Sealants</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Textile &amp; Leather Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Textile &amp; Leather Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Traffic Paint</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Traffic Paint</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Treatments</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Treatments</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Water Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Water Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Food Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Food Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Glass Coatings (New)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Glass Coatings (new)</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Inks</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Inks</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Asphalt</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Asphalt</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Cable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Cable</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Flexible</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Flexible</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Hot Melt Adhesive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Hot Melt Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Light Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Light Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Surfacing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Surfacing</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Thermosets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Thermosets</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Upstream</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Upstream</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Appliances</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Battery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Chemicals For Electronic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Chemicals For Electronic</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Commercial</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Commercial Truck</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Commercial Truck</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Foam Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Foam Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Food Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Food Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Food Industry Refrigeration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Food Industry Refrigeration</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Light Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Light Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUO - Solvents</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUO - Solvents</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Agrochemicals Coatings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Agrochemicals Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Architectural Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Architectural Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Beauty, Perfumes, &amp; Cosmetics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Beauty, Perfumes, &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Cable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Cable</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Electronics Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Electronics Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Equipment &amp; Furniture</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Equipment &amp; Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Flexible</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Flexible</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Flooring</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Food Industry Coatings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Food Industry Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Graphic Arts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Graphic Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Hot Melt Adhesive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Hot Melt Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Packaging Adhesive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Packaging Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Paper Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Paper Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Pressure Sensitive Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Pressure Sensitive Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Rigid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Rigid</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Sealants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Sealants</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Structural Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Structural Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Wood Adhesive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Wood Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Architectural Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Architectural Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Detergency &amp; Cleaning Chemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Detergency &amp; Cleaning Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Disposable Hygien</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Disposable Hygien</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Lubricants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Lubricants</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Other Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Other Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Paper Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Paper Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Textile &amp; Leather Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Textile &amp; Leather Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - UV Coatings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - UV Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Water Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Water Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Aerospace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Aerospace</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Assembly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Flexible</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Flexible</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - General Transportation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - General Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Other Automotive &amp; Transportation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Other Automotive &amp; Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Rigid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Rigid</label>
+    </customValue>
+    <customValue>
+        <fullName>BIA - Tapes &amp; Labels</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIA - Tapes &amp; Labels</label>
+    </customValue>
+    <customValue>
+        <fullName>BNW - Disposable Hygien</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BNW - Disposable Hygien</label>
+    </customValue>
+    <customValue>
+        <fullName>BNW - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BNW - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Textile &amp; Leather Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Textile &amp; Leather Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Thermoplastics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Thermoplastics</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Thermosets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Thermosets</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Traffic Paint</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Traffic Paint</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Wet Glue Adhesive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Wet Glue Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Architectural Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Architectural Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Assembly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Board Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Board Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Ceramics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Ceramics</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Detergency &amp; Cleaning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Detergency &amp; Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Graphic Arts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Graphic Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Minerals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Minerals</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Mining</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Other Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Other Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Paper Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Paper Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Personal Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Personal Care</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>FP - Rigid</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FP - Rigid</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - Extrusion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - Extrusion</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - Other 3D Printing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - Other 3D Printing</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - Powders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - Powders</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - Thermoplastics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - Thermoplastics</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - Thermosets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - Thermosets</label>
+    </customValue>
+    <customValue>
+        <fullName>IB - UV</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IB - UV</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Beauty, Perfumes, &amp; Cosmetics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Beauty, Perfumes, &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Biobased</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Biobased</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Downstream Gas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Downstream Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Equipment &amp; Furniture</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Equipment &amp; Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Light Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Light Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Mining</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Petrochemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Petrochemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>MOL - Sealant For Construction</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOL - Sealant For Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Aerospace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Aerospace</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Aseptic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Aseptic</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Beauty, Perfumes, &amp; Cosmetics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Beauty, Perfumes, &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Biobased</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Biobased</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Bleaching</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Bleaching</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Chemicals For Electronic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Chemicals For Electronic</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Detergency &amp; Cleaning</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Detergency &amp; Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Food Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Food Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Household Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Household Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Metallurgy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Metallurgy</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Minerals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Minerals</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Mining</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Other Agriculture &amp; Food Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Other Agriculture &amp; Food Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Personal Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Personal Care</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Printed Circuit Boards</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Printed Circuit Boards</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Textile Processing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Textile Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Treatments</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Treatments</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Waste Water</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Waste Water</label>
+    </customValue>
+    <customValue>
+        <fullName>OXY - Water Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OXY - Water Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Aerospace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Aerospace</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Assembly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Boat/Marine</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Boat/Marine</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Caravaning/Recreational Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Caravaning/Recreational Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Commercial Truck</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Commercial Truck</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Consumer Electronics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Consumer Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Equipment &amp; Furniture</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Equipment &amp; Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Food Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Food Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Light Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Light Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Machine Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Machine Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Motorcycle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Motorcycle</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Other 3D Printing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Other 3D Printing</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Photovoltaic &amp; Windbased</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Photovoltaic &amp; Windbased</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Pressure Sensitive Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Pressure Sensitive Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Protection / Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Protection / Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Sealants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Sealants</label>
+    </customValue>
+    <customValue>
+        <fullName>PMMA - Textile &amp; Leather Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PMMA - Textile &amp; Leather Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Advanced Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Advanced Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Chemicals For Electronic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Chemicals For Electronic</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Graphic Arts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Graphic Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Other Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Other Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - Personal Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - Personal Care</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - UV</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - UV 3D Printing</label>
+    </customValue>
+    <customValue>
+        <fullName>SAR - UV Coatings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAR - UV Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Architectural Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Architectural Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Battery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Beauty, Perfumes, &amp; Cosmetics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Beauty, Perfumes, &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Biobased</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Biobased</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Chemicals For Electronic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Chemicals For Electronic</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Detergency &amp; Cleaning Chemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Detergency &amp; Cleaning Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Downstream Gas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Downstream Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Downstream Oil</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Downstream Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Inks</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Inks</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Metallurgy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Metallurgy</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Mining</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Mining</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Other Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Other Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Petrochemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Petrochemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Textile &amp; Leather Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Textile &amp; Leather Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Upstream</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Upstream</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - UV Coatings</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - UV Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>THIO - Water Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>THIO - Water Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Architectural Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Architectural Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Asphalt</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Asphalt</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Detergency &amp; Cleaning Chemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Detergency &amp; Cleaning Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Fertilizer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Fertilizer</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Lubricants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Lubricants</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Other Adhesives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Other Adhesives</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Treatments</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Treatments</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Upstream</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Upstream</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Additives</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Additives</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Agrochemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Agrochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Battery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Beauty, Perfumes, &amp; Cosmetics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Beauty, Perfumes, &amp; Cosmetics</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Cable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Cable</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Chemical &amp; Plastic Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Chemical &amp; Plastic Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Chemical Processing Industry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Chemical Processing Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Chemicals Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Chemicals Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Commercial Truck</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Commercial Truck</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Consumer Electronics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Consumer Electronics</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Downstream Gas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Downstream Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Eyewear</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Eyewear</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Fertilizer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Fertilizer</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Footwear</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Footwear</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Graphic Arts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Graphic Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Industrial Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Industrial Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Light Vehicle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Light Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Lubricants</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Lubricants</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Machine Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Machine Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Medical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Pharmaceutical</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Photovoltaic &amp; Windbased</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Photovoltaic &amp; Windbased</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Polymer Manufacturing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Polymer Manufacturing</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Powder Bed Fusion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Powder Bed Fusion</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Protection / Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Protection / Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Textile &amp; Leather</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Textile &amp; Leather</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Thermoplastics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Thermoplastics</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Thermosets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Thermosets</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Upstream</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Upstream</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Water Treatment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Water Treatment</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Winter Sports</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Winter Sports</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Tapes &amp; Labels</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Tapes &amp; Labels</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Protection/Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Protection/Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Home Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Home Care</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Personal Care</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Personal Care</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Minerals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Minerals</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - Coating</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AS - Coating</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Extrusion</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Extrusion</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Powders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Powders</label>
+    </customValue>
+    <customValue>
+        <fullName>TOGA - Downstream</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOGA - Downstream</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Aerospace</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Aerospace</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Other Automotive &amp; Transportation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Other Automotive &amp; Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>FA - Equipment &amp; Furniture</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FA - Equipment &amp; Furniture</label>
+    </customValue>
+    <customValue>
+        <fullName>TPA - Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TPA - Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>ACR - Printed Circuit Boards</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ACR - Printed Circuit Board</label>
+    </customValue>
+    <customValue>
+        <fullName>COA - Fiber Glass</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COA - Fiber Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Waterproofing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Waterproofing</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Wall &amp; Floor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Wall &amp; Floor</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Sealing &amp; Bonding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Sealing &amp; Bonding</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Repair &amp; Assembly</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Repair &amp; Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Stationery/Education/Craft</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Stationery/Education/Craft</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Other Building Chemicals</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Other Building Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>BCC - Not assigned</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BCC - Not assigned</label>
+    </customValue>
+    <description>PSR-000649 - App1 Values based on PSR setup</description>
+    <masterLabel>BU Application 1</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

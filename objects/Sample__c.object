@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Active_BUs__c</fullName>
+        <externalId>false</externalId>
+        <label>Active BUs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Main_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>D-0569</description>
+        <externalId>false</externalId>
+        <label>Main Opportunity</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>equals</operation>
+                <valueField>Opportunity.AccountId</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Sample Requests</relationshipLabel>
+        <relationshipName>Sample_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <recordTypes>
+        <fullName>Sample_Request_with_SAP</fullName>
+        <active>false</active>
+        <label>SR with SAP interface and SAP order creation</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sample_Request_with_SAP_Creation_RT</fullName>
+        <active>false</active>
+        <label>Sample request with SAP interface and SAP order creation</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sample_Request_with_SAP_Request</fullName>
+        <active>false</active>
+        <label>SR with e-mail to request SAP order creation</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sample_Request_with_SAP_Request_Creation_RT</fullName>
+        <active>false</active>
+        <label>Sample request with e-mail to request SAP order creation</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sample_Request_without_SAP</fullName>
+        <active>false</active>
+        <label>SR with no SAP interface and no SAP order creation</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sample_Request_without_SAP_Creation_RT</fullName>
+        <active>true</active>
+        <label>Sample request</label>
+        <picklistValues>
+            <picklist>Active_BUs__c</picklist>
+            <values>
+                <fullName>Functional Polyolefins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primacor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SKGC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

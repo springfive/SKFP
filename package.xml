@@ -10,5 +10,142 @@
         <members>AddAccountTeamMember</members>
         <name>ApexPage</name>
     </types>
+    <types>
+        <members>Account.Account_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Account.Active_BUs__c</members>
+        <members>Account.Already_visited__c</members>
+        <members>Account.BU_Application_2__c</members>
+        <members>Account.BU_application_1__c</members>
+        <members>Account.Type__c</members>
+        <members>Call_Visit_Report__c.Sold_to_Account__c</members>
+        <members>Case.Active_BUs__c</members>
+        <members>Case.Salutation__c</members>
+        <members>Contact.BU_Application_1__c</members>
+        <members>Contact.BU_Application_2__c</members>
+        <members>Contact.BU__c</members>
+        <members>Lead.Active_BUs__c</members>
+        <members>Lead.BU_Application_2__c</members>
+        <members>Lead.BU__c</members>
+        <members>Lead.Description__c</members>
+        <members>Opportunity.Active_BUs__c</members>
+        <members>Opportunity.BU_Application_2__c</members>
+        <members>Opportunity.Current_year_potential__c</members>
+        <members>Opportunity.Green_Project__c</members>
+        <members>Opportunity.Main_Contact__c</members>
+        <members>Opportunity.NBD__c</members>
+        <members>Opportunity.NewCustomer__c</members>
+        <members>Opportunity.NewMarket__c</members>
+        <members>Opportunity.NewSKProduct__c</members>
+        <members>Opportunity.New_Product__c</members>
+        <members>Opportunity.Next_Steps__c</members>
+        <members>Opportunity.Next_year_potential__c</members>
+        <members>Opportunity_Competitor__c.Account__c</members>
+        <members>Opportunity_Competitor__c.Competitor_account__c</members>
+        <members>Opportunity_Competitor__c.Opportunity__c</members>
+        <members>Opportunity_Competitor__c.Proposed_Quantity__c</members>
+        <members>Opportunity_Competitor__c.Supplier_Product_Reference__c</members>
+        <members>Opportunity_Competitor__c.Supplier__c</members>
+        <members>Product2.BU__c</members>
+        <members>Product2.Product_Sub_Family__c</members>
+        <members>Sample__c.Active_BUs__c</members>
+        <members>Sample__c.Main_Opportunity__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>BU_Application_1</members>
+        <members>BU_Values</members>
+        <members>BU_application_2_values</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Account-Competitor</members>
+        <members>Account-Non-Buying Account</members>
+        <members>Call_Visit_Report__c-Call%2FVisit Report Layout</members>
+        <members>Case-Complaint without SAP QN</members>
+        <members>Case-Customer Request</members>
+        <members>Case-HSE Request</members>
+        <members>Contact-Contact Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity_Competitor__c-Competitor Offers Layout</members>
+        <members>Product2-Commercial Product</members>
+        <members>Sample__c-Sample Request without SAP</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Key_User</members>
+        <members>Key_User_HQ</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Guest License User</members>
+        <members>Identity User</members>
+        <members>Interface User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>Sales Insights Integration User</members>
+        <members>Sales User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>Website User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.Account</members>
+        <members>Account.Competitor</members>
+        <members>Account.Customer_Ship_To</members>
+        <members>Account.Hierarchical_Account_L1</members>
+        <members>Account.Hierarchical_Account_L2</members>
+        <members>Account.Hierarchical_Account_L3</members>
+        <members>Account.Hierarchical_Account_L4</members>
+        <members>Account.Hierarchical_Account_L5</members>
+        <members>Account.Locator_Address</members>
+        <members>Account.Non_Buying_Account</members>
+        <members>Account.Prospect</members>
+        <members>Case.Bostik_New_Customer</members>
+        <members>Case.Bostik_US_C_C_CEI_Post_Install</members>
+        <members>Case.Bostik_US_Customer_Experience_Improvement</members>
+        <members>Case.Customer</members>
+        <members>Case.Customer_Complaint_with_SAP_QN</members>
+        <members>Case.Customer_Complaint_without_SAP_QN</members>
+        <members>Case.HSE_Request</members>
+        <members>Case.Technical_Request</members>
+        <members>Product2.Commercial_Product</members>
+        <members>Product2.Material_Product</members>
+        <members>Sample__c.Sample_Request_with_SAP</members>
+        <members>Sample__c.Sample_Request_with_SAP_Creation_RT</members>
+        <members>Sample__c.Sample_Request_with_SAP_Request</members>
+        <members>Sample__c.Sample_Request_with_SAP_Request_Creation_RT</members>
+        <members>Sample__c.Sample_Request_without_SAP</members>
+        <members>Sample__c.Sample_Request_without_SAP_Creation_RT</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Lead.Lead_VR1_MandatoryCountry</members>
+        <members>Opportunity.Add_Products_to_the_Opportunity</members>
+        <members>Opportunity.OPP_VR1_MandatoryProductsSampling</members>
+        <members>Opportunity.OPP_VR2_MandatoryFieldsCustomerFeedback</members>
+        <members>Opportunity.OPP_VR3_MandatoryFieldsClosed</members>
+        <members>Opportunity.OPP_VR4_MandatoryFieldsNBD</members>
+        <members>Opportunity.OPP_VR5_MandatoryFieldsTechnicalHomolog</members>
+        <members>Opportunity.OPP_VR6_UncheckNBD</members>
+        <members>Opportunity.Oppty_stage_set_to_Closed_Won_Or_Closed</members>
+        <members>Opportunity.PSR000754_Make_Application1_Required</members>
+        <members>Opportunity.R4_Contact_required_to_move_to_stage</members>
+        <members>Opportunity.R4_Fill_in_My_Reference_field</members>
+        <members>Opportunity.R4_Prevent_user_to_select_CECA_for_BU</members>
+        <members>Opportunity.Stage_cannot_be_changed_until_approved</members>
+        <name>ValidationRule</name>
+    </types>
     <version>52.0</version>
 </Package>
