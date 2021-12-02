@@ -127,11 +127,6 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Key_User</members>
-        <members>Key_User_HQ</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
         <members>Admin</members>
         <members>CPQ Integration User</members>
         <members>Chatter External User</members>
