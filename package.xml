@@ -154,5 +154,5 @@
         <members>Opportunity.Stage_cannot_be_changed_until_approved</members>
         <name>ValidationRule</name>
     </types>
-    <version>51.0</version>
+    <version>52.0</version>
 </Package>
