@@ -5315,10 +5315,6 @@ null)</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AUTOMOTIVE PART</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -7849,10 +7845,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10429,10 +10421,6 @@ null)</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AUTOMOTIVE PART</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -12919,10 +12907,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15467,10 +15451,6 @@ null)</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AUTOMOTIVE PART</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -18009,10 +17989,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20557,10 +20533,6 @@ null)</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AUTOMOTIVE PART</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -23099,10 +23071,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -25648,10 +25616,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -28232,10 +28196,6 @@ null)</formula>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AUTOMOTIVE PART</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -30799,10 +30759,6 @@ null)</formula>
             </values>
             <values>
                 <fullName>ALU PANEL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>AUTOMOTIVE PART</fullName>
                 <default>false</default>
             </values>
             <values>
