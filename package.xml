@@ -108,36 +108,6 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>Account.Account</members>
-        <members>Account.Competitor</members>
-        <members>Account.Customer_Ship_To</members>
-        <members>Account.Hierarchical_Account_L1</members>
-        <members>Account.Hierarchical_Account_L2</members>
-        <members>Account.Hierarchical_Account_L3</members>
-        <members>Account.Hierarchical_Account_L4</members>
-        <members>Account.Hierarchical_Account_L5</members>
-        <members>Account.Locator_Address</members>
-        <members>Account.Non_Buying_Account</members>
-        <members>Account.Prospect</members>
-        <members>Case.Bostik_New_Customer</members>
-        <members>Case.Bostik_US_C_C_CEI_Post_Install</members>
-        <members>Case.Bostik_US_Customer_Experience_Improvement</members>
-        <members>Case.Customer</members>
-        <members>Case.Customer_Complaint_with_SAP_QN</members>
-        <members>Case.Customer_Complaint_without_SAP_QN</members>
-        <members>Case.HSE_Request</members>
-        <members>Case.Technical_Request</members>
-        <members>Product2.Commercial_Product</members>
-        <members>Product2.Material_Product</members>
-        <members>Sample__c.Sample_Request_with_SAP</members>
-        <members>Sample__c.Sample_Request_with_SAP_Creation_RT</members>
-        <members>Sample__c.Sample_Request_with_SAP_Request</members>
-        <members>Sample__c.Sample_Request_with_SAP_Request_Creation_RT</members>
-        <members>Sample__c.Sample_Request_without_SAP</members>
-        <members>Sample__c.Sample_Request_without_SAP_Creation_RT</members>
-        <name>RecordType</name>
-    </types>
-    <types>
         <members>Lead.Lead_VR1_MandatoryCountry</members>
         <members>Opportunity.Add_Products_to_the_Opportunity</members>
         <members>Opportunity.OPP_VR1_MandatoryProductsSampling</members>
