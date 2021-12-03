@@ -29,6 +29,10 @@
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>AUTOMOTIVE PART</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
                 <valueName>FOAM</valueName>
             </valueSettings>
             <valueSettings>
@@ -74,10 +78,6 @@
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
                 <valueName>FLEXIBLE EXTRUSION COATING LAMINATION</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>HOT MEL ADHESIVE</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -146,13 +146,4 @@
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
-    <validationRules>
-        <fullName>Lead_VR1_MandatoryCountry</fullName>
-        <active>true</active>
-        <description>It is Mandatory to fill the country field to be able to convert a lead.</description>
-        <errorConditionFormula>ISPICKVAL(Status,&quot;Converted&quot;)
- &amp;&amp; 
-ISBLANK(Country)</errorConditionFormula>
-        <errorMessage>Please enter a value for the Country field.</errorMessage>
-    </validationRules>
 </CustomObject>

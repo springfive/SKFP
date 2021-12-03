@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <compactLayouts>
-        <fullName>Account_Compact_Layout</fullName>
-        <fields>Name</fields>
-        <fields>BillingAddress</fields>
-        <fields>Phone</fields>
-        <label>Account Compact Layout</label>
-    </compactLayouts>
     <fields>
         <fullName>Active_BUs__c</fullName>
         <description>R1_R-0249</description>
@@ -62,6 +55,10 @@
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>AUTOMOTIVE PART</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
                 <valueName>FOAM</valueName>
             </valueSettings>
             <valueSettings>
@@ -110,10 +107,6 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>HOT MEL ADHESIVE</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PACKAGING</controllingFieldValue>
                 <valueName>INKS</valueName>
             </valueSettings>
             <valueSettings>
@@ -150,6 +143,15 @@
             <restricted>true</restricted>
             <valueSetName>BU_Application_1</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Circular_Economy_Player__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Circular Economy Player</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Type__c</fullName>
@@ -274,6 +276,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -303,10 +309,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -354,6 +356,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -638,6 +644,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -667,10 +677,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -718,6 +724,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1042,6 +1052,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -1071,10 +1085,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1122,6 +1132,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1362,6 +1376,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -1391,10 +1409,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1442,6 +1456,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1734,6 +1752,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -1763,10 +1785,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -1814,6 +1832,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2106,6 +2128,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -2135,10 +2161,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2186,6 +2208,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2478,6 +2504,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -2507,10 +2537,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2558,6 +2584,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2850,6 +2880,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -2879,10 +2913,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -2930,6 +2960,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3226,6 +3260,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -3255,10 +3293,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3306,6 +3340,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3634,6 +3672,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -3663,10 +3705,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3714,6 +3752,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4031,6 +4073,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>AUTOMOTIVE PART</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>BITUMEN</fullName>
                 <default>false</default>
             </values>
@@ -4060,10 +4106,6 @@
             </values>
             <values>
                 <fullName>FUEL %26 CHEMICAL CONTAINERS</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>HOT MEL ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4111,6 +4153,10 @@
             </values>
             <values>
                 <fullName>CONSTRUCTION %26 INDUSTRIAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HOT MELT ADHESIVE</fullName>
                 <default>false</default>
             </values>
             <values>

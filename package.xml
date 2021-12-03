@@ -19,6 +19,7 @@
         <members>Account.Already_visited__c</members>
         <members>Account.BU_Application_2__c</members>
         <members>Account.BU_application_1__c</members>
+        <members>Account.Circular_Economy_Player__c</members>
         <members>Account.Type__c</members>
         <members>Call_Visit_Report__c.Sold_to_Account__c</members>
         <members>Case.Active_BUs__c</members>
@@ -62,6 +63,7 @@
     </types>
     <types>
         <members>Account-Competitor</members>
+        <members>Account-Customer Sold-To</members>
         <members>Account-Non-Buying Account</members>
         <members>Call_Visit_Report__c-Call%2FVisit Report Layout</members>
         <members>Case-Complaint without SAP QN</members>

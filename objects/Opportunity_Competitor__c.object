@@ -5,7 +5,7 @@
         <externalId>false</externalId>
         <label>Account</label>
         <referenceTo>Account</referenceTo>
-        <relationshipLabel>Opportunity Competitors (Account)</relationshipLabel>
+        <relationshipLabel>New competitor offers</relationshipLabel>
         <relationshipName>Opportunity_Competitors2</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
