@@ -28,7 +28,7 @@
                 <field>Main_Opportunity__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>BU__c</field>
             </layoutItems>
         </layoutColumns>

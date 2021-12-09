@@ -79,6 +79,7 @@
         <members>Opportunity-Opportunity Layout</members>
         <members>Opportunity_Competitor__c-Competitor Offers Layout</members>
         <members>Product2-Commercial Product</members>
+        <members>Sample_Product__c-Sample Product Layout</members>
         <members>Sample__c-Sample Request without SAP</members>
         <name>Layout</name>
     </types>
