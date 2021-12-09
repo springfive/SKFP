@@ -44,7 +44,7 @@
                 <field>Phone</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>BU__c</field>
             </layoutItems>
         </layoutColumns>
@@ -56,10 +56,6 @@
         <editHeading>true</editHeading>
         <label>Additional Information</label>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Language__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Job_Function__c</field>

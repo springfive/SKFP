@@ -76,6 +76,19 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
+        <label>Opportunity follow-up notes</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Next_Steps__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
         <label>NBD</label>
         <layoutColumns>
             <layoutItems>
@@ -109,7 +122,7 @@
                 <field>BU_Application_1__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>Region__c</field>
             </layoutItems>
         </layoutColumns>
@@ -170,19 +183,6 @@
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Opportunity follow-up notes</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Next_Steps__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -283,8 +283,7 @@
         <relatedList>RelatedQuoteList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Sample_ID__c</fields>
-        <fields>Sample_Name__c</fields>
+        <fields>Sample__c</fields>
         <fields>Account_Name__c</fields>
         <fields>OWNER.FIRST_NAME</fields>
         <fields>OWNER.LAST_NAME</fields>
