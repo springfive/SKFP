@@ -1751,7 +1751,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Account.Account</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
