@@ -11,6 +11,11 @@
         <label>ALU PANEL</label>
     </customValue>
     <customValue>
+        <fullName>AUTOMOTIVE PART</fullName>
+        <default>false</default>
+        <label>AUTOMOTIVE PART</label>
+    </customValue>
+    <customValue>
         <fullName>BITUMEN</fullName>
         <default>false</default>
         <label>BITUMEN</label>
@@ -49,11 +54,6 @@
         <fullName>FUEL &amp; CHEMICAL CONTAINERS</fullName>
         <default>false</default>
         <label>FUEL &amp; CHEMICAL CONTAINERS</label>
-    </customValue>
-    <customValue>
-        <fullName>HOT MEL ADHESIVE</fullName>
-        <default>false</default>
-        <label>HOT MEL ADHESIVE</label>
     </customValue>
     <customValue>
         <fullName>IMPACT MODIFIER</fullName>

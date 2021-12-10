@@ -16,6 +16,11 @@
         <label>CONSTRUCTION &amp; INDUSTRIAL</label>
     </customValue>
     <customValue>
+        <fullName>HOT MELT ADHESIVE</fullName>
+        <default>false</default>
+        <label>HOT MELT ADHESIVE</label>
+    </customValue>
+    <customValue>
         <fullName>PACKAGING</fullName>
         <default>false</default>
         <label>PACKAGING</label>
@@ -1728,3 +1733,4 @@
     <masterLabel>BU Application 1</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
+
