@@ -1691,10 +1691,6 @@
         <recordType>Account.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Customer Sold-To</layout>
-        <recordType>Account.Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Non-Buying Account</layout>
         <recordType>Account.Non_Buying_Account</recordType>
     </layoutAssignments>
