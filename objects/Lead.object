@@ -3195,26 +3195,6 @@ CASE(BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Additives&apos;,
         <unique>false</unique>
     </fields>
     <listViews>
-        <fullName>AllOpenLeads</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.COMPANY</columns>
-        <columns>LEAD.TITLE</columns>
-        <columns>LEAD.STATE</columns>
-        <columns>LEAD.PHONE</columns>
-        <columns>LEAD.EMAIL</columns>
-        <columns>LEAD.STATUS</columns>
-        <columns>CORE.USERS.FIRST_NAME</columns>
-        <columns>CORE.USERS.LAST_NAME</columns>
-        <columns>LEAD.CREATED_DATE</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>LEAD.STATUS</field>
-            <operation>notEqual</operation>
-            <value>Closed</value>
-        </filters>
-        <label>All Open Leads</label>
-    </listViews>
-    <listViews>
         <fullName>All_Leads</fullName>
         <columns>FULL_NAME</columns>
         <columns>LEAD.EMAIL</columns>
@@ -3226,24 +3206,6 @@ CASE(BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Additives&apos;,
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Leads</label>
-    </listViews>
-    <listViews>
-        <fullName>Rejected_Leads</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.EMAIL</columns>
-        <columns>LEAD.COMPANY</columns>
-        <columns>LEAD.STATE_CODE</columns>
-        <columns>LEAD.STATUS</columns>
-        <columns>LEAD.UNREAD</columns>
-        <columns>LEAD.CREATED_DATE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>LEAD.STATUS</field>
-            <operation>equals</operation>
-            <value>Rejected</value>
-        </filters>
-        <label>Rejected Leads</label>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>
