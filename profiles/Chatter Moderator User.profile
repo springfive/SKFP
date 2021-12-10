@@ -1747,11 +1747,11 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visible>Hidden</visible>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visible>Hidden</visible>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Chatter Free</userLicense>
     <userPermissions>
