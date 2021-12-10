@@ -1750,11 +1750,11 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visible>DefaultOn</visible>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visible>DefaultOn</visible>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>CPQ Integration User</userLicense>
     <userPermissions>
