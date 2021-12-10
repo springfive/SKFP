@@ -1727,11 +1727,6 @@
     </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Account.Account</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Account.Competitor</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
