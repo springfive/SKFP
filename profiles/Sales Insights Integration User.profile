@@ -1759,11 +1759,11 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visible>DefaultOn</visible>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visible>Hidden</visible>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Sales Insights Integration User</userLicense>
     <userPermissions>
