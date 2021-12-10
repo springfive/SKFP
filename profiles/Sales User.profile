@@ -1691,10 +1691,6 @@
         <recordType>Account.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Customer Sold-To</layout>
-        <recordType>Account.Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Non-Buying Account</layout>
         <recordType>Account.Non_Buying_Account</recordType>
     </layoutAssignments>
@@ -1750,11 +1746,6 @@
         <object>Opportunity_Competitor__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Account.Account</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Competitor</recordType>
