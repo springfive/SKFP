@@ -1691,21 +1691,12 @@
         <recordType>Account.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Customer Sold-To</layout>
-        <recordType>Account.Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Non-Buying Account</layout>
         <recordType>Account.Non_Buying_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Sample__c-Sample Request without SAP</layout>
     </layoutAssignments>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.Account</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Competitor</recordType>
