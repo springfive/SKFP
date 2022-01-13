@@ -30,7 +30,6 @@
         <members>Opportunity.Next_year_potential__c</members>
         <members>Opportunity_Competitor__c.Account__c</members>
         <members>Opportunity_Competitor__c.Competitor_account__c</members>
-        <members>Opportunity_Competitor__c.Opportunity__c</members>
         <members>Opportunity_Competitor__c.Proposed_Quantity__c</members>
         <members>Opportunity_Competitor__c.Supplier_Product_Reference__c</members>
         <members>Opportunity_Competitor__c.Supplier__c</members>

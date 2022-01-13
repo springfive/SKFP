@@ -201,18 +201,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Opportunity__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Opportunity</label>
-        <referenceTo>Opportunity</referenceTo>
-        <relationshipLabel>Competitor Offers</relationshipLabel>
-        <relationshipName>Opportunity_Competitors</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Proposed_Quantity__c</fullName>
         <description>R3_R_0897</description>
         <externalId>false</externalId>
