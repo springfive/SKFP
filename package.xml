@@ -5,10 +5,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>TGR_AccountPlanTeamShare</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
         <members>Account.Already_visited__c</members>
         <members>Account.BU_Application_2__c</members>
         <members>Account.BU_application_1__c</members>
