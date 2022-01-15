@@ -357,37 +357,6 @@ Top_Level__c = TRUE
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Active_BUs__c</fullName>
-        <description>R1_R-0249</description>
-        <externalId>false</externalId>
-        <label>Active BUs</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Primacor</fullName>
-                    <default>false</default>
-                    <label>Primacor</label>
-                </value>
-                <value>
-                    <fullName>SKGC</fullName>
-                    <default>false</default>
-                    <label>SKGC</label>
-                </value>
-                <value>
-                    <fullName>Functional Polyolefins</fullName>
-                    <default>false</default>
-                    <label>SKFP</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
         <fullName>Address_Latitude__c</fullName>
         <description>R4_R-0945_To copy billing latitude address</description>
         <externalId>false</externalId>
