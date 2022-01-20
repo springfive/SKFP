@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BU__c</fullName>
+        <description>R1_D-0032</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Sub_Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Sub-Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BU__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LOTADER</fullName>
+                    <default>false</default>
+                    <label>LOTADER</label>
+                </value>
+                <value>
+                    <fullName>LOTRYL</fullName>
+                    <default>false</default>
+                    <label>LOTRYL</label>
+                </value>
+                <value>
+                    <fullName>EVATANE</fullName>
+                    <default>false</default>
+                    <label>EVATANE</label>
+                </value>
+                <value>
+                    <fullName>OREVAC T</fullName>
+                    <default>false</default>
+                    <label>OREVAC T</label>
+                </value>
+                <value>
+                    <fullName>OREVAC PE</fullName>
+                    <default>false</default>
+                    <label>OREVAC PE</label>
+                </value>
+                <value>
+                    <fullName>OREVAC PP</fullName>
+                    <default>false</default>
+                    <label>OREVAC PP</label>
+                </value>
+                <value>
+                    <fullName>EVASIN</fullName>
+                    <default>false</default>
+                    <label>EVASIN</label>
+                </value>
+                <value>
+                    <fullName>PRIMACOR IO</fullName>
+                    <default>false</default>
+                    <label>PRIMACOR IO</label>
+                </value>
+                <value>
+                    <fullName>PRIMACOR</fullName>
+                    <default>false</default>
+                    <label>PRIMACOR</label>
+                </value>
+                <value>
+                    <fullName>SARAN</fullName>
+                    <default>false</default>
+                    <label>SARAN</label>
+                </value>
+                <value>
+                    <fullName>SOLUMER</fullName>
+                    <default>false</default>
+                    <label>SOLUMER</label>
+                </value>
+                <value>
+                    <fullName>SUPREME</fullName>
+                    <default>false</default>
+                    <label>SUPREME</label>
+                </value>
+                <value>
+                    <fullName>SOLUTACK</fullName>
+                    <default>false</default>
+                    <label>SOLUTACK</label>
+                </value>
+                <value>
+                    <fullName>YUPLENE</fullName>
+                    <default>false</default>
+                    <label>YUPLENE</label>
+                </value>
+                <value>
+                    <fullName>XPLENE</fullName>
+                    <default>false</default>
+                    <label>XPLENE</label>
+                </value>
+                <value>
+                    <fullName>SMART</fullName>
+                    <default>false</default>
+                    <label>SMART</label>
+                </value>
+                <value>
+                    <fullName>YUCLAIR</fullName>
+                    <default>false</default>
+                    <label>YUCLAIR</label>
+                </value>
+                <value>
+                    <fullName>YUZEX</fullName>
+                    <default>false</default>
+                    <label>YUZEX</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>LOTADER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>LOTRYL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>EVATANE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>OREVAC T</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>OREVAC PE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>OREVAC PP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Polyolefins</controllingFieldValue>
+                <valueName>EVASIN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>SOLUMER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>SUPREME</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>SOLUTACK</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>YUPLENE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>XPLENE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>SMART</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>YUCLAIR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SKGC</controllingFieldValue>
+                <valueName>YUZEX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Primacor</controllingFieldValue>
+                <valueName>PRIMACOR IO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Primacor</controllingFieldValue>
+                <valueName>PRIMACOR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Primacor</controllingFieldValue>
+                <valueName>SARAN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

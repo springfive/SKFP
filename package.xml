@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>TGRH_Market_Insight_team</members>
+        <members>TST_TGRH_Market_Insight_Team</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account.Already_visited__c</members>
+        <members>Account.BU_Application_2__c</members>
+        <members>Account.BU_application_1__c</members>
+        <members>Account.Circular_Economy_Player__c</members>
+        <members>Account.Type__c</members>
+        <members>Call_Visit_Report__c.Sold_to_Account__c</members>
+        <members>Case.Active_BUs__c</members>
+        <members>Case.Salutation__c</members>
+        <members>Contact.BU_Application_1__c</members>
+        <members>Contact.BU_Application_2__c</members>
+        <members>Contact.BU__c</members>
+        <members>Lead.Active_BUs__c</members>
+        <members>Lead.BU_Application_2__c</members>
+        <members>Lead.BU__c</members>
+        <members>Lead.Description__c</members>
+        <members>Opportunity.Active_BUs__c</members>
+        <members>Opportunity.BU_Application_2__c</members>
+        <members>Opportunity.Current_year_potential__c</members>
+        <members>Opportunity.Green_Project__c</members>
+        <members>Opportunity.Main_Contact__c</members>
+        <members>Opportunity.NBD__c</members>
+        <members>Opportunity.NewCustomer__c</members>
+        <members>Opportunity.NewMarket__c</members>
+        <members>Opportunity.NewSKProduct__c</members>
+        <members>Opportunity.Next_Steps__c</members>
+        <members>Opportunity.Next_year_potential__c</members>
+        <members>Opportunity_Competitor__c.Account__c</members>
+        <members>Opportunity_Competitor__c.Competitor_account__c</members>
+        <members>Opportunity_Competitor__c.Proposed_Quantity__c</members>
+        <members>Opportunity_Competitor__c.Supplier_Product_Reference__c</members>
+        <members>Opportunity_Competitor__c.Supplier__c</members>
+        <members>Product2.BU__c</members>
+        <members>Product2.Product_Sub_Family__c</members>
+        <members>Sample__c.Active_BUs__c</members>
+        <members>Sample__c.Main_Opportunity__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Lead</members>
+        <members>Opportunity_Competitor__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>BU_Application_1</members>
+        <members>BU_Values</members>
+        <members>BU_application_2_values</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Account-Competitor</members>
+        <members>Account-Customer Sold-To</members>
+        <members>Account-Non-Buying Account</members>
+        <members>Call_Visit_Report__c-Call%2FVisit Report Layout</members>
+        <members>Case-Complaint without SAP QN</members>
+        <members>Case-Customer Request</members>
+        <members>Case-HSE Request</members>
+        <members>Contact-Contact Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity_Competitor__c-Competitor Offers Layout</members>
+        <members>Product2-Commercial Product</members>
+        <members>Sample_Product__c-Sample Product Layout</members>
+        <members>Sample__c-Sample Request without SAP</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Key_User</members>
+        <members>Key_User_HQ</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>CPQ Integration User</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Guest License User</members>
+        <members>Identity User</members>
+        <members>Interface User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>Sales Insights Integration User</members>
+        <members>Sales User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>Website User</members>
+        <name>Profile</name>
+    </types>
+    <version>52.0</version>
+</Package>
