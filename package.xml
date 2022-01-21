@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>SampleProduct_Test</members>
+        <members>TGRH_CVRInternalParticipant</members>
         <members>TGRH_Market_Insight_team</members>
+        <members>TGRH_SampleProduct</members>
+        <members>TGRH_SampleTeam</members>
+        <members>TGR_CVRInternalParticipant_Test</members>
+        <members>TGR_SampleTeam_Test</members>
         <members>TST_TGRH_Market_Insight_Team</members>
         <name>ApexClass</name>
     </types>
