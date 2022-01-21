@@ -518,20 +518,20 @@ CASE(BU_Application_1__c ,&apos;BNW - Disposable Hygien&apos;,&apos;Disposable H
             <restricted>true</restricted>
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
-                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>AUTOMOTIVE PART</valueName>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COMPATIBILIZER</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>FOAM</valueName>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COUPLING AGENT</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>FUEL &amp; CHEMICAL CONTAINERS</valueName>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>IMPACT MODIFIER</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>THERMOADHESIVE FILM</valueName>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>RECYCLING</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
@@ -578,20 +578,20 @@ CASE(BU_Application_1__c ,&apos;BNW - Disposable Hygien&apos;,&apos;Disposable H
                 <valueName>RIGID PACKAGING</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
-                <valueName>COMPATIBILIZER</valueName>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>AUTOMOTIVE PART</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
-                <valueName>COUPLING AGENT</valueName>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FOAM</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
-                <valueName>IMPACT MODIFIER</valueName>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FUEL &amp; CHEMICAL CONTAINERS</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
-                <valueName>RECYCLING</valueName>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>THERMOADHESIVE FILM</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -3194,6 +3194,16 @@ CASE(BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Additives&apos;,
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>sansancard__CreatedByScanToSalesforce__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Created by Scan to Salesforce</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
     <listViews>
         <fullName>AllOpenLeads</fullName>
         <columns>FULL_NAME</columns>
@@ -3213,6 +3223,37 @@ CASE(BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Additives&apos;,
             <value>Closed</value>
         </filters>
         <label>All Open Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>All_leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Rejected_leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE_CODE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Rejected leads</label>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>

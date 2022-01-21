@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>PSR000551_ShippingDetails_at_Sample_Prod</fullName>
+        <active>false</active>
+        <description>R2_PSR-000551</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == FALSE,
+OR(
+NOT(ISBLANK(Shipping_Tracking_Number__c))   ,
+ NOT(ISBLANK(Carrier_Account_Name__c)) ,
+ NOT(ISBLANK(Carrier_Account_Number_Delivery_Method__c))
+))</errorConditionFormula>
+        <errorMessage>Please do not enter any value in the fields &quot;Shipping Tracking Number&quot; , &quot;Carrier Account Name&quot;, &quot;Carrier Account Number Delivery Method&quot; as it will be maintained by the SAP interface at Sample Request Level</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>R2_D0507_Mandatory_Material_product</fullName>
+        <active>false</active>
+        <description>R2_D-0507_Make the field &quot;Material Product&quot; mandatory if the sample request field &quot;No SAP Integration requested&quot; is empty.</description>
+        <errorConditionFormula>AND( 
+$User.Skip_Validation__c == False,
+ISBLANK( Material_Product__c) 
+
+)</errorConditionFormula>
+        <errorDisplayField>Material_Product__c</errorDisplayField>
+        <errorMessage>Please ensure a Material Product is selected</errorMessage>
+    </validationRules>
+</CustomObject>
