@@ -16,6 +16,16 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>NBD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NBD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Salutation__c</fullName>
         <externalId>false</externalId>
         <formula>Text(Contact.Salutation)</formula>

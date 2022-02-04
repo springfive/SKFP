@@ -13,6 +13,7 @@
         <members>Account.Type__c</members>
         <members>Call_Visit_Report__c.Sold_to_Account__c</members>
         <members>Case.Active_BUs__c</members>
+        <members>Case.NBD__c</members>
         <members>Case.Salutation__c</members>
         <members>Contact.BU_Application_1__c</members>
         <members>Contact.BU_Application_2__c</members>
