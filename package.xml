@@ -7,6 +7,8 @@
     </types>
     <types>
         <members>Account.Account_History__c</members>
+        <members>Account.Account_Logo__c</members>
+        <members>Account.Account_Plan__c</members>
         <members>Account.Already_visited__c</members>
         <members>Account.BU_Application_2__c</members>
         <members>Account.BU_application_1__c</members>
