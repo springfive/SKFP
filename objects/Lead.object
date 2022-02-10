@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BU_Application1__c</fullName>
+        <description>R5_R_1179</description>
+        <externalId>false</externalId>
+        <label>BU Application1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Application_1</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BU_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <label>BU Application 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Application_1</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BU_Application_2__c</fullName>
+        <externalId>false</externalId>
+        <label>BU Application 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>BU_Application_1__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>BU_application_2_values</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>AUTOMOTIVE PART/COMPOUNDING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FOAM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>FUEL &amp; CHEMICAL CONTAINERS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
+                <valueName>THERMOADHESIVE FILM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>AGRICULTURAL FILM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>ALU PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>ARTIFICIAL TURF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>BITUMEN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>EMULSION &amp; DISPERSION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FILMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FLOORS &amp; COMPOSITES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>GLASS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>INDUSTRIAL LAMINATE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>MINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>PIPE &amp; TUBE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>POWDER COATING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>PV PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>WIRE &amp; CABLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>ASEPTIC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>FLEXIBLE COEXTRUSION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>FLEXIBLE EXTRUSION COATING LAMINATION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>INKS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>MEDICAL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>RIGID PACKAGING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COMPATIBILIZER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>COUPLING AGENT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>IMPACT MODIFIER</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>MASTER BATCH PRODUCTION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>RECYCLING</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

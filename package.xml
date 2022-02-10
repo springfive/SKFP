@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Account.BU_Application_2__c</members>
+        <members>Account.BU_application_1__c</members>
+        <members>Lead.BU_Application1__c</members>
+        <members>Lead.BU_Application_1__c</members>
+        <members>Lead.BU_Application_2__c</members>
+        <members>Opportunity.BU_Application_1__c</members>
+        <members>Opportunity.BU_Application_2__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>BU_application_2_values</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <version>52.0</version>
+</Package>
