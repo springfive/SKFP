@@ -8,6 +8,7 @@
         <members>Lead.BU_Application_2__c</members>
         <members>Opportunity.BU_Application_1__c</members>
         <members>Opportunity.BU_Application_2__c</members>
+        <members>Sample__c.Account__c</members>
         <name>CustomField</name>
     </types>
     <types>

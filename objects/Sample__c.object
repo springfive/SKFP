@@ -1,38 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Active_BUs__c</fullName>
-        <externalId>false</externalId>
-        <label>Active BUs</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>BU_Values</valueSetName>
-        </valueSet>
-        <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Main_Opportunity__c</fullName>
+        <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <description>D-0569</description>
+        <description>R2_R-0403</description>
         <externalId>false</externalId>
-        <label>Main Opportunity</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>$Source.Account__c</field>
-                <operation>equals</operation>
-                <valueField>Opportunity.AccountId</valueField>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Opportunity</referenceTo>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
         <relationshipLabel>Sample Requests</relationshipLabel>
-        <relationshipName>Sample_Requests</relationshipName>
+        <relationshipName>Samples</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
