@@ -10,10 +10,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Lead</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
         <members>BU_application_2_values</members>
         <name>GlobalValueSet</name>
     </types>
