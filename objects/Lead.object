@@ -1,5 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Leads_Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Leads_Custom_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Company</fields>
+        <fields>Phone</fields>
+        <fields>Email</fields>
+        <label>Leads Custom Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>ACR_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Coating Resins&quot;), 
+CASE(BU_Application_1__c ,&apos;ACR - Agrochemicals Coatings&apos;,&apos;Agrochemicals Coatings&apos;,  
+&apos;ACR - Architectural Coating&apos;,&apos;Architectural Coating&apos;,
+&apos;ACR - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,
+&apos;ACR - Cable&apos;,&apos;Cable&apos;,
+&apos;ACR - Coating&apos;,&apos;Coating&apos;,
+&apos;ACR - Construction Materials&apos;,&apos;Construction Materials&apos;,
+&apos;ACR - Downstream Oil&apos;,&apos;Downstream Oil&apos;,
+&apos;ACR - Electronics Manufacturing&apos;,&apos;Electronics Manufacturing&apos;,
+&apos;ACR - Equipment &amp; Furniture&apos;,&apos;Equipment &amp; Furniture&apos;,
+&apos;ACR - Flexible&apos;,&apos;Flexible&apos;,
+&apos;ACR - Flooring&apos;,&apos;Flooring&apos;,
+&apos;ACR - Food Industry Coatings&apos;,&apos;Food Industry Coatings&apos;,
+&apos;ACR - Graphic Arts&apos;,&apos;Graphic Arts&apos;,
+&apos;ACR - Home Appliances&apos;,&apos;Home Appliances&apos;,
+&apos;ACR - Hot Melt Adhesive&apos;,&apos;Hot Melt Adhesive&apos;,
+&apos;ACR - Industrial Coating&apos;,&apos;Industrial Coating&apos;,
+&apos;ACR - Medical&apos;,&apos;Medical&apos;,
+&apos;ACR - Packaging Adhesive&apos;,&apos;Packaging Adhesive&apos;,
+&apos;ACR - Paper Coating&apos;,&apos;Paper Coating&apos;,
+&apos;ACR - Pressure Sensitive Adhesives&apos;,&apos;Pressure Sensitive Adhesives&apos;,
+&apos;ACR - Rigid&apos;,&apos;Rigid&apos;,
+&apos;ACR - Sealants&apos;,&apos;Sealants&apos;,
+&apos;ACR - Structural Adhesives&apos;,&apos;Structural Adhesives&apos;,
+&apos;ACR - Textile &amp; Leather Coating&apos;,&apos;Textile &amp; Leather Coating&apos;,
+&apos;ACR - Thermoplastics&apos;,&apos;Thermoplastics&apos;,
+&apos;ACR - Thermosets&apos;,&apos;Thermosets&apos;,
+&apos;ACR - Traffic Paint&apos;,&apos;Traffic Paint&apos;,
+&apos;ACR - Wet Glue Adhesive&apos;,&apos;Wet Glue Adhesive&apos;,
+&apos;ACR - Wood Adhesive&apos;,&apos;Wood Adhesive&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>ACR Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AS_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Acrylics&quot;), 
+CASE(BU_Application_1__c ,&apos;AS - Architectural Coating&apos;,&apos;Architectural Coating&apos;, 
+&apos;AS - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;AS - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;AS - Detergency &amp; Cleaning Chemicals&apos;,&apos;Detergency &amp; Cleaning Chemicals&apos;, 
+&apos;AS - Disposable Hygien&apos;,&apos;Disposable Hygien&apos;, 
+&apos;AS - Downstream Oil&apos;,&apos;Downstream Oil&apos;, 
+&apos;AS - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;AS - Lubricants&apos;,&apos;Lubricants&apos;, 
+&apos;AS - Medical&apos;,&apos;Medical&apos;, 
+&apos;AS - Other Adhesives&apos;,&apos;Other Adhesives&apos;, 
+&apos;AS - Paper Coating&apos;,&apos;Paper Coating&apos;, 
+&apos;AS - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;AS - Textile &amp; Leather Coating&apos;,&apos;Textile &amp; Leather Coating&apos;, 
+&apos;AS - UV Coatings&apos;,&apos;UV Coatings&apos;, 
+&apos;AS - Water Treatment&apos;,&apos;Water Treatment&apos;,
+&apos;AS - Tapes &amp; Labels&apos;,&apos;Tapes &amp; Labels&apos;,
+&apos;AS - Protection/Coating&apos;,&apos;Protection/Coating&apos;,
+&apos;AS - Home Care&apos;,&apos;Home Care&apos;,
+&apos;AS - Personal Care&apos;,&apos;Personal Care&apos;,
+&apos;AS - Minerals&apos;,&apos;Minerals&apos;, 
+&apos;AS - Coating&apos;,&apos;Coating&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>AS Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active_BUs__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Lead in relationship with the following BU(s)</inlineHelpText>
+        <label>Active BUs</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Address</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Application2__c</fullName>
+        <description>R5_R_1179</description>
+        <externalId>false</externalId>
+        <label>Application2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Application_2_Values</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Application_1__c</fullName>
+        <description>R1_R-0582</description>
+        <externalId>false</externalId>
+        <label>Application 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Global_Application_1</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Application_2__c</fullName>
+        <description>R1_R-0582</description>
+        <externalId>false</externalId>
+        <label>Application 2</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Application_2_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BCC_Application_1__c</fullName>
+        <description>R5_R_1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Consumer &amp; construction (C&amp;C)&quot;), 
+CASE(BU_Application_1__c ,&apos;BCC - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;BCC - Not assigned&apos;,&apos;Not assigned&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>BCC Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BIA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Industrial Adhesives (IA)&quot;), 
+CASE(BU_Application_1__c ,&apos;BIA - Aerospace&apos;,&apos;Aerospace&apos;, 
+&apos;BIA - Assembly&apos;,&apos;Assembly&apos;, 
+&apos;BIA - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;BIA - Flexible&apos;,&apos;Flexible&apos;, 
+&apos;BIA - General Transportation&apos;,&apos;General Transportation&apos;, 
+&apos;BIA - Other Automotive &amp; Transportation&apos;,&apos;Other Automotive &amp; Transportation&apos;, 
+&apos;BIA - Rigid&apos;,&apos;Rigid&apos;, 
+&apos;BIA - Tapes &amp; Labels&apos;,&apos;Tapes &amp; Labels&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>BIA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BNW_Application_1__c</fullName>
+        <description>Bostik New</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Non Wovens (NW)&quot;), 
+CASE(BU_Application_1__c ,&apos;BNW - Disposable Hygien&apos;,&apos;Disposable Hygien&apos;, 
+&apos;BNW - Medical&apos;,&apos;Medical&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>BNW Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BU1__c</fullName>
+        <description>R5_R_1179</description>
+        <externalId>false</externalId>
+        <label>BU1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
     <fields>
         <fullName>BU_Application1__c</fullName>
         <description>R5_R_1179</description>
@@ -43,7 +519,7 @@
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>AUTOMOTIVE PART/COMPOUNDING</valueName>
+                <valueName>AUTOMOTIVE PART</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
@@ -67,27 +543,11 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>ARTIFICIAL TURF</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>BITUMEN</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>EMULSION &amp; DISPERSION</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>FILMS</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>FLOORS &amp; COMPOSITES</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>GLASS</valueName>
+                <valueName>CABLE</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
@@ -95,27 +555,11 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>MINING</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PIPE &amp; TUBE</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>POWDER COATING</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PV PANEL</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>WIRE &amp; CABLE</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>ASEPTIC</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -128,10 +572,6 @@
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
                 <valueName>INKS</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>PACKAGING</controllingFieldValue>
-                <valueName>MEDICAL</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -151,12 +591,2728 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>COMPOUNDING</controllingFieldValue>
-                <valueName>MASTER BATCH PRODUCTION</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
                 <valueName>RECYCLING</valueName>
             </valueSettings>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>BU__c</fullName>
+        <defaultValue>CASE( $User.BU__c,&apos;Acrylics&apos;,&apos;Acrylics&apos;, 
+&apos;Altuglas&apos;,&apos;Altuglas&apos;, 
+&apos;Bostik - Consumer &amp; construction (C&amp;C)&apos;,&apos;Bostik - Consumer &amp; construction (C&amp;C)&apos;, 
+&apos;Bostik - Industrial Adhesives (IA)&apos;,&apos;Bostik - Industrial Adhesives (IA)&apos;, 
+&apos;Bostik - Non Wovens (NW)&apos;,&apos;Bostik - Non Wovens (NW)&apos;, 
+&apos;Coatex&apos;,&apos;Coatex&apos;, 
+&apos;Coating Resins&apos;,&apos;Coating Resins&apos;, 
+&apos;Fluorogases&apos;,&apos;Fluorogases&apos;, 
+&apos;Functional additives&apos;,&apos;Functional additives&apos;, 
+&apos;Molecular Sieves&apos;,&apos;Molecular Sieves&apos;, 
+&apos;Oxygenated &amp; derivated&apos;,&apos;Oxygenated &amp; derivated&apos;, 
+&apos;Sartomer&apos;,&apos;Sartomer&apos;, 
+&apos;Technical Polymers&apos;,&apos;Technical Polymers&apos;, 
+&apos;Tensioactives and Oil gas additives&apos;,&apos;Tensioactives and Oil gas additives&apos;, 
+&apos;Thiochemicals&apos;,&apos;Thiochemicals&apos;, 
+&apos;&apos; 
+)</defaultValue>
+        <description>R1_R0081_ Field value changed to Multi-Select</description>
+        <externalId>false</externalId>
+        <label>BU</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>COA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Coatex&quot;), 
+CASE(BU_Application_1__c ,&apos;COA - Additives&apos;,&apos;Additives&apos;, 
+&apos;COA - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;COA - Architectural Coating&apos;,&apos;Architectural Coating&apos;, 
+&apos;COA - Assembly&apos;,&apos;Assembly&apos;, 
+&apos;COA - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty, Perfumes, &amp; Cosmetics&apos;, 
+&apos;COA - Ceramics&apos;,&apos;Ceramics&apos;, 
+&apos;COA - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;COA - Coating&apos;,&apos;Coating&apos;, 
+&apos;COA - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;COA - Detergency &amp; Cleaning&apos;,&apos;Detergency &amp; Cleaning&apos;, 
+&apos;COA - Graphic Arts&apos;,&apos;Graphic Arts&apos;, 
+&apos;COA - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;COA - Minerals&apos;,&apos;Minerals&apos;, 
+&apos;COA - Mining&apos;,&apos;Mining&apos;, 
+&apos;COA - Other Adhesives&apos;,&apos;Other Adhesives&apos;, 
+&apos;COA - Pressure Sensitive Adhesives&apos;,&apos;Pressure Sensitive Adhesives&apos;, 
+&apos;COA - Sealants&apos;,&apos;Sealants&apos;, 
+&apos;COA - Textile &amp; Leather Coating&apos;,&apos;Textile &amp; Leather Coating&apos;, 
+&apos;COA - Traffic Paint&apos;,&apos;Traffic Paint&apos;, 
+&apos;COA - Treatments&apos;,&apos;Treatments&apos;, 
+&apos;COA - Water Treatment&apos;,&apos;Water Treatment&apos;,
+&apos;COA - Personal Care&apos;,&apos;Personal Care&apos;, 
+&apos;COA - Board Coating&apos;,&apos;Board Coating&apos;, 
+&apos;COA - Paper Coating&apos;,&apos;Paper coating&apos;,
+&apos;COA - Fiber Glass&apos;,&apos;Fiber Glass&apos;,
+ 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>COA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Company</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Cross_BU_Max_Score__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Cross BU Max Score</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cross_BU_Max_score_BU_Name__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Cross BU Max score BU Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Deal_Size__c</fullName>
+        <description>R1_R-0557</description>
+        <externalId>false</externalId>
+        <label>Deal Size</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Functional additives&quot;), 
+CASE(BU_Application_1__c ,&apos;FA - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;FA - Downstream Oil&apos;,&apos;Downstream Oil&apos;, 
+&apos;FA - Food Industry&apos;,&apos;Food Industry&apos;, 
+&apos;FA - Glass Coatings (New)&apos;,&apos;Glass Coatings (New)&apos;, 
+&apos;FA - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;FA - Inks&apos;,&apos;Inks&apos;, 
+&apos;FA - Medical&apos;,&apos;Medical&apos;, 
+&apos;FA - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;FA - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;FA - Surfacing&apos;,&apos;Surfacing&apos;, 
+&apos;FA - Thermosets&apos;,&apos;Thermosets&apos;, 
+&apos;FA - Upstream&apos;,&apos;Upstream&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>FA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FLUO_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Fluorogases&quot;), 
+CASE(BU_Application_1__c ,&apos;FLUO - Additives&apos;,&apos;Additives&apos;, 
+&apos;FLUO - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;FLUO - Appliances&apos;,&apos;Appliances&apos;, 
+&apos;FLUO - Battery&apos;,&apos;Battery&apos;, 
+&apos;FLUO - Chemicals For Electronic&apos;,&apos;Chemicals For Electronic&apos;, 
+&apos;FLUO - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;FLUO - Commercial&apos;,&apos;Commercial&apos;, 
+&apos;FLUO - Commercial Truck&apos;,&apos;Commercial Truck&apos;, 
+&apos;FLUO - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;FLUO - Foam Materials&apos;,&apos;Foam Materials&apos;, 
+&apos;FLUO - Food Industry&apos;,&apos;Food Industry&apos;, 
+&apos;FLUO - Food Industry Refrigeration&apos;,&apos;Food Industry Refrigeration&apos;, 
+&apos;FLUO - Light Vehicle&apos;,&apos;Light Vehicle&apos;, 
+&apos;FLUO - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;FLUO - Solvents&apos;,&apos;Solvents&apos;, 
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>FLUO Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FP_Application_1__c</fullName>
+        <description>R-1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Functional Polyolefins&quot;), 
+CASE(BU_Application_1__c ,&apos;FP - Hot Melt Adhesive&apos;,&apos;Hot Melt Adhesive&apos;, 
+&apos;FP - Light Vehicle&apos;,&apos;Light Vehicle&apos;, 
+&apos;FP - Asphalt&apos;,&apos;Asphalt&apos;, 
+&apos;FP - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;FP - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;FP - Cable&apos;,&apos;Cable&apos;, 
+&apos;FP - Medical&apos;,&apos;Medical&apos;, 
+&apos;FP - Downstream Oil&apos;,&apos;Downstream Oil&apos;, 
+&apos;FP - Flexible&apos;,&apos;Flexible&apos;, 
+&apos;FP - Rigid&apos;,&apos;Rigid&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>FP Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GDPR_Notified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>PSR-000612</description>
+        <externalId>false</externalId>
+        <label>GDPR Notified</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GDPR_Notified_date__c</fullName>
+        <description>PSR-000612</description>
+        <externalId>false</externalId>
+        <label>GDPR Notified date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IB_Application1__c</fullName>
+        <description>R-1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Incubator&quot;), 
+CASE(BU_Application_1__c ,&apos;IB - Extrusion&apos;,&apos;Extrusion&apos;, 
+&apos;IB - Other 3D Printing&apos;,&apos;Other 3D Printing&apos;, 
+&apos;IB - Powders&apos;,&apos;Powders&apos;, 
+&apos;IB - UV&apos;,&apos;Uv&apos;, 
+&apos;IB - Thermoplastics&apos;,&apos;Thermoplastics&apos;, 
+&apos;IB - Thermosets&apos;,&apos;Thermosets&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>IB Application1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Interesting_moment_desc__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Interesting moment desc</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <description>R4_D_1258</description>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Language_Value</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>LastTransferDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Closure_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Status , &quot;Closed&quot;) ,  TODAY() ,null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Closure Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Number__c</fullName>
+        <description>R1_R-0563</description>
+        <displayFormat>LEAD-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Lead Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Time_Response_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead_Closure_Date__c  - (datevalue( CreatedDate ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time Response (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Time_Response_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Lead_Closure_Date__c - datevalue( CreatedDate )) * 24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time Response (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Time_Treatment_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead_Working_Date__c  - (datevalue( CreatedDate ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time Treatment (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Time_Treatment_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Lead_Working_Date__c - datevalue( CreatedDate ) )* 24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Time Treatment (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Transferred_to__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>R1_R-0557</description>
+        <externalId>false</externalId>
+        <label>Lead Transferred to</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Leads</relationshipLabel>
+        <relationshipName>Leads</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Working_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Status , &quot;Working&quot;) ,  TODAY() ,null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Working Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Legacy_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Legacy Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>MOL_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Molecular Sieves&quot;), 
+CASE(BU_Application_1__c ,&apos;MOL - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty, Perfumes, &amp; Cosmetics&apos;, 
+&apos;MOL - Biobased&apos;,&apos;Biobased&apos;, 
+&apos;MOL - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;MOL - Downstream Gas&apos;,&apos;Downstream Gas&apos;, 
+&apos;MOL - Downstream Oil&apos;,&apos;Downstream Oil&apos;, 
+&apos;MOL - Equipment&apos;,&apos;Equipment&apos;, 
+&apos;MOL - Equipment &amp; Furniture&apos;,&apos;Equipment &amp; Furniture&apos;, 
+&apos;MOL - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;MOL - Light Vehicle&apos;,&apos;Light Vehicle&apos;, 
+&apos;MOL - Medical&apos;,&apos;Medical&apos;, 
+&apos;MOL - Mining&apos;,&apos;Mining&apos;, 
+&apos;MOL - Petrochemicals Manufacturing&apos;,&apos;Petrochemicals Manufacturing&apos;, 
+&apos;MOL - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;MOL - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;MOL - Sealant For Construction&apos;,&apos;Sealant For Construction&apos;, 
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>MOL Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market1__c</fullName>
+        <description>R5_R_1179</description>
+        <externalId>false</externalId>
+        <label>Market1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market_Values</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Market_10__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Functional additives&quot;), 
+CASE(Application_1__c ,&apos;Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Glass Coatings (new)&apos;,&apos;Packaging&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Functinal 10</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_11__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Technical Polymers&quot;), 
+CASE(Application_1__c ,&apos;Powder Bed Fusion&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Fertilizer&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Protection/Coating&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Chemical Processing Industry&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Lubricants&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Machine Equipment&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Thermoplastics&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Cable&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Consumer Electronics&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Upstream&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Photovoltaic &amp; Windbased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Equipment&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Eyewear&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Footwear&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Textile &amp; Leather&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Winter Sports&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Water Treatment&apos;,&apos;Water Management&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Technical 11</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_12__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Molecular Sieves&quot;), 
+CASE(Application_1__c, &apos;Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Sealant For Construction&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Petrochemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Mining&apos;,&apos;Metallurgy &amp; Mining&apos;, 
+&apos;Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Biobased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Equipment&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;&apos;),&apos;&apos;)</formula>
+        <label>Market Molecular 12</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_1_del__c</fullName>
+        <description>R1_R-0582</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Acrylics&quot;) || ISPICKVAL( BU__c , &quot;Coating Resins&quot;), 
+
+CASE( Application_1__c ,&apos;3D printing&apos;,&apos;Industry&apos;, 
+&apos;Building &amp; Construction&apos;,&apos;Sealants&apos;, 
+&apos;PSA&apos;,&apos;Adhesives&apos;, 
+&apos;Wet Glue Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Non PSA - Packaging&apos;,&apos;Adhesives&apos;, 
+&apos;Non PSA - Wood&apos;,&apos;Adhesives&apos;, 
+&apos;Food Industry&apos;,&apos;Coatings&apos;, 
+&apos;Agrochemicals&apos;,&apos;Coatings&apos;, 
+&apos;Floor Maintenance&apos;,&apos;Coatings&apos;, 
+&apos;Architectural&apos;,&apos;Coatings&apos;, 
+&apos;Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Traffic Paint&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Printed Circuit Board&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Cables&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Electronic Equipment / Components&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Oil Downstream&apos;,&apos;Energy&apos;, 
+&apos;Hygiene Health Beauty&apos;,&apos;Consumer Goods&apos;, 
+&apos;Textile&apos;,&apos;Industry&apos;, 
+&apos;Industry&apos;,&apos;Industry&apos;, 
+&apos;Packaging Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Paper coating&apos;,&apos;Coatings&apos;, 
+&apos;Window &amp; Door profile&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Siding&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Piping Foam Core&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Other Piping &apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Roofing&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Flooring&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Foam&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Compound/OnePack&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Flexible Film, Sheet&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Fence / Deck / Rail&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Other&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Packaging Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Automotive&apos;,&apos;Industry&apos;, 
+&apos;Rail&apos;,&apos;Industry&apos;, 
+&apos;Aerospace&apos;,&apos;Industry&apos;, 
+&apos;Electronics&apos;,&apos;Industry&apos;, 
+&apos;Flexible sheet and film&apos;,&apos;Industry&apos;, 
+&apos;Artifical stone&apos;,&apos;Industry&apos;, 
+&apos;Wind energy&apos;,&apos;Industry&apos;, 
+&apos;Appliances&apos;,&apos;Industry&apos;, 
+&apos;Other&apos;,&apos;Industry&apos;, 
+&apos;Elastomers&apos;,&apos;Industry&apos;, 
+&apos;Others&apos;,&apos;Adhesives&apos;, 
+&apos;Sealants&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Non PSA - Wet Glue&apos;,&apos;Adhesives&apos;, 
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_2_del__c</fullName>
+        <description>R1_R-0582</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Sartomer&quot;) || ISPICKVAL( BU__c , &quot;Altuglas&quot;) || ISPICKVAL( BU__c , &quot;Functional additives&quot;), 
+
+CASE(Application_1__c ,&apos;3D printing&apos;,&apos;3D Printing&apos;, 
+&apos;Adhesives&apos;,&apos;Industry&apos;,
+&apos;Affiliates&apos;,&apos;Coatings&apos;, 
+&apos;Chemical intermediates&apos;,&apos;Chemicals&apos;, 
+&apos;Coating&apos;,&apos;Coatings&apos;, 
+&apos;Electronic&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Graphic Arts&apos;,&apos;Consumer Goods&apos;, 
+&apos;Others&apos;,&apos;Industry&apos;, 
+&apos;Sargel&apos;,&apos;Industry&apos;, 
+&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos; , 
+&apos;Aerospace&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Beauty Perfumes and Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Caravaning/Recreational vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Casting&apos;,&apos;Composite&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Consumer Electronics&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Equipment&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;Food Industry&apos;,&apos;Agrochemicals &amp; Food Industry&apos;, 
+&apos;Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Industry&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;Marine/Watercraft&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Motorcycle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Photovoltaic and Windbased&apos;,&apos;Renewable Energy &amp; Batteries&apos;, 
+&apos;Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Protection / Coating&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Textile&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Vehicle Manufacturing&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Casting&apos;,&apos;Composite&apos;, 
+&apos;Oil Downstream&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Glass Coatings&apos;,&apos;Packaging&apos;, 
+&apos;Inks&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Medical Device&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Polymer Cross Linking&apos;,&apos;Chemical Process Industry&apos;, 
+&apos;Surfacing&apos;,&apos;Composite&apos;, 
+&apos;Unsaturated Polyester Resin&apos;,&apos;Composite&apos;, 
+&apos;Upstream&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_3__c</fullName>
+        <description>D-0594</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Thiochemicals&quot;), 
+CASE(Application_1__c ,&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Agrochemicals&apos;,&apos;Agrochemicals &amp; Food Industry&apos;, 
+&apos;Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Beauty Perfumes and Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Biobased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Chemicals&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Detergency &amp; Cleaning&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Industrial&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Metallurgy&apos;,&apos;Metallurgy &amp; Mining&apos;, 
+&apos;Mining&apos;,&apos;Metallurgy &amp; Mining&apos;, 
+&apos;Petrochemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Textile &amp; Leather&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Upstream&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Detergency &amp; Cleaning Chemicals&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Inks&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Uv Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Chemicals For Electronic&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Water Treatment&apos;,&apos;Water Management&apos;, 
+
+
+
+&apos;&apos;), 
+&apos;&apos;)</formula>
+        <label>Market 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_4__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Acrylics&quot;) || ISPICKVAL( BU__c , &quot;Coating Resins&quot;), 
+CASE(Application_1__c ,&apos;Hot Melt Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Pressure Sensitive Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Wood Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Thermoplastics&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Cable&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Electronics Manufacturing&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Home Appliances&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;Flexible&apos;,&apos;Packaging&apos;, 
+&apos;Rigid&apos;,&apos;Packaging&apos;, 
+&apos;Coating&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Detergency &amp; Cleaning Chemicals&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Lubricants&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Uv Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Disposable Hygien&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Water Treatment&apos;,&apos;Water Management&apos;, 
+&apos;Structural Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Agrochemicals Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Food Industry Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Acrylics 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_5__c</fullName>
+        <description>R3_R-0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Fluorogases&quot;), 
+CASE(Application_1__c,&apos;Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Appliances&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;Commercial&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;Foam Materials&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;Food Industry Refrigeration&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;Chemicals For Electronic&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Solvents&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Food Industry Refrigeration&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Fluorogases 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_6__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Sartomer&quot;), 
+CASE(Application_1__c,&apos;Uv&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;Uv Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Advanced Materials&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;Chemicals For Electronic&apos;,&apos;Electrics &amp; Electronics&apos;, 
+&apos;Personal Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Sartomer 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_7__c</fullName>
+        <description>R-0904/ PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Oxygenated &amp; derivated&quot;),
+CASE(BU_Application_1__c ,&apos;OXY - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;OXY - Aerospace&apos;,&apos;Automotive &amp; Transportation&apos;,
+&apos;OXY - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;OXY - Aseptic&apos;,&apos;Packaging&apos;,
+&apos;OXY - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;OXY - Biobased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;,
+&apos;OXY - Bleaching&apos;,&apos;Pulp &amp; Paper&apos;,
+&apos;OXY - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;OXY - Chemicals For Electronic&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;OXY - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;OXY - Detergency &amp; Cleaning&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;OXY - Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;OXY - Household Solutions&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;OXY - Metallurgy&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;OXY - Minerals&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;OXY - Mining&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;OXY - Other Agriculture &amp; Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;OXY - Personal Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;OXY - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;OXY - Printed Circuit Boards&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;OXY - Textile Processing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;OXY - Treatments&apos;,&apos;Pulp &amp; Paper&apos;,
+&apos;OXY - Waste Water&apos;,&apos;Water Management&apos;,
+&apos;OXY - Water Treatment&apos;,&apos;Water Management&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_OXY</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_8__c</fullName>
+        <description>R3_R_0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Altuglas&quot;), 
+CASE(Application_1__c,&apos;Other 3D Printing&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;Assembly&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Pressure Sensitive Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Sealants&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Boat/Marine&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;Protection/Coating&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Machine Equipment&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Photovoltaic &amp; Windbased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Altuglas 8</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_9__c</fullName>
+        <description>R-0904</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Tensioactives and Oil gas additives&quot;),
+CASE(BU_Application_1__c ,&apos;TOGA - Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;TOGA - Fertilizer&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;TOGA - Asphalt&apos;,&apos;Building &amp; Construction&apos;,
+&apos;TOGA - Additives&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TOGA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TOGA - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TOGA - Detergency &amp; Cleaning Chemicals&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TOGA - Lubricants&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TOGA - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;TOGA - Upstream&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;TOGA - Treatments&apos;,&apos;Pulp &amp; Paper&apos;,
+&apos;TOGA - Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;TOGA - Downstream&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_TOGA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_ACR__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Coating Resins&quot;), 
+CASE(BU_Application_1__c ,&apos;ACR - Hot Melt Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Agrochemicals Coatings&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;ACR - Cable&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;ACR - Coating&apos;,&apos;Pulp &amp; Paper&apos;,
+&apos;ACR - Construction Materials&apos;,&apos;Building &amp; Construction&apos;,
+&apos;ACR - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;ACR - Electronics Manufacturing&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;ACR - Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;,
+&apos;ACR - Flexible&apos;,&apos;Packaging&apos;,
+&apos;ACR - Flooring&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Food Industry Coatings&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Home Appliances&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;ACR - Hot Melt Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;ACR - Packaging Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Paper Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Pressure Sensitive Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Rigid&apos;,&apos;Packaging&apos;,
+&apos;ACR - Sealants&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Structural Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Thermoplastics&apos;,&apos;Composites &amp; Advanced Materials&apos;,
+&apos;ACR - Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;,
+&apos;ACR - Traffic Paint&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;ACR - Wet Glue Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;ACR - Wood Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market_ACR</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_AS__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Acrylics&quot;), 
+CASE(BU_Application_1__c ,&apos;AS - Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;AS - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;AS - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;AS - Detergency &amp; Cleaning Chemicals&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;AS - Disposable Hygien&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;AS - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;AS - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;AS - Lubricants&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;AS - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;AS - Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;AS - Paper Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;AS - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;AS - Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;AS - UV Coatings&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;AS - Water Treatment&apos;,&apos;Water Management&apos;,
+&apos;AS - Tapes &amp; Labels&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;AS - Protection/Coating&apos;,&apos;Building &amp; Construction&apos;,
+&apos;AS - Home Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;AS - Personal Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;AS - Minerals&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;AS - Coating&apos;,&apos;Pulp &amp; Paper &amp; Board&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_AS</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_BCC__c</fullName>
+        <description>R5_R_1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Consumer &amp; construction (C&amp;C)&quot;), 
+CASE(BU_Application_1__c ,&apos;BCC - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;BCC - Not assigned&apos;,&apos;Not assigned&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market_BCC</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_BIA__c</fullName>
+        <description>PSR-000469</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Industrial Adhesives (IA)&quot;), 
+
+CASE( BU_Application_1__c ,&apos;BIA - Aerospace&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;BIA - Assembly&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;BIA - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;BIA - Flexible&apos;,&apos;Packaging&apos;, 
+&apos;BIA - General Transportation&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;BIA - Other Automotive &amp; Transportation&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;BIA - Rigid&apos;,&apos;Packaging&apos;, 
+&apos;BIA - Tapes &amp; Labels&apos;,&apos;Packaging&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_BIA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_BNW__c</fullName>
+        <description>Bostik New</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Bostik - Non Wovens (NW)&quot;), 
+CASE(BU_Application_1__c ,&apos;BNW - Disposable Hygien&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;BNW - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_BNW</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_COA__c</fullName>
+        <description>PSR-000469</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Coatex&quot;), 
+
+CASE( BU_Application_1__c ,&apos;COA - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;COA - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;COA - Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;COA - Assembly&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;COA - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;COA - Ceramics&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;COA - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;COA - Coating&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;COA - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;COA - Detergency &amp; Cleaning&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;COA - Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;COA - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;COA - Minerals&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;COA - Mining&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;COA - Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;COA - Pressure Sensitive Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;COA - Sealants&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;COA - Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;COA - Traffic Paint&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;COA - Treatments&apos;,&apos;Pulp &amp; Paper&apos;,
+&apos;COA - Water Treatment&apos;,&apos;Water Management&apos;,
+&apos;COA - Personal Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;COA - Board Coating&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;COA - Paper Coating&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;COA - Fiber Glass&apos;,&apos;Building &amp; Construction&apos;,
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_COA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_Coatex__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Coatex&quot;), 
+CASE(Application_1__c ,&apos;Assembly&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Sealants&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;Ceramics&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Detergency &amp; Cleaning&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;Minerals&apos;,&apos;Metallurgy &amp; Mining&apos;, 
+&apos;Mining&apos;,&apos;Metallurgy &amp; Mining&apos;, 
+&apos;Coating&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;Treatments&apos;,&apos;Pulp &amp; Paper&apos;, 
+&apos;Water Treatment&apos;,&apos;Water Management&apos;, 
+
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market Coatex</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_FA__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Functional additives&quot;), 
+CASE(BU_Application_1__c ,&apos;FA - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;FA - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;FA - Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;FA - Glass Coatings (New)&apos;,&apos;Packaging&apos;, 
+&apos;FA - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;FA - Inks&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;FA - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;FA - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;FA - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;FA - Surfacing&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;FA - Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;FA - Upstream&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;FA - Aerospace&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;FA - Other Automotive &amp; Transportation&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;FA - Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_FA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_FLUO__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Fluorogases&quot;), 
+CASE( BU_Application_1__c ,&apos;FLUO - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;FLUO - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;FLUO - Appliances&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;FLUO - Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;FLUO - Chemicals For Electronic&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;FLUO - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;FLUO - Commercial&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;FLUO - Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;FLUO - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;FLUO - Foam Materials&apos;,&apos;Cooling &amp; Refrigeration&apos;, 
+&apos;FLUO - Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;FLUO - Food Industry Refrigeration&apos;,&apos;Cooling &amp; Refrigeration&apos;,
+&apos;FLUO - Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;,
+&apos;FLUO - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;FLUO - Solvents&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_FLUO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_FP__c</fullName>
+        <description>R-1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Functional Polyolefins&quot;), 
+CASE( BU_Application_1__c ,&apos;FP - Hot Melt Adhesive&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;FP - Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;FP - Asphalt&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;FP - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;FP - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;FP - Cable&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;FP - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;FP - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;FP - Flexible&apos;,&apos;Packaging&apos;, 
+&apos;FP - Rigid&apos;,&apos;Packaging&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_FP</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_IB__c</fullName>
+        <description>R-1091</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Incubator&quot;), 
+CASE(BU_Application_1__c ,&apos;IB - Extrusion&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;IB - Other 3D Printing&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;IB - Powders&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;IB - UV&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;IB - Thermoplastics&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;IB - Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_IB</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_MOL__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Molecular Sieves&quot;), 
+
+CASE( BU_Application_1__c ,&apos;MOL - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;MOL - Biobased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;MOL - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;MOL - Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;MOL - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;, 
+&apos;MOL - Equipment&apos;,&apos;Sports &amp; Leisure&apos;, 
+&apos;MOL - Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;MOL - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;MOL - Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;MOL - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;MOL - Mining&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;MOL - Petrochemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;MOL - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;MOL - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;MOL - Sealant For Construction&apos;,&apos;Building &amp; Construction&apos;,
+ 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_MOL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_PMMA__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Altuglas&quot;), 
+
+CASE( BU_Application_1__c ,&apos;PMMA - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;PMMA - Aerospace&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;PMMA - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;PMMA - Assembly&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;PMMA - Boat/Marine&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;PMMA - Caravaning/Recreational Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;PMMA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;PMMA - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;PMMA - Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;PMMA - Construction Materials&apos;,&apos;Building &amp; Construction&apos;,
+&apos;PMMA - Consumer Electronics&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;PMMA - Equipment&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;PMMA - Equipment &amp; Furniture&apos;,&apos;Building &amp; Construction&apos;,
+&apos;PMMA - Food Industry&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;PMMA - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;PMMA - Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;,
+&apos;PMMA - Machine Equipment&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;PMMA - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;PMMA - Motorcycle&apos;,&apos;Automotive &amp; Transportation&apos;,
+&apos;PMMA - Other 3D Printing&apos;,&apos;3D Printing / Additive Manufacturing&apos;,
+&apos;PMMA - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;PMMA - Photovoltaic &amp; Windbased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;,
+&apos;PMMA - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;PMMA - Pressure Sensitive Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;PMMA - Protection / Coating&apos;,&apos;Building &amp; Construction&apos;,
+&apos;PMMA - Sealants&apos;,&apos;Adhesives &amp; Sealants	&apos;,
+&apos;PMMA - Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_PMMA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_SAR__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Sartomer&quot;), 
+
+CASE( BU_Application_1__c ,&apos;SAR - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;SAR - Advanced Materials&apos;,&apos;Composites &amp; Advanced Materials&apos;, 
+&apos;SAR - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;SAR - Chemicals For Electronic&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;SAR - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;SAR - Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;SAR - Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;, 
+&apos;SAR - Personal Care&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;SAR - UV&apos;,&apos;3D Printing / Additive Manufacturing&apos;, 
+&apos;SAR - UV Coatings&apos;,&apos;Coatings &amp; Inks&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_SAR</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_THIO__c</fullName>
+        <description>PSR-000469</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Thiochemicals&quot;), 
+CASE(BU_Application_1__c ,&apos;THIO - Additives&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;THIO - Architectural Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;THIO - Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;,
+&apos;THIO - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;THIO - Biobased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;,
+&apos;THIO - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Chemicals For Electronic&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;THIO - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Construction Materials&apos;,&apos;Building &amp; Construction&apos;,
+&apos;THIO - Detergency &amp; Cleaning Chemicals&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;THIO - Downstream Oil&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;THIO - Inks&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;THIO - Metallurgy&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;THIO - Mining&apos;,&apos;Metallurgy &amp; Mining&apos;,
+&apos;THIO - Other Adhesives&apos;,&apos;Adhesives &amp; Sealants&apos;,
+&apos;THIO - Petrochemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;THIO - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;THIO - Textile &amp; Leather Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;THIO - Upstream&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;THIO - UV Coatings&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;THIO - Water Treatment&apos;,&apos;Water Management&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market_THIO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_TPA__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Technical Polymers&quot;), 
+CASE( BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;TPA - Agrochemicals&apos;,&apos;Agriculture &amp; Food Industry&apos;, 
+&apos;TPA - Battery&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;, 
+&apos;TPA - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Health, Hygiene &amp; Beauty&apos;, 
+&apos;TPA - Cable&apos;,&apos;Electrical &amp; Electronics&apos;, 
+&apos;TPA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;TPA - Chemical Processing Industry&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;TPA - Chemicals Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;, 
+&apos;TPA - Commercial Truck&apos;,&apos;Automotive &amp; Transportation&apos;, 
+&apos;TPA - Construction Materials&apos;,&apos;Building &amp; Construction&apos;, 
+&apos;TPA - Consumer Electronics&apos;,&apos;Electrical &amp; Electronics&apos;,
+&apos;TPA - Downstream Gas&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;TPA - Equipment&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;TPA - Eyewear&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;TPA - Fertilizer&apos;,&apos;Agriculture &amp; Food Industry&apos;,
+&apos;TPA - Footwear&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;TPA - Graphic Arts&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;TPA - Industrial Coating&apos;,&apos;Coatings &amp; Inks&apos;,
+&apos;TPA - Light Vehicle&apos;,&apos;Automotive &amp; Transportation&apos;,
+&apos;TPA - Lubricants&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TPA - Machine Equipment&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TPA - Medical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;TPA - Pharmaceutical&apos;,&apos;Health, Hygiene &amp; Beauty&apos;,
+&apos;TPA - Photovoltaic &amp; Windbased&apos;,&apos;Renewable Energy &amp; Energy Storage (Batteries)&apos;,
+&apos;TPA - Polymer Manufacturing&apos;,&apos;Chemical And Plastic Industry&apos;,
+&apos;TPA - Powder Bed Fusion&apos;,&apos;3D Printing / Additive Manufacturing&apos;,
+&apos;TPA - Protection / Coating&apos;,&apos;Building &amp; Construction&apos;,
+&apos;TPA - Textile &amp; Leather&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;TPA - Thermoplastics&apos;,&apos;Composites &amp; Advanced Materials&apos;,
+&apos;TPA - Thermosets&apos;,&apos;Composites &amp; Advanced Materials&apos;,
+&apos;TPA - Upstream&apos;,&apos;Oil &amp; Gas&apos;,
+&apos;TPA - Water Treatment&apos;,&apos;Water Management&apos;,
+&apos;TPA - Winter Sports&apos;,&apos;Sports &amp; Leisure&apos;,
+&apos;TPA - Extrusion&apos;,&apos;3D Printing / Additive Manufacturing&apos;,
+&apos;TPA - Powders&apos;,&apos;3D Printing / Additive Manufacturing&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>Market_TPA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <description>R1_R-0582</description>
+        <externalId>false</externalId>
+        <label>Market</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Market_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Mkto_Owner_Profile__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.Profile.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mkto_Owner_Role__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mkto_Queue_Name__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>Owner:Queue.QueueName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Queue Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mkto_Unsync_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Unsync requested</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_double_opt_in__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Double Opt-in (CRM)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_double_opt_in_date__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Double Opt-in Date (CRM)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_invalid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Invalid (CRM)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_invalid_date__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Invalid Date (CRM)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_invalid_reason__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Invalid reason (CRM)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_simple_opt_in__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Simple Opt-in (CRM)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_email_simple_opt_in_date__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Email Simple Opt-in Date (CRM)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_marketing_suspended__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Marketing suspended (CRM)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_owner_full_name__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>blankvalue(Owner:Queue.QueueName,
+Owner:User.FirstName &amp;&quot; &quot;&amp;
+Owner:User.LastName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner full name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mkto_owner_is_active__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.IsActive</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner is active</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_owner_is_queue__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>not(isblank(Owner:Queue.QueueName))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner is queue</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_owner_is_user__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>not(isblank( Owner:User.LastName ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner is user</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mkto_webform_requests__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Webform Requests</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OXY_Application_1__c</fullName>
+        <description>PSR-000469</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Oxygenated &amp; derivated&quot;), 
+CASE(BU_Application_1__c ,&apos;OXY - Additives&apos;,&apos;Additives&apos;, 
+&apos;OXY - Aerospace&apos;,&apos;Aerospace&apos;, 
+&apos;OXY - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;OXY - Aseptic&apos;,&apos;Aseptic&apos;, 
+&apos;OXY - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty, Perfumes, &amp; Cosmetics&apos;, 
+&apos;OXY - Biobased&apos;,&apos;Biobased&apos;, 
+&apos;OXY - Bleaching&apos;,&apos;Bleaching&apos;, 
+&apos;OXY - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;OXY - Chemicals For Electronic&apos;,&apos;Chemicals For Electronic&apos;, 
+&apos;OXY - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;OXY - Detergency &amp; Cleaning&apos;,&apos;Detergency &amp; Cleaning&apos;, 
+&apos;OXY - Food Industry&apos;,&apos;Food Industry&apos;, 
+&apos;OXY - Household Solutions&apos;,&apos;Household Solutions&apos;, 
+&apos;OXY - Metallurgy&apos;,&apos;Metallurgy&apos;, 
+&apos;OXY - Minerals&apos;,&apos;Minerals&apos;, 
+&apos;OXY - Mining&apos;,&apos;Mining&apos;, 
+&apos;OXY - Other Agriculture &amp; Food Industry&apos;,&apos;Other Agriculture &amp; Food Industry&apos;, 
+&apos;OXY - Personal Care&apos;,&apos;Personal Care&apos;, 
+&apos;OXY - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;OXY - Printed Circuit Boards&apos;,&apos;Printed Circuit Boards&apos;, 
+&apos;OXY - Textile Processing&apos;,&apos;Textile Processing&apos;, 
+&apos;OXY - Treatments&apos;,&apos;Treatments&apos;, 
+&apos;OXY - Waste Water&apos;,&apos;Waste Water&apos;, 
+&apos;OXY - Water Treatment&apos;,&apos;Water Treatment&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>OXY Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PMMA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Altuglas&quot;), 
+CASE(BU_Application_1__c ,&apos;PMMA - Additives&apos;,&apos;Additives&apos;, 
+&apos;PMMA - Aerospace&apos;,&apos;Aerospace&apos;, 
+&apos;PMMA - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;PMMA - Assemblye&apos;,&apos;Assembly&apos;, 
+&apos;PMMA - Boat/Marine&apos;,&apos;Boat/Marine&apos;, 
+&apos;PMMA - Caravaning/Recreational Vehicle&apos;,&apos;Caravaning/Recreational Vehicle&apos;, 
+&apos;PMMA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;PMMA - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;PMMA - Commercial Truck&apos;,&apos;Commercial Truck&apos;, 
+&apos;PMMA - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;PMMA - Consumer Electronics&apos;,&apos;Consumer Electronics&apos;, 
+&apos;PMMA - Equipment&apos;,&apos;Equipment&apos;, 
+&apos;PMMA - Equipment &amp; Furniture&apos;,&apos;Equipment &amp; Furniture&apos;, 
+&apos;PMMA - Food Industry&apos;,&apos;Food Industry&apos;, 
+&apos;PMMA - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;PMMA - Light Vehicle&apos;,&apos;Light Vehicle&apos;, 
+&apos;PMMA - Machine Equipment&apos;,&apos;Machine Equipment&apos;, 
+&apos;PMMA - Medical&apos;,&apos;Medical&apos;, 
+&apos;PMMA - Motorcycle&apos;,&apos;Motorcycle&apos;, 
+&apos;PMMA - Other 3D Printing&apos;,&apos;Other 3D Printing&apos;, 
+&apos;PMMA - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;PMMA - Photovoltaic &amp; Windbased&apos;,&apos;Photovoltaic &amp; Windbased&apos;, 
+&apos;PMMA - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;PMMA - Pressure Sensitive Adhesives&apos;,&apos;Pressure Sensitive Adhesives&apos;, 
+&apos;PMMA - Protection / Coating&apos;,&apos;Protection / Coating&apos;, 
+&apos;PMMA - Sealants&apos;,&apos;Sealants&apos;, 
+&apos;PMMA - Textile &amp; Leather Coating&apos;,&apos;Textile &amp; Leather Coating&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>PMMA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Region_1__c</fullName>
+        <description>PSR-000268</description>
+        <externalId>false</externalId>
+        <formula>CASE(Country ,&apos;Andorra&apos;,&apos;EMEA&apos;, 
+&apos;United Arab Emirates&apos;,&apos;EMEA&apos;, 
+&apos;Anguilla&apos;,&apos;EMEA&apos;, 
+&apos;Albania&apos;,&apos;EMEA&apos;, 
+&apos;Armenia&apos;,&apos;EMEA&apos;, 
+&apos;Angola&apos;,&apos;EMEA&apos;, 
+&apos;Austria&apos;,&apos;EMEA&apos;, 
+&apos;Aruba&apos;,&apos;EMEA&apos;, 
+&apos;Åland Islands&apos;,&apos;EMEA&apos;, 
+&apos;Azerbaijan&apos;,&apos;EMEA&apos;, 
+&apos;Bosnia and Herzegovina&apos;,&apos;EMEA&apos;, 
+&apos;Belgium&apos;,&apos;EMEA&apos;, 
+&apos;Burkina Faso&apos;,&apos;EMEA&apos;, 
+&apos;Bulgaria&apos;,&apos;EMEA&apos;, 
+&apos;Bahrain&apos;,&apos;EMEA&apos;, 
+&apos;Burundi&apos;,&apos;EMEA&apos;, 
+&apos;Benin&apos;,&apos;EMEA&apos;, 
+&apos;Saint Barthélemy&apos;,&apos;EMEA&apos;, 
+&apos;Bermuda&apos;,&apos;EMEA&apos;, 
+&apos;Bonaire, Sint Eustatius and Saba&apos;,&apos;EMEA&apos;, 
+&apos;Bouvet Island&apos;,&apos;EMEA&apos;, 
+&apos;Botswana&apos;,&apos;EMEA&apos;, 
+&apos;Belarus&apos;,&apos;EMEA&apos;, 
+&apos;Congo, the Democratic Republic of the&apos;,&apos;EMEA&apos;, 
+&apos;Central African Republic&apos;,&apos;EMEA&apos;, 
+&apos;Congo&apos;,&apos;EMEA&apos;, 
+&apos;Switzerland&apos;,&apos;EMEA&apos;, 
+&apos;Côte dIvoire&apos;,&apos;EMEA&apos;, 
+&apos;Cameroon&apos;,&apos;EMEA&apos;, 
+&apos;Cape Verde&apos;,&apos;EMEA&apos;, 
+&apos;Curaçao&apos;,&apos;EMEA&apos;, 
+&apos;Cyprus&apos;,&apos;EMEA&apos;, 
+&apos;Czech Republic&apos;,&apos;EMEA&apos;, 
+&apos;Germany&apos;,&apos;EMEA&apos;, 
+&apos;Djibouti&apos;,&apos;EMEA&apos;, 
+&apos;Denmark&apos;,&apos;EMEA&apos;, 
+&apos;Algeria&apos;,&apos;EMEA&apos;, 
+&apos;Estonia&apos;,&apos;EMEA&apos;, 
+&apos;Egypt&apos;,&apos;EMEA&apos;, 
+&apos;Western Sahara&apos;,&apos;EMEA&apos;, 
+&apos;Eritrea&apos;,&apos;EMEA&apos;, 
+&apos;Spain&apos;,&apos;EMEA&apos;, 
+&apos;Ethiopia&apos;,&apos;EMEA&apos;, 
+&apos;Finland&apos;,&apos;EMEA&apos;, 
+&apos;Falkland Islands (Malvinas)&apos;,&apos;EMEA&apos;, 
+&apos;Faroe Islands&apos;,&apos;EMEA&apos;, 
+&apos;France&apos;,&apos;EMEA&apos;, 
+&apos;Gabon&apos;,&apos;EMEA&apos;, 
+&apos;United Kingdom&apos;,&apos;EMEA&apos;, 
+&apos;Georgia&apos;,&apos;EMEA&apos;, 
+&apos;French Guiana&apos;,&apos;EMEA&apos;, 
+&apos;Guernsey&apos;,&apos;EMEA&apos;, 
+&apos;Ghana&apos;,&apos;EMEA&apos;, 
+&apos;Gibraltar&apos;,&apos;EMEA&apos;, 
+&apos;Greenland&apos;,&apos;EMEA&apos;, 
+&apos;Gambia&apos;,&apos;EMEA&apos;, 
+
+&apos;&apos;)</formula>
+        <label>Region 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region_2__c</fullName>
+        <description>PSR-000268</description>
+        <externalId>false</externalId>
+        <formula>CASE(Country ,&apos;Guinea&apos;,&apos;EMEA&apos;, 
+&apos;Guadeloupe&apos;,&apos;EMEA&apos;, 
+&apos;Equatorial Guinea&apos;,&apos;EMEA&apos;, 
+&apos;Greece&apos;,&apos;EMEA&apos;, 
+&apos;South Georgia and the South Sandwich Islands&apos;,&apos;EMEA&apos;, 
+&apos;Guinea-Bissau&apos;,&apos;EMEA&apos;, 
+&apos;Croatia&apos;,&apos;EMEA&apos;, 
+&apos;Hungary&apos;,&apos;EMEA&apos;, 
+&apos;Ireland&apos;,&apos;EMEA&apos;, 
+&apos;Israel&apos;,&apos;EMEA&apos;, 
+&apos;Isle of Man&apos;,&apos;EMEA&apos;, 
+&apos;British Indian Ocean Territory&apos;,&apos;EMEA&apos;, 
+&apos;Iraq&apos;,&apos;EMEA&apos;, 
+&apos;Iran, Islamic Republic of&apos;,&apos;EMEA&apos;, 
+&apos;Iceland&apos;,&apos;EMEA&apos;, 
+&apos;Italy&apos;,&apos;EMEA&apos;, 
+&apos;Jersey&apos;,&apos;EMEA&apos;, 
+&apos;Jordan&apos;,&apos;EMEA&apos;, 
+&apos;Kenya&apos;,&apos;EMEA&apos;, 
+&apos;Comoros&apos;,&apos;EMEA&apos;, 
+&apos;Kuwait&apos;,&apos;EMEA&apos;, 
+&apos;Cayman Islands&apos;,&apos;EMEA&apos;, 
+&apos;Lebanon&apos;,&apos;EMEA&apos;, 
+&apos;Liechtenstein&apos;,&apos;EMEA&apos;, 
+&apos;Liberia&apos;,&apos;EMEA&apos;, 
+&apos;Lesotho&apos;,&apos;EMEA&apos;, 
+&apos;Lithuania&apos;,&apos;EMEA&apos;, 
+&apos;Luxembourg&apos;,&apos;EMEA&apos;, 
+&apos;Latvia&apos;,&apos;EMEA&apos;, 
+&apos;Libya&apos;,&apos;EMEA&apos;, 
+&apos;Morocco&apos;,&apos;EMEA&apos;, 
+&apos;Monaco&apos;,&apos;EMEA&apos;, 
+&apos;Moldova, Republic of&apos;,&apos;EMEA&apos;, 
+&apos;Montenegro&apos;,&apos;EMEA&apos;, 
+&apos;Saint Martin (French part)&apos;,&apos;EMEA&apos;, 
+&apos;Madagascar&apos;,&apos;EMEA&apos;, 
+&apos;Macedonia, the former Yugoslav Republic of&apos;,&apos;EMEA&apos;, 
+&apos;Mali&apos;,&apos;EMEA&apos;, 
+&apos;Martinique&apos;,&apos;EMEA&apos;, 
+&apos;Mauritania&apos;,&apos;EMEA&apos;, 
+&apos;Montserrat&apos;,&apos;EMEA&apos;, 
+&apos;Malta&apos;,&apos;EMEA&apos;, 
+&apos;Mauritius&apos;,&apos;EMEA&apos;, 
+&apos;Malawi&apos;,&apos;EMEA&apos;, 
+&apos;Mozambique&apos;,&apos;EMEA&apos;, 
+&apos;Namibia&apos;,&apos;EMEA&apos;, 
+&apos;New Caledonia&apos;,&apos;EMEA&apos;, 
+&apos;Niger&apos;,&apos;EMEA&apos;, 
+&apos;Nigeria&apos;,&apos;EMEA&apos;, 
+&apos;Netherlands&apos;,&apos;EMEA&apos;, 
+&apos;Norway&apos;,&apos;EMEA&apos;, 
+&apos;Oman&apos;,&apos;EMEA&apos;, 
+&apos;French Polynesia&apos;,&apos;EMEA&apos;, 
+&apos;Poland&apos;,&apos;EMEA&apos;, 
+&apos;Saint Pierre and Miquelon&apos;,&apos;EMEA&apos;, 
+&apos;&apos; 
+)</formula>
+        <label>Region 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region_3__c</fullName>
+        <description>PSR-000268</description>
+        <externalId>false</externalId>
+        <formula>CASE(Country ,&apos;Pitcairn&apos;,&apos;EMEA&apos;, 
+&apos;Palestinian Territory, Occupied&apos;,&apos;EMEA&apos;, 
+&apos;Portugal&apos;,&apos;EMEA&apos;, 
+&apos;Qatar&apos;,&apos;EMEA&apos;, 
+&apos;Réunion&apos;,&apos;EMEA&apos;, 
+&apos;Romania&apos;,&apos;EMEA&apos;, 
+&apos;Serbia&apos;,&apos;EMEA&apos;, 
+&apos;Russian Federation&apos;,&apos;EMEA&apos;, 
+&apos;Rwanda&apos;,&apos;EMEA&apos;, 
+&apos;Saudi Arabia&apos;,&apos;EMEA&apos;, 
+&apos;Seychelles&apos;,&apos;EMEA&apos;, 
+&apos;Sudan&apos;,&apos;EMEA&apos;, 
+&apos;Sweden&apos;,&apos;EMEA&apos;, 
+&apos;Saint Helena, Ascension and Tristan da Cunha&apos;,&apos;EMEA&apos;, 
+&apos;Slovenia&apos;,&apos;EMEA&apos;, 
+&apos;Svalbard and Jan Mayen&apos;,&apos;EMEA&apos;, 
+&apos;Slovakia&apos;,&apos;EMEA&apos;, 
+&apos;Sierra Leone&apos;,&apos;EMEA&apos;, 
+&apos;San Marino&apos;,&apos;EMEA&apos;, 
+&apos;Senegal&apos;,&apos;EMEA&apos;, 
+&apos;Somalia&apos;,&apos;EMEA&apos;, 
+&apos;South Sudan&apos;,&apos;EMEA&apos;, 
+&apos;Sao Tome and Principe&apos;,&apos;EMEA&apos;, 
+&apos;Sint Maarten (Dutch part)&apos;,&apos;EMEA&apos;, 
+&apos;Syrian Arab Republic&apos;,&apos;EMEA&apos;, 
+&apos;Swaziland&apos;,&apos;EMEA&apos;, 
+&apos;Turks and Caicos Islands&apos;,&apos;EMEA&apos;, 
+&apos;Chad&apos;,&apos;EMEA&apos;, 
+&apos;French Southern Territories&apos;,&apos;EMEA&apos;, 
+&apos;Togo&apos;,&apos;EMEA&apos;, 
+&apos;Tunisia&apos;,&apos;EMEA&apos;, 
+&apos;Turkey&apos;,&apos;EMEA&apos;, 
+&apos;Tanzania, United Republic of&apos;,&apos;EMEA&apos;, 
+&apos;Ukraine&apos;,&apos;EMEA&apos;, 
+&apos;Uganda&apos;,&apos;EMEA&apos;, 
+&apos;Holy See (Vatican City State)&apos;,&apos;EMEA&apos;, 
+&apos;Virgin Islands, British&apos;,&apos;EMEA&apos;, 
+&apos;Wallis and Futuna&apos;,&apos;EMEA&apos;, 
+&apos;Yemen&apos;,&apos;EMEA&apos;, 
+&apos;Mayotte&apos;,&apos;EMEA&apos;, 
+&apos;South Africa&apos;,&apos;EMEA&apos;, 
+&apos;Zambia&apos;,&apos;EMEA&apos;, 
+&apos;Zimbabwe&apos;,&apos;EMEA&apos;, 
+&apos;Antigua and Barbuda&apos;,&apos;Americas&apos;, 
+&apos;Antarctica&apos;,&apos;Americas&apos;, 
+&apos;Argentina&apos;,&apos;Americas&apos;, 
+&apos;American Samoa&apos;,&apos;Americas&apos;, 
+&apos;Barbados&apos;,&apos;Americas&apos;, 
+&apos;Bolivia, Plurinational State of&apos;,&apos;Americas&apos;, 
+&apos;Brazil&apos;,&apos;Americas&apos;, 
+&apos;Bahamas&apos;,&apos;Americas&apos;, 
+&apos;Belize&apos;,&apos;Americas&apos;, 
+&apos;Canada&apos;,&apos;Americas&apos;, 
+&apos;Chile&apos;,&apos;Americas&apos;, 
+&apos;&apos; 
+)</formula>
+        <label>Region 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region_4__c</fullName>
+        <description>PSR-000268</description>
+        <externalId>false</externalId>
+        <formula>CASE(Country ,&apos;Colombia&apos;,&apos;Americas&apos;, 
+&apos;Costa Rica&apos;,&apos;Americas&apos;, 
+&apos;Cuba&apos;,&apos;Americas&apos;, 
+&apos;Dominica&apos;,&apos;Americas&apos;, 
+&apos;Dominican Republic&apos;,&apos;Americas&apos;, 
+&apos;Ecuador&apos;,&apos;Americas&apos;, 
+&apos;Grenada&apos;,&apos;Americas&apos;, 
+&apos;Guatemala&apos;,&apos;Americas&apos;, 
+&apos;Guam&apos;,&apos;Americas&apos;, 
+&apos;Guyana&apos;,&apos;Americas&apos;, 
+&apos;Honduras&apos;,&apos;Americas&apos;, 
+&apos;Haiti&apos;,&apos;Americas&apos;, 
+&apos;Jamaica&apos;,&apos;Americas&apos;, 
+&apos;Saint Kitts and Nevis&apos;,&apos;Americas&apos;, 
+&apos;Saint Lucia&apos;,&apos;Americas&apos;, 
+&apos;Northern Mariana Islands&apos;,&apos;Americas&apos;, 
+&apos;Mexico&apos;,&apos;Americas&apos;, 
+&apos;Nicaragua&apos;,&apos;Americas&apos;, 
+&apos;Panama&apos;,&apos;Americas&apos;, 
+&apos;Peru&apos;,&apos;Americas&apos;, 
+&apos;Puerto Rico&apos;,&apos;Americas&apos;, 
+&apos;Paraguay&apos;,&apos;Americas&apos;, 
+&apos;Suriname&apos;,&apos;Americas&apos;, 
+&apos;El Salvador&apos;,&apos;Americas&apos;, 
+&apos;Trinidad and Tobago&apos;,&apos;Americas&apos;, 
+&apos;United States Minor Outlying Islands&apos;,&apos;Americas&apos;, 
+&apos;United States&apos;,&apos;Americas&apos;, 
+&apos;Uruguay&apos;,&apos;Americas&apos;, 
+&apos;Saint Vincent and the Grenadines&apos;,&apos;Americas&apos;, 
+&apos;Venezuela, Bolivarian Republic of&apos;,&apos;Americas&apos;, 
+&apos;Virgin Islands, British&apos;,&apos;Americas&apos;, 
+
+&apos;Afghanistan&apos;,&apos;APAC&apos;, 
+&apos;Australia&apos;,&apos;APAC&apos;, 
+&apos;Bangladesh&apos;,&apos;APAC&apos;, 
+&apos;Brunei Darussalam&apos;,&apos;APAC&apos;, 
+&apos;Bhutan&apos;,&apos;APAC&apos;, 
+&apos;Cocos (Keeling) Islands&apos;,&apos;APAC&apos;, 
+&apos;Cook Islands&apos;,&apos;APAC&apos;, 
+&apos;China&apos;,&apos;APAC&apos;, 
+&apos;Chinese Taipei&apos;,&apos;APAC&apos;, 
+&apos;Christmas Island&apos;,&apos;APAC&apos;, 
+&apos;Fiji&apos;,&apos;APAC&apos;, 
+&apos;Micronesia, Federated States of&apos;,&apos;APAC&apos;, 
+&apos;Hong Kong&apos;,&apos;APAC&apos;, 
+&apos;Heard Island and Mcdonald Islands&apos;,&apos;APAC&apos;, 
+&apos;Indonesia&apos;,&apos;APAC&apos;, 
+&apos;India&apos;,&apos;APAC&apos;, 
+&apos;Japan&apos;,&apos;APAC&apos;, 
+&apos;Kyrgyzstan&apos;,&apos;APAC&apos;, 
+&apos;Cambodia&apos;,&apos;APAC&apos;, 
+&apos;Kiribati&apos;,&apos;APAC&apos;, 
+&apos;Korea, Republic of&apos;,&apos;APAC&apos;, 
+&apos;Korea, Democratic Peoples Republic of&apos;,&apos;APAC&apos;, 
+&apos;Kazakhstan&apos;,&apos;APAC&apos;, 
+&apos;Lao Peoples Democratic Republic&apos;,&apos;APAC&apos;, 
+&apos;&apos; 
+)</formula>
+        <label>Region 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region_5__c</fullName>
+        <description>PSR-000268</description>
+        <externalId>false</externalId>
+        <formula>CASE(Country ,&apos;Sri Lanka&apos;,&apos;APAC&apos;,
+&apos;Marshall Islands&apos;,&apos;APAC&apos;,
+&apos;Myanmar&apos;,&apos;APAC&apos;,
+&apos;Mongolia&apos;,&apos;APAC&apos;,
+&apos;Macao&apos;,&apos;APAC&apos;,
+&apos;Maldives&apos;,&apos;APAC&apos;,
+&apos;Malaysia&apos;,&apos;APAC&apos;,
+&apos;Norfolk Island&apos;,&apos;APAC&apos;,
+&apos;Nepal&apos;,&apos;APAC&apos;,
+&apos;Nauru&apos;,&apos;APAC&apos;,
+&apos;Niue&apos;,&apos;APAC&apos;,
+&apos;New Zealand&apos;,&apos;APAC&apos;,
+&apos;Papua New Guinea&apos;,&apos;APAC&apos;,
+&apos;Philippines&apos;,&apos;APAC&apos;,
+&apos;Pakistan&apos;,&apos;APAC&apos;,
+&apos;Palau&apos;,&apos;APAC&apos;,
+&apos;Solomon Islands&apos;,&apos;APAC&apos;,
+&apos;Singapore&apos;,&apos;APAC&apos;,
+&apos;Thailand&apos;,&apos;APAC&apos;,
+&apos;Tajikistan&apos;,&apos;APAC&apos;,
+&apos;Tokelau&apos;,&apos;APAC&apos;,
+&apos;Timor-Leste&apos;,&apos;APAC&apos;,
+&apos;Turkmenistan&apos;,&apos;APAC&apos;,
+&apos;Tonga&apos;,&apos;APAC&apos;,
+&apos;Tuvalu&apos;,&apos;APAC&apos;,
+&apos;Taiwan, province of China&apos;,&apos;APAC&apos;,
+&apos;Uzbekistan&apos;,&apos;APAC&apos;,
+&apos;Viet Nam&apos;,&apos;APAC&apos;,
+&apos;Vanuatu&apos;,&apos;APAC&apos;,
+&apos;Samoa&apos;,&apos;APAC&apos;, 
+&apos;&apos;
+)</formula>
+        <label>Region 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <description>R1_R-0599</description>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Region_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SAR_Application_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Sartomer&quot;), 
+CASE(BU_Application_1__c ,&apos;SAR - Additives&apos;,&apos;Additives&apos;, 
+&apos;SAR - Advanced Materials&apos;,&apos;Advanced Materials&apos;, 
+&apos;SAR - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;SAR - Chemicals For Electronic&apos;,&apos;Chemicals For Electronic&apos;, 
+&apos;SAR - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;SAR - Graphic Arts&apos;,&apos;Graphic Arts&apos;, 
+&apos;SAR - Other Adhesives&apos;,&apos;Other Adhesives&apos;, 
+&apos;SAR - Personal Care&apos;,&apos;Personal Care&apos;, 
+&apos;SAR - UV&apos;,&apos;UV&apos;, 
+&apos;SAR - Uv Coatings&apos;,&apos;Uv Coatings&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SAR Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_ACR__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring ACR</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Altuglas__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Altuglas</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Bostik_CC__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Bostik CC</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Bostik_IA__c</fullName>
+        <description>R6_R-1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Bostik IA</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Bostik_NW__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Bostik NW</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Coatex__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Coatex</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Sartomer__c</fullName>
+        <description>R6_R1217</description>
+        <externalId>false</externalId>
+        <label>Scoring Sartomer</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_TPA__c</fullName>
+        <description>R6_R-1217</description>
+        <externalId>false</externalId>
+        <label>Scoring TPA</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scoring_Thiochimie__c</fullName>
+        <externalId>false</externalId>
+        <label>Scoring Thiochimie</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Stop_Syncing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>R1-R-0082</description>
+        <externalId>false</externalId>
+        <label>Stop Syncing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Status__c</fullName>
+        <description>R!_R-0557_dependent on lead status</description>
+        <externalId>false</externalId>
+        <label>Sub-Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Transferred to Distributor</fullName>
+                    <default>false</default>
+                    <label>Transferred to Other Party</label>
+                </value>
+                <value>
+                    <fullName>Closed Recycled</fullName>
+                    <default>false</default>
+                    <label>Closed Recycled</label>
+                </value>
+                <value>
+                    <fullName>Converted</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Converted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sync_to_Marketo__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Sync to Marketo</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>THIO_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Thiochemicals&quot;), 
+CASE(BU_Application_1__c ,&apos;THIO - Additives&apos;,&apos;Additives&apos;, 
+&apos;THIO - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;THIO - Architectural Coating&apos;,&apos;Architectural Coating&apos;, 
+&apos;THIO - Battery&apos;,&apos;Battery&apos;, 
+&apos;THIO - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty, Perfumes, &amp; Cosmetics&apos;, 
+&apos;THIO - Biobased&apos;,&apos;Biobased&apos;, 
+&apos;THIO - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;THIO - Chemicals For Electronic&apos;,&apos;Chemicals For Electronic&apos;, 
+&apos;THIO - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;THIO - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;THIO - Detergency &amp; Cleaning Chemicals&apos;,&apos;Detergency &amp; Cleaning Chemicals&apos;, 
+&apos;THIO - Downstream Gas&apos;,&apos;Downstream Gas&apos;, 
+&apos;THIO - Downstream Oil&apos;,&apos;Downstream Oil&apos;, 
+&apos;THIO - Inks&apos;,&apos;Inks&apos;, 
+&apos;THIO - Metallurgy&apos;,&apos;Metallurgy&apos;, 
+&apos;THIO - Mining&apos;,&apos;Mining&apos;, 
+&apos;THIO - Other Adhesives&apos;,&apos;Other Adhesives&apos;, 
+&apos;THIO - Petrochemicals Manufacturing&apos;,&apos;Petrochemicals Manufacturing&apos;, 
+&apos;THIO - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;, 
+&apos;THIO - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;, 
+&apos;THIO - Textile &amp; Leather Coating&apos;,&apos;Textile &amp; Leather Coating&apos;, 
+&apos;THIO - Upstream&apos;,&apos;Upstream&apos;, 
+&apos;THIO - Uv Coatings&apos;,&apos;Uv Coatings&apos;, 
+&apos;THIO - Water Treatment&apos;,&apos;Water Treatment&apos;, 
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>THIO Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TOGA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Tensioactives and Oil gas additives&quot;), 
+CASE(BU_Application_1__c ,&apos;TOGA - Additives&apos;,&apos;Additives&apos;, 
+&apos;TOGA - Architectural Coating&apos;,&apos;Architectural Coating&apos;, 
+&apos;TOGA - Asphalt&apos;,&apos;Asphalt&apos;, 
+&apos;TOGA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;TOGA - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;TOGA - Detergency &amp; Cleaning Chemicals&apos;,&apos;Detergency &amp; Cleaning Chemicals&apos;, 
+&apos;TOGA - Fertilizer&apos;,&apos;Fertilizer&apos;, 
+&apos;TOGA - Industrial Coating&apos;,&apos;Industrial Coating&apos;, 
+&apos;TOGA - Lubricants&apos;,&apos;Lubricants&apos;, 
+&apos;TOGA - Other Adhesives&apos;,&apos;Other Adhesives&apos;, 
+&apos;TOGA - Treatments&apos;,&apos;Treatments&apos;,
+&apos;TOGA - Upstream&apos;,&apos;Upstream&apos;,
+&apos;TOGA - Downstream&apos;,&apos;Downstream&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>TOGA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TPA_Application_1__c</fullName>
+        <description>PSR-000649</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( BU__c , &quot;Technical Polymers&quot;), 
+CASE(BU_Application_1__c ,&apos;TPA - Additives&apos;,&apos;Additives&apos;, 
+&apos;TPA - Agrochemicals&apos;,&apos;Agrochemicals&apos;, 
+&apos;TPA - Battery&apos;,&apos;Battery&apos;, 
+&apos;TPA - Beauty, Perfumes, &amp; Cosmetics&apos;,&apos;Beauty Perfumes and Cosmetics&apos;, 
+&apos;TPA - Cable&apos;,&apos;Cable&apos;, 
+&apos;TPA - Chemical &amp; Plastic Distribution&apos;,&apos;Chemical &amp; Plastic Distribution&apos;, 
+&apos;TPA - Chemical Processing Industry&apos;,&apos;Chemical Processing Industry&apos;, 
+&apos;TPA - Chemicals Manufacturing&apos;,&apos;Chemicals Manufacturing&apos;, 
+&apos;TPA - Commercial Truck&apos;,&apos;Commercial Truck&apos;, 
+&apos;TPA - Construction Materials&apos;,&apos;Construction Materials&apos;, 
+&apos;TPA - Consumer Electronics&apos;,&apos;Consumer Electronics&apos;,
+&apos;TPA - Downstream Gas&apos;,&apos;Downstream Gas&apos;,
+&apos;TPA - Equipment&apos;,&apos;Equipment&apos;,
+&apos;TPA - Eyewear&apos;,&apos;Eyewear&apos;,
+&apos;TPA - Fertilizer&apos;,&apos;Fertilizer&apos;,
+&apos;TPA - Footwear&apos;,&apos;Footwear&apos;,
+&apos;TPA - Graphic Arts&apos;,&apos;Graphic Arts&apos;,
+&apos;TPA - Industrial Coating&apos;,&apos;Industrial Coating&apos;,
+&apos;TPA - Light Vehicle&apos;,&apos;Light Vehicle&apos;,
+&apos;TPA - Lubricants&apos;,&apos;Lubricants&apos;,
+&apos;TPA - Machine Equipment&apos;,&apos;Machine Equipment&apos;,
+&apos;TPA - Medical&apos;,&apos;Medical&apos;,
+&apos;TPA - Pharmaceutical&apos;,&apos;Pharmaceutical&apos;,
+&apos;TPA - Photovoltaic &amp; Windbased&apos;,&apos;Photovoltaic and Windbased&apos;,
+&apos;TPA - Polymer Manufacturing&apos;,&apos;Polymer Manufacturing&apos;,
+&apos;TPA - Powder Bed Fusion&apos;,&apos;Powder Bed Fusion&apos;,
+&apos;TPA - Protection / Coating&apos;,&apos;Protection / Coating&apos;,
+&apos;TPA - Textile &amp; Leather&apos;,&apos;Textile &amp; Leather&apos;,
+&apos;TPA - Thermoplastics&apos;,&apos;Thermoplastics&apos;,
+&apos;TPA - Thermosets&apos;,&apos;Thermosets&apos;,
+&apos;TPA - Upstream&apos;,&apos;Upstream&apos;,
+&apos;TPA - Water Treatment&apos;,&apos;Water Treatment&apos;,
+&apos;TPA - Winter Sports&apos;,&apos;Winter Sports&apos;,
+&apos;TPA - Extrusion&apos;,&apos;Extrusion&apos;,
+&apos;TPA - Powders&apos;,&apos;Powders&apos;,
+&apos;&apos; 
+), &apos;&apos;)</formula>
+        <label>TPA Application 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Trade_Show_Details__c</fullName>
+        <description>R4_R-1015</description>
+        <externalId>false</externalId>
+        <label>Lead Source Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Web_to_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Web-to-Lead</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>mkto71_Acquisition_Date__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Acquisition Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>mkto71_Acquisition_Program_Id__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Acquisition Program Id</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Acquisition_Program__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Acquisition Program</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_City__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred City</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_Company__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred Company</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_Country__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred Country</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_Metropolitan_Area__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred Metropolitan Area</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_Phone_Area_Code__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred Phone Area Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_Postal_Code__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred Postal Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Inferred_State_Region__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Inferred State Region</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Lead_Score__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Score</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Original_Referrer__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Original Referrer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Original_Search_Engine__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Original Search Engine</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Original_Search_Phrase__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Original Search Phrase</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Original_Source_Info__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Original Source Info</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto71_Original_Source_Type__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Original Source Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_behavior_score__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Behavior Score</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_demographic_score__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <label>Demographic Score</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mkto_total_score__c</fullName>
+        <description>R1_R-0082</description>
+        <externalId>false</externalId>
+        <formula>blankvalue(mkto_behavior_score__c,0)+ blankvalue(mkto_demographic_score__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllOpenLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.TITLE</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed</value>
+        </filters>
+        <label>All Open Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Leads</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Mkto_owner_full_name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Lead_VR1_MandatoryCountry</fullName>
+        <active>true</active>
+        <description>It is Mandatory to fill the country field to be able to convert a lead.</description>
+        <errorConditionFormula>ISPICKVAL(Status,&quot;Converted&quot;)
+ &amp;&amp; 
+ISBLANK(Country)</errorConditionFormula>
+        <errorMessage>Please enter a value for the Country field.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead_Street}+{!Lead_City}+{!Lead_State}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Lead_Company}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Lead_Company}</url>
+    </webLinks>
 </CustomObject>

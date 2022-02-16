@@ -11,24 +11,19 @@
         <label>ALU PANEL</label>
     </customValue>
     <customValue>
-        <fullName>ARTIFICIAL TURF</fullName>
+        <fullName>AUTOMOTIVE PART</fullName>
         <default>false</default>
-        <label>ARTIFICIAL TURF</label>
-    </customValue>
-    <customValue>
-        <fullName>ASEPTIC</fullName>
-        <default>false</default>
-        <label>ASEPTIC</label>
-    </customValue>
-    <customValue>
-        <fullName>AUTOMOTIVE PART/COMPOUNDING</fullName>
-        <default>false</default>
-        <label>AUTOMOTIVE PART/COMPOUNDING</label>
+        <label>AUTOMOTIVE PART</label>
     </customValue>
     <customValue>
         <fullName>BITUMEN</fullName>
         <default>false</default>
         <label>BITUMEN</label>
+    </customValue>
+    <customValue>
+        <fullName>CABLE</fullName>
+        <default>false</default>
+        <label>CABLE</label>
     </customValue>
     <customValue>
         <fullName>COMPATIBILIZER</fullName>
@@ -41,16 +36,6 @@
         <label>COUPLING AGENT</label>
     </customValue>
     <customValue>
-        <fullName>EMULSION &amp; DISPERSION</fullName>
-        <default>false</default>
-        <label>EMULSION &amp; DISPERSION</label>
-    </customValue>
-    <customValue>
-        <fullName>FILMS</fullName>
-        <default>false</default>
-        <label>FILMS</label>
-    </customValue>
-    <customValue>
         <fullName>FLEXIBLE COEXTRUSION</fullName>
         <default>false</default>
         <label>FLEXIBLE COEXTRUSION</label>
@@ -61,11 +46,6 @@
         <label>FLEXIBLE EXTRUSION COATING LAMINATION</label>
     </customValue>
     <customValue>
-        <fullName>FLOORS &amp; COMPOSITES</fullName>
-        <default>false</default>
-        <label>FLOORS &amp; COMPOSITES</label>
-    </customValue>
-    <customValue>
         <fullName>FOAM</fullName>
         <default>false</default>
         <label>FOAM</label>
@@ -74,11 +54,6 @@
         <fullName>FUEL &amp; CHEMICAL CONTAINERS</fullName>
         <default>false</default>
         <label>FUEL &amp; CHEMICAL CONTAINERS</label>
-    </customValue>
-    <customValue>
-        <fullName>GLASS</fullName>
-        <default>false</default>
-        <label>GLASS</label>
     </customValue>
     <customValue>
         <fullName>IMPACT MODIFIER</fullName>
@@ -96,29 +71,9 @@
         <label>INKS</label>
     </customValue>
     <customValue>
-        <fullName>MASTER BATCH PRODUCTION</fullName>
-        <default>false</default>
-        <label>MASTER BATCH PRODUCTION</label>
-    </customValue>
-    <customValue>
-        <fullName>MEDICAL</fullName>
-        <default>false</default>
-        <label>MEDICAL</label>
-    </customValue>
-    <customValue>
-        <fullName>MINING</fullName>
-        <default>false</default>
-        <label>MINING</label>
-    </customValue>
-    <customValue>
         <fullName>PIPE &amp; TUBE</fullName>
         <default>false</default>
         <label>PIPE &amp; TUBE</label>
-    </customValue>
-    <customValue>
-        <fullName>POWDER COATING</fullName>
-        <default>false</default>
-        <label>POWDER COATING</label>
     </customValue>
     <customValue>
         <fullName>PV PANEL</fullName>
@@ -139,11 +94,6 @@
         <fullName>THERMOADHESIVE FILM</fullName>
         <default>false</default>
         <label>THERMOADHESIVE FILM</label>
-    </customValue>
-    <customValue>
-        <fullName>WIRE &amp; CABLE</fullName>
-        <default>false</default>
-        <label>WIRE &amp; CABLE</label>
     </customValue>
     <masterLabel>BU application 2 values</masterLabel>
     <sorted>false</sorted>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Sold_to_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>R1_R-0213_Lookup to Account Object_R-0650_R-0650</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Ship-To accounts can&apos;t be selected at this level, please fill in here the Sold-To account and use the field &quot;Ship-To Account&quot; to record the concerned Ship-To Account</inlineHelpText>
+        <label>Account</label>
+        <lookupFilter>
+            <active>false</active>
+            <booleanFilter>1</booleanFilter>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Prospect, Customer Sold-To, Hierarchical Account L1, Hierarchical Account L2, Hierarchical Account L3, Hierarchical Account L4, Hierarchical Account L5, Non-Buying Account</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Call/Visit Reports</relationshipLabel>
+        <relationshipName>Call_Visit_Reports</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>
