@@ -5,5 +5,9 @@
         <members>TST_TGRH_Market_Insight_Team</members>
         <name>ApexClass</name>
     </types>
-    <version>52.0</version>
+    <types>
+        <members>Case.Account_s_Country__c</members>
+        <name>CustomField</name>
+    </types>
+   <version>52.0</version>
 </Package>
