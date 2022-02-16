@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Case.Account_s_Country__c</members>
+        <members>Case.AutomotiveSector__c</members>
+        <members>Case.Country_Region__c</members>
+        <members>Case.Description_Details__c</members>
+        <members>Case.FoodContact__c</members>
+        <members>Case.Food_contact_details__c</members>
+        <members>Case.IDCustomer__c</members>
+        <members>Case.InternalCstomerMaterialNumber__c</members>
+        <members>Case.InternalReference__c</members>
+        <members>Case.InternationalInventories__c</members>
+        <members>Case.Inventory_list__c</members>
+        <members>Case.NBD__c</members>
+        <members>Case.Others__c</members>
+        <members>Case.ProductComposition__c</members>
+        <members>Case.Product__c</members>
+        <members>Case.Product_composition_details__c</members>
+        <members>Case.REACH__c</members>
+        <members>Case.ReachDetails__c</members>
+        <members>Case.SDS__c</members>
+        <members>HSE_Version__c.Case__c</members>
+        <members>HSE_Version__c.Food_Contact__c</members>
         <members>Lead.BU1__c</members>
         <members>Lead.Language__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>HSE_Version__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Case-HSE Request</members>
+        <members>HSE_Version__c-HSE Version Layout</members>
+        <name>Layout</name>
     </types>
     <version>52.0</version>
 </Package>
