@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Active_BUs__c</fullName>
+        <fullName>BU_Application_1__c</fullName>
+        <description>PSR-000649</description>
         <externalId>false</externalId>
-        <label>Active BUs</label>
+        <label>BU Application 1</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
-            <valueSetName>BU_Values</valueSetName>
+            <valueSetName>BU_Application_1</valueSetName>
         </valueSet>
-        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>BU_Application_2__c</fullName>
@@ -28,7 +28,7 @@
             <valueSetName>BU_application_2_values</valueSetName>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
-                <valueName>AUTOMOTIVE PART</valueName>
+                <valueName>AUTOMOTIVE PART/COMPOUNDING</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>AUTOMOTIVE</controllingFieldValue>
@@ -52,11 +52,27 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>ARTIFICIAL TURF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>BITUMEN</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
-                <valueName>CABLE</valueName>
+                <valueName>EMULSION &amp; DISPERSION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FILMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>FLOORS &amp; COMPOSITES</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>GLASS</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
@@ -64,11 +80,27 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>MINING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PIPE &amp; TUBE</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>POWDER COATING</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
                 <valueName>PV PANEL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CONSTRUCTION &amp; INDUSTRIAL</controllingFieldValue>
+                <valueName>WIRE &amp; CABLE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>ASEPTIC</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -81,6 +113,10 @@
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
                 <valueName>INKS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PACKAGING</controllingFieldValue>
+                <valueName>MEDICAL</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PACKAGING</controllingFieldValue>
@@ -100,194 +136,12 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>COMPOUNDING</controllingFieldValue>
+                <valueName>MASTER BATCH PRODUCTION</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COMPOUNDING</controllingFieldValue>
                 <valueName>RECYCLING</valueName>
             </valueSettings>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>Current_year_potential__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Tons per year</inlineHelpText>
-        <label>Current year potential</label>
-        <precision>12</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Green_Project__c</fullName>
-        <externalId>false</externalId>
-        <label>Green Project</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Main_Contact__c</fullName>
-        <deleteConstraint>Restrict</deleteConstraint>
-        <description>R2_D_0595</description>
-        <externalId>false</externalId>
-        <label>Main Account Contact</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>$Source.AccountId</field>
-                <operation>equals</operation>
-                <valueField>Contact.AccountId</valueField>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Opportunities</relationshipLabel>
-        <relationshipName>Opportunities</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>NBD__c</fullName>
-        <externalId>false</externalId>
-        <label>NBD</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>NewCustomer__c</fullName>
-        <externalId>false</externalId>
-        <label>New customer</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>NewMarket__c</fullName>
-        <externalId>false</externalId>
-        <label>New market</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>NewSKProduct__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>SK product which is less than 5 years old.</inlineHelpText>
-        <label>New SK product</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>YES</fullName>
-                    <default>false</default>
-                    <label>YES</label>
-                </value>
-                <value>
-                    <fullName>NO</fullName>
-                    <default>false</default>
-                    <label>NO</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Next_Steps__c</fullName>
-        <description>Field created as part of PSR-000712 as Next Step is standard field with text data type and requirement is for rich text field.</description>
-        <externalId>false</externalId>
-        <label>Comment on customer feedbacks</label>
-        <length>32768</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Html</type>
-        <visibleLines>25</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Next_year_potential__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Tons per year</inlineHelpText>
-        <label>Next year potential</label>
-        <precision>12</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
 </CustomObject>
