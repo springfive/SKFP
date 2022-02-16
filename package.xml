@@ -35,5 +35,15 @@
         <members>HSE_Version__c-HSE Version Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Case.VR01_FillDescriptionDetailsIfOthersSelec</members>
+        <members>Case.VR02_MandatoryCountryRegionIfReachStatus</members>
+        <members>Case.VR03_MandatoryReachDetailsHSE</members>
+        <members>Case.VR04_MandatoryInvertoryListHSE</members>
+        <members>Case.VR05_MandatoryIDofCustomer</members>
+        <members>Case.VR06_MandatoryProductCompositionDetails</members>
+        <members>Case.VR07_MandatoryFinalAnswer</members>
+        <name>ValidationRule</name>
+    </types>
     <version>52.0</version>
 </Package>
