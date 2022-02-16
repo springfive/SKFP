@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Account.Account_History__c</members>
         <members>Account.BU_Application_2__c</members>
         <members>Account.BU_application_1__c</members>
         <members>Lead.BU_Application1__c</members>
