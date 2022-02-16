@@ -12,6 +12,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Sample__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>BU_application_2_values</members>
         <name>GlobalValueSet</name>
     </types>
