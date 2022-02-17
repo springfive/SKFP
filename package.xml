@@ -5,6 +5,10 @@
         <name>AssignmentRule</name>
     </types>
     <types>
+        <members>Case</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
         <members>Account.Key_Account__c</members>
         <members>Case.AutomotiveSector__c</members>
         <members>Case.Case_URL__c</members>
