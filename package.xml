@@ -9,10 +9,6 @@
         <name>AssignmentRules</name>
     </types>
     <types>
-        <members>Quote.Quote_Compact</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
         <members>Account.Key_Account__c</members>
         <members>Case.AutomotiveSector__c</members>
         <members>Case.Case_URL__c</members>
@@ -103,25 +99,8 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Account.All_Key_Accounts</members>
-        <members>Quote.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
         <members>Web_to_Lead</members>
         <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>Case.VR01_FillDescriptionDetailsIfOthersSelec</members>
-        <members>Case.VR02_MandatoryCountryRegionIfReachStatus</members>
-        <members>Case.VR03_MandatoryReachDetailsHSE</members>
-        <members>Case.VR04_MandatoryInvertoryListHSE</members>
-        <members>Case.VR05_MandatoryIDofCustomer</members>
-        <members>Case.VR06_MandatoryProductCompositionDetails</members>
-        <members>Case.VR07_MandatoryFinalAnswer</members>
-        <members>Sample__c.VR01_CreateOpportunity</members>
-        <members>Sample__c.VR02_NoCreateOpportunity</members>
-        <name>ValidationRule</name>
     </types>
     <types>
         <members>Case.Case_Reminder_Email</members>
