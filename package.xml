@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>UserIntoTeam.Bruno_GUILLEMAT</members>
+        <members>UserIntoTeam.Fanny_Deplace</members>
+        <members>UserIntoTeam.Guillaume_JACQUES</members>
+        <members>UserIntoTeam.Lolita_HAUGUEL</members>
+        <members>UserIntoTeam.Oc_ane_LAMARZELLE</members>
+        <members>UserIntoTeam.Yat_Kan_YU</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
         <members>UserIntoTeam__mdt</members>
         <name>CustomObject</name>
     </types>
