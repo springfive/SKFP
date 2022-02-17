@@ -83,6 +83,23 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>FLOW_01_ACC_AddUsersAccountTeam</members>
+        <members>FLOW_01_APA_PreventAPDuplicate</members>
+        <members>FLOW_01_AP_AutomaticallyInactive</members>
+        <members>FLOW_01_AddUserIntoOpportunityTeams</members>
+        <members>FLOW_01_HSE_FillSubject</members>
+        <members>FLOW_01_Lead_30DaysReminder</members>
+        <members>FLOW_01_SR_15DaysReminder</members>
+        <members>FLOW_02_APA_AddOpportunity</members>
+        <members>FLOW_02_HSE_UpdateDueDate</members>
+        <members>FLOW_02_OpportunityClosure</members>
+        <members>FLOW_03_HSE_25_90_Reminder</members>
+        <members>FLOW_03_OPP_CreateOppFromSR</members>
+        <members>FLOW_04_HSE_CaseClosureNotification</members>
+        <members>FLOW_04_OPP_AddOpportunity</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>Account-Customer Sold-To</members>
         <members>Case-HSE Request</members>
         <members>Quote-Quote Layout</members>
