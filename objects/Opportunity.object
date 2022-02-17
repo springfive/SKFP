@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Opportunity_Won_Lost_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Won/Lost Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>StageName</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client Relationship</fullName>
+                    <default>false</default>
+                    <label>Client Relationship</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>Legal</fullName>
+                    <default>false</default>
+                    <label>Legal</label>
+                </value>
+                <value>
+                    <fullName>Logistic Constraints</fullName>
+                    <default>false</default>
+                    <label>Logistic Constraints</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Product availability</fullName>
+                    <default>false</default>
+                    <label>Product availability</label>
+                </value>
+                <value>
+                    <fullName>Product performance</fullName>
+                    <default>false</default>
+                    <label>Product performance</label>
+                </value>
+                <value>
+                    <fullName>Quality</fullName>
+                    <default>false</default>
+                    <label>Quality</label>
+                </value>
+                <value>
+                    <fullName>Solution (if rejected)</fullName>
+                    <default>false</default>
+                    <label>Solution (if rejected)</label>
+                </value>
+                <value>
+                    <fullName>Withdraw by Arkema</fullName>
+                    <default>false</default>
+                    <label>Withdraw by Arkema</label>
+                </value>
+                <value>
+                    <fullName>Withdraw by Client</fullName>
+                    <default>false</default>
+                    <label>Withdraw by Client</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Client Relationship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Credit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Legal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Logistic Constraints</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Product availability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Product performance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Quality</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Solution (if rejected)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Withdraw by Arkema</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Withdraw by Client</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <valueName>Unknown</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Expired</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

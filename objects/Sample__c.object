@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BU__c</fullName>
+        <description>R2_R-0682</description>
+        <externalId>false</externalId>
+        <label>Sample BU</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>BU_Values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CreateOpportunity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Create an opportunity</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Main_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>D-0569</description>
+        <externalId>false</externalId>
+        <label>Opportunity related to the sample</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.Account__c</field>
+                <operation>equals</operation>
+                <valueField>Opportunity.AccountId</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Sample Requests</relationshipLabel>
+        <relationshipName>Sample_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <validationRules>
+        <fullName>VR01_CreateOpportunity</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c = False,
+ISNEW(), 
+CreateOpportunity__c  = false,  
+ISBLANK(Main_Opportunity__c )
+)</errorConditionFormula>
+        <errorMessage>If no opportunity related to this request exists, check &quot;Create an opportunity&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR02_NoCreateOpportunity</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c = false,
+NOT (ISBLANK( Main_Opportunity__c)),
+CreateOpportunity__c = True
+)</errorConditionFormula>
+        <errorMessage>An opportunity is already related to the request, you cannot check &apos;Create a new Opportunity&apos;.</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -37,6 +37,7 @@
         <members>HSE_Version__c.Case__c</members>
         <members>HSE_Version__c.Food_Contact__c</members>
         <members>Lead.LeadDescription__c</members>
+        <members>Opportunity.Opportunity_Won_Lost_Reason__c</members>
         <members>Quote.Account_Address__c</members>
         <members>Quote.BU__c</members>
         <members>Quote.Conditions_for_Quotation__c</members>
@@ -45,6 +46,9 @@
         <members>Quote.Ship_To_Account__c</members>
         <members>Quote.Ship_To_Address__c</members>
         <members>QuoteLineItem.Packaging__c</members>
+        <members>Sample__c.BU__c</members>
+        <members>Sample__c.CreateOpportunity__c</members>
+        <members>Sample__c.Main_Opportunity__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -87,6 +91,14 @@
         <members>Case-HSE Request</members>
         <members>Quote-Quote Layout</members>
         <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>Sample_Product__c-Sample Product Layout</members>
+        <members>Sample__c-Sample Layout</members>
+        <members>Sample__c-Sample Request with SAP</members>
+        <members>Sample__c-Sample Request with SAP Creation RT</members>
+        <members>Sample__c-Sample Request with SAP Request</members>
+        <members>Sample__c-Sample Request with SAP Request Creation RT</members>
+        <members>Sample__c-Sample Request without SAP</members>
+        <members>Sample__c-Sample Request without SAP Creation RT</members>
         <members>UserIntoTeam__mdt-UserIntoTeam Layout</members>
         <name>Layout</name>
     </types>
@@ -107,6 +119,8 @@
         <members>Case.VR05_MandatoryIDofCustomer</members>
         <members>Case.VR06_MandatoryProductCompositionDetails</members>
         <members>Case.VR07_MandatoryFinalAnswer</members>
+        <members>Sample__c.VR01_CreateOpportunity</members>
+        <members>Sample__c.VR02_NoCreateOpportunity</members>
         <name>ValidationRule</name>
     </types>
     <types>
