@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Packaging__c</fullName>
+        <externalId>false</externalId>
+        <label>Packaging</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>25kg bags</fullName>
+                    <default>false</default>
+                    <label>25kg bags</label>
+                </value>
+                <value>
+                    <fullName>650KG bags</fullName>
+                    <default>false</default>
+                    <label>650kg bags</label>
+                </value>
+                <value>
+                    <fullName>1100kg big bags</fullName>
+                    <default>false</default>
+                    <label>1100kg big bags</label>
+                </value>
+                <value>
+                    <fullName>550kg octabins</fullName>
+                    <default>false</default>
+                    <label>550kg octabins</label>
+                </value>
+                <value>
+                    <fullName>600KG octabins</fullName>
+                    <default>false</default>
+                    <label>600kg octabins</label>
+                </value>
+                <value>
+                    <fullName>650KG octabins</fullName>
+                    <default>false</default>
+                    <label>650kg octabins</label>
+                </value>
+                <value>
+                    <fullName>750kg octabins</fullName>
+                    <default>false</default>
+                    <label>750kg octabins</label>
+                </value>
+                <value>
+                    <fullName>1000kg octabins</fullName>
+                    <default>false</default>
+                    <label>1000kg octabins</label>
+                </value>
+                <value>
+                    <fullName>Bulk</fullName>
+                    <default>false</default>
+                    <label>Bulk</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Quote_Compact</fullName>
+        <fields>Name</fields>
+        <fields>QuoteNumber</fields>
+        <fields>IsSyncing</fields>
+        <fields>OpportunityId</fields>
+        <fields>AccountId</fields>
+        <fields>GrandTotal</fields>
+        <label>Quote Compact</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Account_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Account_Filter__r.Name &lt;&gt; null, Account_Filter__r.BillingState + BR()+
+Account_Filter__r.BillingStreet + BR()+
+Account_Filter__r.BillingCity + BR()+
+Account_Filter__r.BillingPostalCode + BR()+
+Account_Filter__r.BillingCountry,null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BU__c</fullName>
+        <description>R2_D-0517</description>
+        <externalId>false</externalId>
+        <formula>IF ( INCLUDES ( Opportunity.Active_BUs__c  , &quot;Functional Polyolefins&quot; ), &quot;SKFP; &quot;,null ) &amp;
+IF ( INCLUDES (Opportunity.Active_BUs__c  , &quot;SKGC&quot; ), &quot;SKGC; &quot;,null ) &amp;
+IF ( INCLUDES (Opportunity.Active_BUs__c  , &quot;Primacor&quot; ), &quot;Primacor; &quot;,null )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BU</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conditions_for_Quotation__c</fullName>
+        <description>R2_R-0075</description>
+        <externalId>false</externalId>
+        <inlineHelpText>MOQ, logistic premium, packaging premium</inlineHelpText>
+        <label>Conditions for Quotation</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Incoterms_2__c</fullName>
+        <defaultValue>IF(AND( 
+ISPICKVAL($User.BU__c,&apos;Oxygenated &amp; derivated&apos;), 
+ISPICKVAL($User.Region__c,&apos;Americas&apos;)),&apos;DDP (Delivered Duty Paid)&apos;, 
+IF(AND( 
+ISPICKVAL($User.BU__c,&apos;Oxygenated &amp; derivated&apos;), 
+ISPICKVAL($User.Region__c,&apos;EMEA&apos;)),&apos;DDP (Delivered Duty Paid)&apos;, 
+IF(AND( 
+ISPICKVAL($User.BU__c,&apos;Fluorogases&apos;), 
+ISPICKVAL($User.Region__c,&apos;Americas&apos;)),&apos;Shipping Point&apos;, 
+IF(AND( 
+ISPICKVAL($User.BU__c,&apos;Technical Polymers&apos;), 
+ISPICKVAL($User.Region__c,&apos;Americas&apos;)),&apos;Destination Point&apos;, &apos;&apos;) ) ) )</defaultValue>
+        <description>R3_PSR-400_R-0933</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Destination / Delivery place / Town linked to</inlineHelpText>
+        <label>Incoterms 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PriceValidTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Valid To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>R2_R-0697</description>
+        <externalId>false</externalId>
+        <label>Ship-To Account</label>
+        <lookupFilter>
+            <active>false</active>
+            <errorMessage>Please Select the Ship-To, Sold-To or Prospect account type</errorMessage>
+            <filterItems>
+                <field>Account.RecordType.Name</field>
+                <operation>equals</operation>
+                <value>Customer Ship-To,Customer Sold-To,Prospect</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes (Ship-To Account)</relationshipLabel>
+        <relationshipName>Quotes1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Ship_To_Address__c</fullName>
+        <description>R2_R-0697</description>
+        <externalId>false</externalId>
+        <formula>IF(Ship_To_Account__r.Name &lt;&gt; null, Ship_To_Account__r.BillingState + BR()+
+Ship_To_Account__r.BillingStreet + BR()+
+Ship_To_Account__r.BillingCity + BR()+
+Ship_To_Account__r.BillingPostalCode + BR()+
+Ship_To_Account__r.BillingCountry,null)</formula>
+        <label>Ship-To Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>QUOTE.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>QUOTE.ISSYNCING</columns>
+        <columns>QUOTE.EXPIRATIONDATE</columns>
+        <columns>QUOTE.SUBTOTAL</columns>
+        <columns>QUOTE.TOTALPRICE</columns>
+        <columns>QUOTE.QUOTENUMBER</columns>
+        <columns>TEMP_NL_Quote_nummer__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Quotes</label>
+    </listViews>
+</CustomObject>

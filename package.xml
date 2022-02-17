@@ -9,6 +9,10 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Quote.Quote_Compact</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>Account.Key_Account__c</members>
         <members>Case.AutomotiveSector__c</members>
         <members>Case.Case_URL__c</members>
@@ -33,6 +37,14 @@
         <members>HSE_Version__c.Case__c</members>
         <members>HSE_Version__c.Food_Contact__c</members>
         <members>Lead.LeadDescription__c</members>
+        <members>Quote.Account_Address__c</members>
+        <members>Quote.BU__c</members>
+        <members>Quote.Conditions_for_Quotation__c</members>
+        <members>Quote.Incoterms_2__c</members>
+        <members>Quote.PriceValidTo__c</members>
+        <members>Quote.Ship_To_Account__c</members>
+        <members>Quote.Ship_To_Address__c</members>
+        <members>QuoteLineItem.Packaging__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -67,13 +79,20 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>Quote_Lightning_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>Account-Customer Sold-To</members>
         <members>Case-HSE Request</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
         <members>UserIntoTeam__mdt-UserIntoTeam Layout</members>
         <name>Layout</name>
     </types>
     <types>
         <members>Account.All_Key_Accounts</members>
+        <members>Quote.All</members>
         <name>ListView</name>
     </types>
     <types>
