@@ -23,6 +23,7 @@
         <members>Case.SDS__c</members>
         <members>HSE_Version__c.Case__c</members>
         <members>HSE_Version__c.Food_Contact__c</members>
+        <members>Lead.LeadDescription__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -58,6 +59,10 @@
         <members>Case-HSE Request</members>
         <members>UserIntoTeam__mdt-UserIntoTeam Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Web_to_Lead</members>
+        <name>PermissionSet</name>
     </types>
     <types>
         <members>Case.VR01_FillDescriptionDetailsIfOthersSelec</members>
