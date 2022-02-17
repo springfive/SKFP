@@ -4,5 +4,9 @@
         <members>UserIntoTeam__mdt</members>
         <name>CustomObject</name>
     </types>
+    <types>
+        <members>UserIntoTeam__mdt-UserIntoTeam Layout</members>
+        <name>Layout</name>
+    </types>
     <version>52.0</version>
 </Package>
