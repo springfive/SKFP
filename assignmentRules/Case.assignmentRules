@@ -9,7 +9,6 @@
                 <operation>equals</operation>
                 <value>HSE Request</value>
             </criteriaItems>
-            <team>HSE Team</team>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>
