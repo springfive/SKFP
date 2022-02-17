@@ -127,6 +127,10 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Sales User</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Lead_APAC</members>
         <members>Lead_Americas</members>
         <members>Lead_EMEA</members>
