@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To send the Case Reminder for 90 days</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Case Reminder_Email for 90 days</name>
+    <style>none</style>
+    <subject>Case Reminder</subject>
+    <textOnly>The status of the HSE Case  {!Case.Case_URL__c} is “Open” for 90 days. Please check whether the case is still relevant and update it accordingly in SalesForce.”</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
