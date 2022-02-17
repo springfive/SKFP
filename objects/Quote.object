@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <compactLayouts>
-        <fullName>Quote_Compact</fullName>
-        <fields>Name</fields>
-        <fields>QuoteNumber</fields>
-        <fields>IsSyncing</fields>
-        <fields>OpportunityId</fields>
-        <fields>AccountId</fields>
-        <fields>GrandTotal</fields>
-        <label>Quote Compact</label>
-    </compactLayouts>
     <fields>
         <fullName>Account_Address__c</fullName>
         <externalId>false</externalId>
