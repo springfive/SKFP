@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AutomotiveSector__c</fullName>
+        <externalId>false</externalId>
+        <label>Automotive sector</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GADSL List</fullName>
+                    <default>false</default>
+                    <label>GADSL List</label>
+                </value>
+                <value>
+                    <fullName>IMDS</fullName>
+                    <default>false</default>
+                    <label>IMDS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Case_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://sk-fp--skdevpro.lightning.force.com/lightning/r/Case/&quot; &amp; Id &amp; &quot;/view&quot;,Case_ID__c,&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country_Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Country/Region</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Korea</fullName>
+                    <default>false</default>
+                    <label>Korea</label>
+                </value>
+                <value>
+                    <fullName>Eurasia</fullName>
+                    <default>false</default>
+                    <label>Eurasia</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DescriptionCountry__c</fullName>
+        <externalId>false</externalId>
+        <label>Description (country)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>UK</fullName>
+                    <default>false</default>
+                    <label>UK</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Korea</fullName>
+                    <default>false</default>
+                    <label>Korea</label>
+                </value>
+                <value>
+                    <fullName>Eurasia</fullName>
+                    <default>false</default>
+                    <label>Eurasia</label>
+                </value>
+                <value>
+                    <fullName>US (TSCA)</fullName>
+                    <default>false</default>
+                    <label>US (TSCA)</label>
+                </value>
+                <value>
+                    <fullName>Canada (DSL)</fullName>
+                    <default>false</default>
+                    <label>Canada (DSL)</label>
+                </value>
+                <value>
+                    <fullName>Japan (ENCS/ISHL)</fullName>
+                    <default>false</default>
+                    <label>Japan (ENCS/ISHL)</label>
+                </value>
+                <value>
+                    <fullName>China (IECSC)</fullName>
+                    <default>false</default>
+                    <label>China (IECSC)</label>
+                </value>
+                <value>
+                    <fullName>Korea (KECI)</fullName>
+                    <default>false</default>
+                    <label>Korea (KECI)</label>
+                </value>
+                <value>
+                    <fullName>Philippines (PICCS)</fullName>
+                    <default>false</default>
+                    <label>Philippines (PICCS)</label>
+                </value>
+                <value>
+                    <fullName>Australia (AIICS)</fullName>
+                    <default>false</default>
+                    <label>Australia (AIICS)</label>
+                </value>
+                <value>
+                    <fullName>NEW ZEALAND (NZIOC)</fullName>
+                    <default>false</default>
+                    <label>NEW ZEALAND (NZIOC)</label>
+                </value>
+                <value>
+                    <fullName>TAIWAN (TCSI)</fullName>
+                    <default>false</default>
+                    <label>TAIWAN (TCSI)</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To fill only if &quot;Other&quot; is selected.</inlineHelpText>
+        <label>Description details</label>
+        <length>130000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>FoodContact__c</fullName>
+        <externalId>false</externalId>
+        <label>Food Contact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EU</fullName>
+                    <default>false</default>
+                    <label>EU</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>CHINA</fullName>
+                    <default>false</default>
+                    <label>CHINA</label>
+                </value>
+                <value>
+                    <fullName>JAPAN</fullName>
+                    <default>false</default>
+                    <label>JAPAN</label>
+                </value>
+                <value>
+                    <fullName>MERCOSUR / ANVISA</fullName>
+                    <default>false</default>
+                    <label>MERCOSUR / ANVISA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Food_contact_details__c</fullName>
+        <description>Required FDA clearance or regulation / Application [type of food, conditions of use (T/duration), carrier polymer, structure (thickness of layers/container size)]</description>
+        <externalId>false</externalId>
+        <label>Food contact details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>IDCustomer__c</fullName>
+        <externalId>false</externalId>
+        <label>ID of customer</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InternalCstomerMaterialNumber__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To fill only if IMDS is selected</inlineHelpText>
+        <label>Internal customer material number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InternalReference__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal reference</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InternationalInventories__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>International inventories</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Inventory_list__c</fullName>
+        <externalId>false</externalId>
+        <label>Inventory list</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>US (TSCA)</fullName>
+                    <default>false</default>
+                    <label>US (TSCA)</label>
+                </value>
+                <value>
+                    <fullName>Canada (DSL)</fullName>
+                    <default>false</default>
+                    <label>Canada (DSL)</label>
+                </value>
+                <value>
+                    <fullName>Japan (ENCS/ISHL)</fullName>
+                    <default>false</default>
+                    <label>Japan (ENCS/ISHL)</label>
+                </value>
+                <value>
+                    <fullName>China (IECSC)</fullName>
+                    <default>false</default>
+                    <label>China (IECSC)</label>
+                </value>
+                <value>
+                    <fullName>Korea (KECI)</fullName>
+                    <default>false</default>
+                    <label>Korea (KECI)</label>
+                </value>
+                <value>
+                    <fullName>Philippines (PICCS)</fullName>
+                    <default>false</default>
+                    <label>Philippines (PICCS)</label>
+                </value>
+                <value>
+                    <fullName>Australia (AIICS)</fullName>
+                    <default>false</default>
+                    <label>Australia (AIICS)</label>
+                </value>
+                <value>
+                    <fullName>NEW ZEALAND (NZIOC)</fullName>
+                    <default>false</default>
+                    <label>NEW ZEALAND (NZIOC)</label>
+                </value>
+                <value>
+                    <fullName>TAIWAN (TCSI)</fullName>
+                    <default>false</default>
+                    <label>TAIWAN (TCSI)</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NBD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NBD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Others__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Others (ex: medical device)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProductComposition__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Composition</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Absence of Substances</fullName>
+                    <default>false</default>
+                    <label>Absence of Substances</label>
+                </value>
+                <value>
+                    <fullName>Heavy metals / TOYS</fullName>
+                    <default>false</default>
+                    <label>Heavy metals / TOYS</label>
+                </value>
+                <value>
+                    <fullName>RoHS</fullName>
+                    <default>false</default>
+                    <label>RoHS</label>
+                </value>
+                <value>
+                    <fullName>Origin (animal/vegetal/synthetic, GMO, BSE/TSE, Halal/Kosher)</fullName>
+                    <default>false</default>
+                    <label>Origin (animal/vegetal/synthetic, GMO, BSE/TSE, Halal/Kosher)</label>
+                </value>
+                <value>
+                    <fullName>California Prop 65</fullName>
+                    <default>false</default>
+                    <label>California Prop 65</label>
+                </value>
+                <value>
+                    <fullName>CMRT (Conflict Mineral)</fullName>
+                    <default>false</default>
+                    <label>CMRT (Conflict Mineral)</label>
+                </value>
+                <value>
+                    <fullName>POP (Persistant Organic Pollutant)</fullName>
+                    <default>false</default>
+                    <label>POP (Persistant Organic Pollutant)</label>
+                </value>
+                <value>
+                    <fullName>CAS number</fullName>
+                    <default>false</default>
+                    <label>CAS number</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Cases (Product)</relationshipLabel>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_composition_details__c</fullName>
+        <externalId>false</externalId>
+        <label>Product composition details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>REACH__c</fullName>
+        <externalId>false</externalId>
+        <label>REACH</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>REACH Status</fullName>
+                    <default>false</default>
+                    <label>REACH Status</label>
+                </value>
+                <value>
+                    <fullName>SVHC</fullName>
+                    <default>false</default>
+                    <label>SVHC</label>
+                </value>
+                <value>
+                    <fullName>Other REACH questions</fullName>
+                    <default>false</default>
+                    <label>Other REACH questions</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ReachDetails__c</fullName>
+        <externalId>false</externalId>
+        <label>Reach details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SDS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SDS/Safety Data Sheet</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <validationRules>
+        <fullName>VR01_FillDescriptionDetailsIfOthersSelec</fullName>
+        <active>true</active>
+        <description>it is mandatory to fill &quot;Description details&quot; field if &quot;others&quot; is selected.</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+AND(Others__c ),
+ISBLANK(Description_Details__c ) 
+)</errorConditionFormula>
+        <errorMessage>Please, fill the Description Details field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR02_MandatoryCountryRegionIfReachStatus</fullName>
+        <active>true</active>
+        <description>it is mandatory to fill  &quot;Country/region&quot; field if &quot;Reach satuts&quot; picklist value is selected in the &quot;reach field&quot;</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+INCLUDES( REACH__c , &apos;REACH Status&apos;),
+ISBLANK(Country_Region__c ) 
+)</errorConditionFormula>
+        <errorMessage>Please, fill the Country/Region field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR03_MandatoryReachDetailsHSE</fullName>
+        <active>true</active>
+        <description>it is mandatory to fill  &quot;Reach details&quot; field if &quot;Other Reach questions &quot; picklist value is selected in the &quot;reach field&quot;</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+INCLUDES( REACH__c , &apos;Other REACH questions&apos;),
+ISBLANK(ReachDetails__c)
+)</errorConditionFormula>
+        <errorMessage>Please, fill the Reach Details field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR04_MandatoryInvertoryListHSE</fullName>
+        <active>true</active>
+        <description>it is mandatory to fill &quot;Inventory list&quot; field if &quot;International inventories is checked&quot;</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+AND(InternationalInventories__c),
+ISBLANK(Inventory_list__c)
+)</errorConditionFormula>
+        <errorMessage>Please, fill the Inventory List field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR05_MandatoryIDofCustomer</fullName>
+        <active>true</active>
+        <description>It is mandatory to fill &quot;Id of customer&quot; field if &quot;IMDS&quot; picklist value is selected in the &quot;Automotive sector field&quot;</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+INCLUDES( AutomotiveSector__c  , &apos;IMDS&apos;),  
+				ISBLANK( IDCustomer__c)
+)</errorConditionFormula>
+        <errorMessage>Please, fill the ID Customer field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR06_MandatoryProductCompositionDetails</fullName>
+        <active>true</active>
+        <description>It is mandatory to fill &quot;product composition details&quot; field if &quot;other&quot; picklist value is selected in the &quot;Product composition&quot; field .</description>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+INCLUDES( ProductComposition__c , &apos;Other&apos;),
+ISBLANK(Product_composition_details__c)
+)</errorConditionFormula>
+        <errorMessage>Please, fill the Product Composition Details field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VR07_MandatoryFinalAnswer</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+$User.Skip_Validation__c == False,
+ISPICKVAL(Status, &quot;Closure&quot;),   
+LEN(Final_Answer__c) = 0
+)</errorConditionFormula>
+        <errorMessage>Please, add a value for &apos;Final answer&apos; before closing the case.</errorMessage>
+    </validationRules>
+</CustomObject>
