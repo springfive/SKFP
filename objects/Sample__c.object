@@ -48,26 +48,5 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <validationRules>
-        <fullName>VR01_CreateOpportunity</fullName>
-        <active>true</active>
-        <errorConditionFormula>AND(
-$User.Skip_Validation__c = False,
-ISNEW(), 
-CreateOpportunity__c  = false,  
-ISBLANK(Main_Opportunity__c )
-)</errorConditionFormula>
-        <errorMessage>If no opportunity related to this request exists, check &quot;Create an opportunity&quot;.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>VR02_NoCreateOpportunity</fullName>
-        <active>true</active>
-        <errorConditionFormula>AND(
-$User.Skip_Validation__c = false,
-NOT (ISBLANK( Main_Opportunity__c)),
-CreateOpportunity__c = True
-)</errorConditionFormula>
-        <errorMessage>An opportunity is already related to the request, you cannot check &apos;Create a new Opportunity&apos;.</errorMessage>
-    </validationRules>
+    </fields>  
 </CustomObject>
