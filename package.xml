@@ -6,6 +6,21 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>AP_Account_Plan__c.Account_Information__c</members>
+        <members>AP_Account_Plan__c.Comments__c</members>
+        <members>AP_Account_Plan__c.Company_Overview__c</members>
+        <members>AP_Account_Plan__c.Company_on_its_Market__c</members>
+        <members>AP_Account_Plan__c.Company_s_Strategy__c</members>
+        <members>AP_Account_Plan__c.SKFP_Opportunities__c</members>
+        <members>AP_Account_Plan__c.SK_Strategy__c</members>
+        <members>AP_Account_Plan__c.SK_Strengths__c</members>
+        <members>AP_Account_Plan__c.SK_Threats__c</members>
+        <members>AP_Account_Plan__c.SK_Weaknesses__c</members>
+        <members>AP_Account_Plan__c.Sales_History__c</members>
+        <members>AP_Account_Plan__c.Vision_of_SK_with_this_Account__c</members>
+        <members>AP_Contact__c.Account_Name__c</members>
+        <members>AP_Contact__c.Country__c</members>
+        <members>AP_Contact__c.Position_towards_SKFP__c</members>
         <members>Account.Account_History__c</members>
         <members>Account.Account_Logo__c</members>
         <members>Account.Account_Plan__c</members>
@@ -15,6 +30,16 @@
         <members>Account.BU_application_1__c</members>
         <members>Account.Circular_Economy_Player__c</members>
         <members>Account.Type__c</members>
+        <members>Account_Plan_Associations__c.Relationship_status__c</members>
+        <members>Account_Plan_Associations__c.Tech_PreventAPACreation__c</members>
+        <members>Account_Plan_Milestones__c.AP_Objective_Title__c</members>
+        <members>Account_Plan_Milestones__c.Account_Plan_Objective_Name__c</members>
+        <members>Account_Plan_Milestones__c.Account_Plan__c</members>
+        <members>Account_Plan_Milestones__c.Comments__c</members>
+        <members>Account_Plan_Milestones__c.Percentage_of_completion__c</members>
+        <members>Account_Plan_Team__c.Account_Plan__c</members>
+        <members>Account_Plan_Team__c.User_Role__c</members>
+        <members>Account_Plan_Team__c.User_Title__c</members>
         <members>Call_Visit_Report__c.Sold_to_Account__c</members>
         <members>Case.Active_BUs__c</members>
         <members>Case.NBD__c</members>
@@ -49,10 +74,23 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Active_Inactive_Trigger.TGR_AccountPlan</members>
+        <members>Active_Inactive_Trigger.TGR_AccountPlanTeamShare</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>AP_Account_Plan__c</members>
         <members>Account</members>
+        <members>Account_Plan_Associations__c</members>
+        <members>Account_Plan_Milestones__c</members>
+        <members>Account_Plan_Team__c</members>
         <members>Lead</members>
         <members>Opportunity_Competitor__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Account_Plan_Milestones_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>BU_Application_1</members>
@@ -61,9 +99,14 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>AP_Account_Plan__c-Account Plan Layout</members>
+        <members>AP_Contact__c-AP Contact Layout</members>
         <members>Account-Competitor</members>
         <members>Account-Customer Sold-To</members>
         <members>Account-Non-Buying Account</members>
+        <members>Account_Plan_Associations__c-Account Plan Association Layout</members>
+        <members>Account_Plan_Milestones__c-Account Plan Milestones Layout</members>
+        <members>Account_Plan_Team__c-Account Plan Team Layout</members>
         <members>Call_Visit_Report__c-Call%2FVisit Report Layout</members>
         <members>Case-Complaint without SAP QN</members>
         <members>Case-Customer Request</members>
@@ -72,10 +115,15 @@
         <members>Lead-Lead Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>Opportunity_Competitor__c-Competitor Offers Layout</members>
+        <members>Plant_Location__c-Plant Layout</members>
         <members>Product2-Commercial Product</members>
         <members>Sample_Product__c-Sample Product Layout</members>
         <members>Sample__c-Sample Request without SAP</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>AP_Account_Plan__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>Key_User</members>
@@ -101,6 +149,10 @@
         <members>Standard</members>
         <members>Website User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Account_Plan_Associations__c.VR01_PreventAPCreation</members>
+        <name>ValidationRule</name>
     </types>
     <version>52.0</version>
 </Package>
