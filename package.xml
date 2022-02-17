@@ -26,6 +26,17 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Bruno_Guillemat_Userlabel</members>
+        <members>Fanny_Deplace_Userlabel</members>
+        <members>Guillaume_Jacque_UserLabel</members>
+        <members>Lolita_Hauguel_UserLabel</members>
+        <members>Oc_ane_Lamarzelle_UserLabel</members>
+        <members>User_EmailId</members>
+        <members>User_Id</members>
+        <members>Yat_Kan_Yu_UserLabel</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>UserIntoTeam.Bruno_GUILLEMAT</members>
         <members>UserIntoTeam.Fanny_Deplace</members>
         <members>UserIntoTeam.Guillaume_JACQUES</members>
