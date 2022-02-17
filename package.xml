@@ -95,6 +95,10 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Web_to_Lead</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>Case.Case_Reminder_Email</members>
         <members>Case.Case_Reminder_Email_for_90_days</members>
         <members>Case.Case_cosure_email</members>
