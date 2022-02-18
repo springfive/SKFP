@@ -10,6 +10,7 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>AP_Account_Plan__c.Account_Information__c</members>
         <members>AP_Account_Plan__c.Comments__c</members>
         <members>AP_Account_Plan__c.Company_Overview__c</members>
         <members>AP_Account_Plan__c.Company_s_Strategy__c</members>
