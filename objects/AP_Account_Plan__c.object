@@ -113,4 +113,14 @@
         <type>LongTextArea</type>
         <visibleLines>2</visibleLines>
     </fields>
+    <fields>
+        <fullName>Vision_of_SK_with_this_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Vision of SK with this Account</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
 </CustomObject>

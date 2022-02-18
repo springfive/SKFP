@@ -20,6 +20,7 @@
         <members>AP_Account_Plan__c.SK_Threats__c</members>
         <members>AP_Account_Plan__c.SK_Weaknesses__c</members>
         <members>AP_Account_Plan__c.Sales_History__c</members>
+        <members>AP_Account_Plan__c.Vision_of_SK_with_this_Account__c</members>
         <members>Account.Key_Account__c</members>
         <members>Account_Plan_Associations__c.Tech_PreventAPACreation__c</members>
         <members>Case.AutomotiveSector__c</members>
