@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <fullName>AP_Objective_Title__c</fullName>
+        <description>R1-R-0570-This field indicates the Account Plan Milestone Title value on Account Plan Milestones object.</description>
+        <externalId>false</externalId>
+        <label>AP Objective Title</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Plan_Objective_Name__c</fullName>
+        <description>R1-R-0570-This field indicates the Account Plan Milestone Name value on Account Plan Milestones object.</description>
+        <externalId>false</externalId>
+        <label>Account Plan Objective Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Plan__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account Plan</label>
+        <referenceTo>AP_Account_Plan__c</referenceTo>
+        <relationshipName>Account_Plan_Milestones</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Comments__c</fullName>
         <externalId>false</externalId>
         <label>Review Comments</label>
