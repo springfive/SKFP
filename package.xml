@@ -13,6 +13,7 @@
         <members>AP_Account_Plan__c.Account_Information__c</members>
         <members>AP_Account_Plan__c.Comments__c</members>
         <members>AP_Account_Plan__c.Company_Overview__c</members>
+        <members>AP_Account_Plan__c.Company_on_its_Market__c</members>
         <members>AP_Account_Plan__c.Company_s_Strategy__c</members>
         <members>AP_Account_Plan__c.SKFP_Opportunities__c</members>
         <members>AP_Account_Plan__c.SK_Strengths__c</members>
