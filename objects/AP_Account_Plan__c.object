@@ -23,6 +23,17 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>Company_s_Strategy__c</fullName>
+        <externalId>false</externalId>
+        <label>Company&apos;s Strategy</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>SKFP_Opportunities__c</fullName>
         <description>R1-R-0568</description>
         <externalId>false</externalId>
