@@ -143,7 +143,6 @@
         <name>Queue</name>
     </types>
     <types>
-        <members>KeyAccountAccountplanreports</members>
         <members>KeyAccountAccountplanreports/Account_plan_objectives_and_tasks_wup</members>
         <members>KeyAccountAccountplanreports/NBD_Opportunities_mFR</members>
         <members>KeyAccountAccountplanreports/New_Opportunities_Report_96e</members>
