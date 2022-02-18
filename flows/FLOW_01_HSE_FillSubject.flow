@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Fill_Case_Subject</name>
+        <label>Fill Case Subject</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Subject</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SubjectName</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case_subject</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>HSE_Record_Type</name>
+        <label>HSE Record Type ?</label>
+        <locationX>182</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>HSE_Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Fill_Case_Subject</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>AutomotiveSector</name>
+        <dataType>String</dataType>
+        <expression>if (NOT(ISBLANK({!$Record.AutomotiveSector__c})), &apos; - Automotive sector&apos;, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>Foodcontact</name>
+        <dataType>String</dataType>
+        <expression>if (NOT(ISBLANK({!$Record.FoodContact__c})), &apos; - Food contact: &apos; &amp; 
+IF(INCLUDES( {!$Record.FoodContact__c},&quot;EU&quot;),&quot;EU;&quot;,null)&amp; 
+IF(INCLUDES( {!$Record.FoodContact__c},&quot;US&quot;),&quot;US;&quot;,null)&amp;
+IF(INCLUDES( {!$Record.FoodContact__c},&quot;CHINA&quot;),&quot;CHINA;&quot;,null)&amp;
+IF(INCLUDES( {!$Record.FoodContact__c},&quot;JAPAN&quot;),&quot;JAPAN;&quot;,null)&amp;
+IF(INCLUDES( {!$Record.FoodContact__c},&quot;MERCOSUR / ANVISA&quot;),&quot;MERCOSUR / ANVISA&quot;,null)
+, &quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>InternationalInventories</name>
+        <dataType>String</dataType>
+        <expression>if ({!$Record.InternationalInventories__c} = true, &apos; - International inventories: &apos; &amp; 
+IF(INCLUDES( {!$Record.Inventory_list__c},&quot;US (TSCA)&quot;),&quot;US (TSCA);&quot;,null)&amp; 
+IF(INCLUDES( {!$Record.Inventory_list__c},&quot;Canada (DSL)&quot;),&quot;Canada (DSL);&quot;,null)&amp;
+IF(INCLUDES( {!$Record.Inventory_list__c},&quot;Japan (ENCS/ISHL)&quot;),&quot;Japan (ENCS/ISHL);&quot;,null)&amp;
+IF(INCLUDES( {!$Record.Inventory_list__c},&quot;China (IECSC)&quot;),&quot;China (IECSC);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;Korea (KECI)&quot;),&quot;Korea (KECI);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;Philippines (PICCS)&quot;),&quot;Philippines (PICCS);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;Australia (AIICS)&quot;),&quot;Australia (AIICS);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;NEW ZEALAND (NZIOC)&quot;),&quot;NEW ZEALAND (NZIOC);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;TAIWAN (TCSI)&quot;),&quot;TAIWAN (TCSI);&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Inventory_list__c},&quot;Vietnam&quot;),&quot;Vietnam;&quot;,null)
+, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>Others</name>
+        <dataType>String</dataType>
+        <expression>if ({!$Record.Others__c} = true, &apos; - Others&apos;, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>ProductComposition</name>
+        <dataType>String</dataType>
+        <expression>if (NOT(ISBLANK({!$Record.ProductComposition__c})), &apos; - Product Composition&apos;, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>ProductName</name>
+        <dataType>String</dataType>
+        <expression>if ( {!$Record.Product__c} != null, {!$Record.Product__r.Name}, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>REACH</name>
+        <dataType>String</dataType>
+        <expression>if (NOT(ISBLANK({!$Record.REACH__c})), &apos; - REACH: &apos; &amp; 
+IF(INCLUDES( {!$Record.Country_Region__c},&quot;EU&quot;),&quot;EU;&quot;,null)&amp; 
+IF(INCLUDES( {!$Record.Country_Region__c},&quot;UK&quot;),&quot;UK;&quot;,null)&amp;
+IF(INCLUDES( {!$Record.Country_Region__c},&quot;Turkey&quot;),&quot;Turkey;&quot;,null)&amp;
+IF(INCLUDES( {!$Record.Country_Region__c},&quot;Korea&quot;),&quot;Korea;&quot;,null)&amp;
+IF(INCLUDES(  {!$Record.Country_Region__c},&quot;Eurasia&quot;),&quot;Eurasia;&quot;,null)
+, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>SDSSafetyDataSheet</name>
+        <dataType>String</dataType>
+        <expression>if ({!$Record.SDS__c}= true, &apos; - SDS/Safety Data Sheet&apos;, &apos;&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>SubjectName</name>
+        <dataType>String</dataType>
+        <expression>{!ProductName} &amp; {!Foodcontact} &amp; {!REACH} &amp; {!ProductComposition} &amp; {!AutomotiveSector} &amp; {!InternationalInventories} &amp;{!SDSSafetyDataSheet} &amp; {!Others}</expression>
+    </formulas>
+    <interviewLabel>FLOW_01_HSE_FillSubject {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FLOW_01_HSE_FillSubject</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Case_subject</name>
+        <label>Update Case subject</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>HSE_Record_Type</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
