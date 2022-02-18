@@ -67,6 +67,17 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>SK_Strategy__c</fullName>
+        <externalId>false</externalId>
+        <label>SK Strategy</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>SK_Strengths__c</fullName>
         <description>R1-R-0568</description>
         <externalId>false</externalId>

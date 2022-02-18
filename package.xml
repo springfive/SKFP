@@ -16,6 +16,7 @@
         <members>AP_Account_Plan__c.Company_on_its_Market__c</members>
         <members>AP_Account_Plan__c.Company_s_Strategy__c</members>
         <members>AP_Account_Plan__c.SKFP_Opportunities__c</members>
+        <members>AP_Account_Plan__c.SK_Strategy__c</members>
         <members>AP_Account_Plan__c.SK_Strengths__c</members>
         <members>AP_Account_Plan__c.SK_Threats__c</members>
         <members>AP_Account_Plan__c.SK_Weaknesses__c</members>
