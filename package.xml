@@ -10,6 +10,7 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>AP_Account_Plan__c.SKFP_Opportunities__c</members>
         <members>Account.Key_Account__c</members>
         <members>Account_Plan_Associations__c.Tech_PreventAPACreation__c</members>
         <members>Case.AutomotiveSector__c</members>
