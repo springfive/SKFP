@@ -121,12 +121,6 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Lead.Lead_APAC_Lead</members>
-        <members>Lead.Lead_Americas_Lead</members>
-        <members>Lead.Lead_EMEA_Lead</members>
-        <name>ListView</name>
-    </types>
-    <types>
         <members>Web_to_Lead</members>
         <name>PermissionSet</name>
     </types>
