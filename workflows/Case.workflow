@@ -32,6 +32,9 @@
             <recipient>Technical User</recipient>
             <type>caseTeam</type>
         </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Case_Reminder_Email</template>
     </alerts>
@@ -66,6 +69,9 @@
         <recipients>
             <recipient>Technical User</recipient>
             <type>caseTeam</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Case_Reminder_Email_for_90_days</template>
@@ -108,23 +114,4 @@
         <senderType>DefaultWorkflowUser</senderType>
         <template>unfiled$public/Case_closure_email</template>
     </alerts>
-    <rules>
-        <fullName>Case HSE Record Type</fullName>
-        <actions>
-            <name>Case_Reminder_Email</name>
-            <type>Alert</type>
-        </actions>
-        <actions>
-            <name>Case_Reminder_Email_for_90_days</name>
-            <type>Alert</type>
-        </actions>
-        <active>true</active>
-        <criteriaItems>
-            <field>Case.RecordTypeId</field>
-            <operation>equals</operation>
-            <value>HSE Request</value>
-        </criteriaItems>
-        <description>To HSE Team</description>
-        <triggerType>onCreateOnly</triggerType>
-    </rules>
 </Workflow>
