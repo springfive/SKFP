@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Case_email_for_25_days</name>
         <label>Case email for 25 days</label>
-        <locationX>505</locationX>
-        <locationY>907</locationY>
+        <locationX>50</locationX>
+        <locationY>1668</locationY>
         <actionName>Case.Case_Reminder_Email</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -18,8 +18,8 @@
     <actionCalls>
         <name>email_for_90_days</name>
         <label>email for 90 days</label>
-        <locationX>776</locationX>
-        <locationY>915</locationY>
+        <locationX>314</locationX>
+        <locationY>1668</locationY>
         <actionName>Case.Case_Reminder_Email_for_90_days</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -33,8 +33,8 @@
     <actionCalls>
         <name>Notification_for_25_days</name>
         <label>Notification for 25 days</label>
-        <locationX>505</locationX>
-        <locationY>713</locationY>
+        <locationX>50</locationX>
+        <locationY>1548</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -75,8 +75,8 @@
     <actionCalls>
         <name>Notification_for_90_days</name>
         <label>Notification for 90 days</label>
-        <locationX>776</locationX>
-        <locationY>719</locationY>
+        <locationX>314</locationX>
+        <locationY>1548</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -118,8 +118,8 @@
     <assignments>
         <name>Assign_Case_owner_Id_and_Email</name>
         <label>Assign Case owner Id and Email</label>
-        <locationX>966</locationX>
-        <locationY>501</locationY>
+        <locationX>402</locationX>
+        <locationY>1092</locationY>
         <assignmentItems>
             <assignToReference>UserId</assignToReference>
             <operator>Add</operator>
@@ -134,8 +134,8 @@
     <assignments>
         <name>Assign_User_Id_to_Case_team_Members</name>
         <label>Assign User Id to Case team Members</label>
-        <locationX>393</locationX>
-        <locationY>357</locationY>
+        <locationX>402</locationX>
+        <locationY>756</locationY>
         <assignmentItems>
             <assignToReference>UserId</assignToReference>
             <operator>Add</operator>
@@ -150,8 +150,8 @@
     <decisions>
         <name>check_25_days_or_90_days</name>
         <label>check 25 days or 90 days</label>
-        <locationX>638</locationX>
-        <locationY>491</locationY>
+        <locationX>314</locationX>
+        <locationY>1428</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Custom_Notification_for_25_days</name>
@@ -187,8 +187,8 @@
     <decisions>
         <name>Check_duration</name>
         <label>Check duration</label>
-        <locationX>515</locationX>
-        <locationY>132</locationY>
+        <locationX>842</locationX>
+        <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>duration_for_25_or_90_days</name>
@@ -223,8 +223,8 @@
     <decisions>
         <name>checking_case_team_member_exists</name>
         <label>checking case team member exists</label>
-        <locationX>965</locationX>
-        <locationY>135</locationY>
+        <locationX>578</locationX>
+        <locationY>516</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>case_team_member_exist</name>
@@ -242,15 +242,40 @@
             <label>case team member exist</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>Owner_exists_or_not</name>
+        <label>Owner exists or not</label>
+        <locationX>314</locationX>
+        <locationY>972</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Case_owner_Id_and_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>owner_exists</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>UserId</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$Record.OwnerId</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Notification</targetReference>
+            </connector>
+            <label>owner exists</label>
+        </rules>
+    </decisions>
     <formulas>
         <name>Durationfor25days</name>
         <dataType>Date</dataType>
-        <expression>TODAY() - 25</expression>
+        <expression>TODAY()-25</expression>
     </formulas>
     <formulas>
         <name>durationfor90days</name>
         <dataType>Date</dataType>
-        <expression>TODAY() - 90</expression>
+        <expression>TODAY()-90</expression>
     </formulas>
     <formulas>
         <name>emailcontentfor25days</name>
@@ -282,15 +307,15 @@
     <loops>
         <name>Iterate_Case_team_Members</name>
         <label>Iterate Case team Members</label>
-        <locationX>982</locationX>
-        <locationY>357</locationY>
+        <locationX>314</locationX>
+        <locationY>636</locationY>
         <collectionReference>CaseTeamMemberRec</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Assign_User_Id_to_Case_team_Members</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Assign_Case_owner_Id_and_Email</targetReference>
+            <targetReference>Owner_exists_or_not</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -302,7 +327,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -315,8 +340,8 @@
     <recordLookups>
         <name>Get_Case_Team_Members</name>
         <label>Get Case Team Members</label>
-        <locationX>798</locationX>
-        <locationY>133</locationY>
+        <locationX>578</locationX>
+        <locationY>396</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>checking_case_team_member_exists</targetReference>
@@ -337,8 +362,8 @@
     <recordLookups>
         <name>Notification</name>
         <label>Notification</label>
-        <locationX>832</locationX>
-        <locationY>499</locationY>
+        <locationX>314</locationX>
+        <locationY>1308</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>check_25_days_or_90_days</targetReference>
@@ -356,8 +381,8 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>88</locationX>
-        <locationY>51</locationY>
+        <locationX>716</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Check_duration</targetReference>
         </connector>
