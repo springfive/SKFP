@@ -35,7 +35,7 @@
         <recipients>
             <type>owner</type>
         </recipients>
-        <senderType>CurrentUser</senderType>
+        <senderType>DefaultWorkflowUser</senderType>
         <template>unfiled$public/Case_Reminder_Email</template>
     </alerts>
     <alerts>
@@ -73,7 +73,7 @@
         <recipients>
             <type>owner</type>
         </recipients>
-        <senderType>CurrentUser</senderType>
+        <senderType>DefaultWorkflowUser</senderType>
         <template>unfiled$public/Case_Reminder_Email_for_90_days</template>
     </alerts>
     <alerts>
