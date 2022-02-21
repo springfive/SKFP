@@ -198,9 +198,5 @@
         <members>Case.Case_cosure_email</members>
         <name>WorkflowAlert</name>
     </types>
-    <types>
-        <members>Case.Case HSE Record Type</members>
-        <name>WorkflowRule</name>
-    </types>
     <version>52.0</version>
 </Package>
