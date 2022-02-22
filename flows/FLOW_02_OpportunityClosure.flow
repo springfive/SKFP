@@ -315,6 +315,13 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>Loop_OppTeam_Record.UserId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.OwnerId</elementReference>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Add_User_to_Collection</targetReference>
             </connector>
@@ -459,7 +466,7 @@
     <formulas>
         <name>Duration5Months</name>
         <dataType>Date</dataType>
-        <expression>TODAY() - 150</expression>
+        <expression>TODAY()-150</expression>
     </formulas>
     <formulas>
         <name>Duration7Months</name>
