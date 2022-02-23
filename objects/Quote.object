@@ -63,6 +63,16 @@ ISPICKVAL($User.Region__c,&apos;Americas&apos;)),&apos;Destination Point&apos;, 
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Other_Condition__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Rebate, discount...</inlineHelpText>
+        <label>Other Conditions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>PriceValidTo__c</fullName>
         <externalId>false</externalId>
         <label>Price Valid To</label>

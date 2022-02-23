@@ -65,6 +65,7 @@
         <members>Quote.BU__c</members>
         <members>Quote.Conditions_for_Quotation__c</members>
         <members>Quote.Incoterms_2__c</members>
+        <members>Quote.Other_Condition__c</members>
         <members>Quote.PriceValidTo__c</members>
         <members>Quote.Ship_To_Account__c</members>
         <members>Quote.Ship_To_Address__c</members>
@@ -72,6 +73,7 @@
         <members>Sample__c.BU__c</members>
         <members>Sample__c.CreateOpportunity__c</members>
         <members>Sample__c.Main_Opportunity__c</members>
+        <members>User.HSE_member__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -121,6 +123,7 @@
     </types>
     <types>
         <members>Account_Plan_Milestones_Record_Page</members>
+        <members>HSE_Version_Record_Page</members>
         <members>Quote_Lightning_Record_Page</members>
         <name>FlexiPage</name>
     </types>
@@ -148,6 +151,7 @@
         <members>Account_Plan_Milestones__c-Account Plan Milestones Layout</members>
         <members>Account_Plan_Team__c-Account Plan Team Layout</members>
         <members>Case-HSE Request</members>
+        <members>HSE_Version__c-HSE Version Layout</members>
         <members>Quote-Quote Layout</members>
         <members>QuoteLineItem-Quote Line Item Layout</members>
         <members>Sample_Product__c-Sample Product Layout</members>
