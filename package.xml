@@ -60,6 +60,8 @@
         <members>HSE_Version__c.Case__c</members>
         <members>HSE_Version__c.Food_Contact__c</members>
         <members>Lead.LeadDescription__c</members>
+        <members>Opportunity.Automation_Date_Time__c</members>
+        <members>Opportunity.Is_Automation_Bypassed__c</members>
         <members>Opportunity.Opportunity_Won_Lost_Reason__c</members>
         <members>Quote.Account_Address__c</members>
         <members>Quote.BU__c</members>
