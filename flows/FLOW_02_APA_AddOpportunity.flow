@@ -36,10 +36,22 @@
                 <elementReference>$Record.Account_Plan__r.Id</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>OppUpdate.Automation_Date_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>NowFormula</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>AddtoCollectio</targetReference>
         </connector>
     </assignments>
+    <formulas>
+        <name>NowFormula</name>
+        <dataType>DateTime</dataType>
+        <expression>Now()</expression>
+    </formulas>
     <interviewLabel>FLOW_02_APA_AddOpportunity {!$Flow.CurrentDateTime}</interviewLabel>
     <label>FLOW_02_APA_AddOpportunity</label>
     <loops>
@@ -96,6 +108,8 @@
         <object>Opportunity</object>
         <queriedFields>Id</queriedFields>
         <queriedFields>Account_Plan__c</queriedFields>
+        <queriedFields>Is_Automation_Bypassed__c</queriedFields>
+        <queriedFields>Automation_Date_Time__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
