@@ -98,7 +98,6 @@
         <members>Account_Plan_Milestones__c</members>
         <members>Account_Plan_Team__c</members>
         <members>HSE_Version__c</members>
-        <members>UserIntoTeam__mdt</members>
         <name>CustomObject</name>
     </types>
     <types>
