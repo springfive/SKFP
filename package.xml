@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>TST_TGRH_Market_Insight_Team</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>Case.Case Type</members>
         <members>Lead.Assignment Web-to-Lead</members>
         <name>AssignmentRule</name>
@@ -79,26 +83,9 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Bruno_Guillemat_Userlabel</members>
-        <members>Fanny_Deplace_Userlabel</members>
-        <members>Guillaume_Jacque_UserLabel</members>
-        <members>Lolita_Hauguel_UserLabel</members>
-        <members>Oc_ane_Lamarzelle_UserLabel</members>
         <members>User_EmailId</members>
         <members>User_Id</members>
-        <members>Yat_Kan_Yu_UserLabel</members>
         <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>Active_Inactive_Trigger.TGR_AccountPlan</members>
-        <members>Active_Inactive_Trigger.TGR_AccountPlanTeamShare</members>
-        <members>UserIntoTeam.Bruno_GUILLEMAT</members>
-        <members>UserIntoTeam.Fanny_Deplace</members>
-        <members>UserIntoTeam.Guillaume_JACQUES</members>
-        <members>UserIntoTeam.Lolita_HAUGUEL</members>
-        <members>UserIntoTeam.Oc_ane_LAMARZELLE</members>
-        <members>UserIntoTeam.Yat_Kan_YU</members>
-        <name>CustomMetadata</name>
     </types>
     <types>
         <members>Message_Owner</members>
@@ -110,7 +97,6 @@
         <members>Account_Plan_Milestones__c</members>
         <members>Account_Plan_Team__c</members>
         <members>HSE_Version__c</members>
-        <members>UserIntoTeam__mdt</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -130,10 +116,8 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>FLOW_01_ACC_AddUsersAccountTeam</members>
         <members>FLOW_01_APA_PreventAPDuplicate</members>
         <members>FLOW_01_AP_AutomaticallyInactive</members>
-        <members>FLOW_01_AddUserIntoOpportunityTeams</members>
         <members>FLOW_01_HSE_FillSubject</members>
         <members>FLOW_01_Lead_30DaysReminder</members>
         <members>FLOW_01_SR_15DaysReminder</members>
@@ -164,7 +148,6 @@
         <members>Sample__c-Sample Request with SAP Request Creation RT</members>
         <members>Sample__c-Sample Request without SAP</members>
         <members>Sample__c-Sample Request without SAP Creation RT</members>
-        <members>UserIntoTeam__mdt-UserIntoTeam Layout</members>
         <name>Layout</name>
     </types>
     <types>

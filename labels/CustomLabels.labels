@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>Bruno_Guillemat_Userlabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Bruno Guillemat - Userlabel</shortDescription>
-        <value>Bruno Guillemat</value>
-    </labels>
-    <labels>
-        <fullName>Fanny_Deplace_Userlabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Fanny Deplace - Userlabel</shortDescription>
-        <value>Fanny Deplace</value>
-    </labels>
-    <labels>
-        <fullName>Guillaume_Jacque_UserLabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Guillaume Jacque - UserLabel</shortDescription>
-        <value>Guillaume Jacques</value>
-    </labels>
-    <labels>
-        <fullName>Lolita_Hauguel_UserLabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Lolita Hauguel - UserLabel</shortDescription>
-        <value>Lolita Hauguel</value>
-    </labels>
-    <labels>
-        <fullName>Oc_ane_Lamarzelle_UserLabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Océane Lamarzelle - UserLabel</shortDescription>
-        <value>Océane Lamarzelle</value>
-    </labels>
-    <labels>
         <fullName>User_EmailId</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -48,12 +13,5 @@
         <protected>false</protected>
         <shortDescription>To store the Id of the User</shortDescription>
         <value>0053X00000BPxesQAD</value>
-    </labels>
-    <labels>
-        <fullName>Yat_Kan_Yu_UserLabel</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Yat Kan Yu - UserLabel</shortDescription>
-        <value>Yat Kan Yu</value>
     </labels>
 </CustomLabels>
