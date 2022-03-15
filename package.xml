@@ -132,6 +132,7 @@
     </types>
     <types>
         <members>AP_Account_Plan__c-Account Plan Layout</members>
+        <members>AP_Contact__c-AP Contact Layout</members>
         <members>Account-Customer Sold-To</members>
         <members>Account_Plan_Associations__c-Account Plan Association Layout</members>
         <members>Account_Plan_Milestones__c-Account Plan Milestones Layout</members>
