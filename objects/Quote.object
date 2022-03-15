@@ -22,7 +22,7 @@ Account_Filter__r.BillingCountry,null)</formula>
 IF ( INCLUDES (Opportunity.Active_BUs__c  , &quot;SKGC&quot; ), &quot;SKGC; &quot;,null ) &amp;
 IF ( INCLUDES (Opportunity.Active_BUs__c  , &quot;Primacor&quot; ), &quot;Primacor; &quot;,null )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>BU</label>
+        <label>Product Family</label>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
@@ -65,7 +65,7 @@ ISPICKVAL($User.Region__c,&apos;Americas&apos;)),&apos;Destination Point&apos;, 
     <fields>
         <fullName>Other_Condition__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>Rebate, discount...</inlineHelpText>
+        <inlineHelpText>Logistic premium, Rebate, Discount... (This fiels appears on the Quote PDF)</inlineHelpText>
         <label>Other Conditions</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
