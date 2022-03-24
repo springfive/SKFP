@@ -42,6 +42,7 @@
     <fields>
         <fullName>Country_Region__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>To fill only if REACH Status is selected</inlineHelpText>
         <label>Country/Region</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -240,6 +241,7 @@
     <fields>
         <fullName>IDCustomer__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>To fill only if IMDS is selected</inlineHelpText>
         <label>ID of customer</label>
         <length>100</length>
         <required>false</required>
@@ -252,7 +254,6 @@
     <fields>
         <fullName>InternalCstomerMaterialNumber__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>To fill only if IMDS is selected</inlineHelpText>
         <label>Internal customer material number</label>
         <length>100</length>
         <required>false</required>
@@ -493,6 +494,7 @@
     <fields>
         <fullName>ReachDetails__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>To fill only if Other REACH questions is selected</inlineHelpText>
         <label>Reach details</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
