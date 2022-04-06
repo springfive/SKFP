@@ -12,6 +12,11 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Case.Case Type</members>
+        <members>Lead.Assignment Web-to-Lead</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
         <members>Account.Account_Compact_Layout</members>
         <name>CompactLayout</name>
     </types>
@@ -54,10 +59,50 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>User_EmailId</members>
+        <members>User_Id</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Message_Owner</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>Lead</members>
         <members>Opportunity_Competitor__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Sales_and_Marketing_Dashboards/akLwzKguqVBfcTtYtjAfpnQkCtglRY</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>unfiled$public/Case_Reminder_Email</members>
+        <members>unfiled$public/Case_Reminder_Email_for_90_days</members>
+        <members>unfiled$public/Case_closure_email</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Account_Plan_Milestones_Record_Page</members>
+        <members>HSE_Version_Record_Page</members>
+        <members>Quote_Lightning_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>FLOW_01_APA_PreventAPDuplicate</members>
+        <members>FLOW_01_AP_AutomaticallyInactive</members>
+        <members>FLOW_01_HSE_FillSubject</members>
+        <members>FLOW_01_Lead_30DaysReminder</members>
+        <members>FLOW_01_SR_15DaysReminder</members>
+        <members>FLOW_02_APA_AddOpportunity</members>
+        <members>FLOW_02_HSE_UpdateDueDate</members>
+        <members>FLOW_02_OpportunityClosure</members>
+        <members>FLOW_03_HSE_25_90_Reminder</members>
+        <members>FLOW_03_OPP_CreateOppFromSR</members>
+        <members>FLOW_04_HSE_CaseClosureNotification</members>
+        <members>FLOW_04_OPP_AddOpportunity</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>BU_Application_1</members>
@@ -85,6 +130,7 @@
     <types>
         <members>Key_User</members>
         <members>Key_User_HQ</members>
+        <members>Web_to_Lead</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -106,6 +152,27 @@
         <members>Standard</members>
         <members>Website User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Lead_APAC</members>
+        <members>Lead_Americas</members>
+        <members>Lead_EMEA</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>NewTask</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>KeyAccountAccountplanreports/Account_plan_objectives_and_tasks_wup</members>
+        <members>KeyAccountAccountplanreports/NBD_Opportunities_mFR</members>
+        <members>KeyAccountAccountplanreports/New_Opportunities_Report_96e</members>
+        <members>KeyAccountAccountplanreports/New_Report_d8T</members>
+        <members>KeyAccountAccountplanreports/Opportunity_Turnover_by_Application_RIH</members>
+        <members>KeyAccountAccountplanreports/Opportunity_Turnover_by_Country_cw2</members>
+        <members>KeyAccountAccountplanreports/Turnover_by_Region_hJW</members>
+        <members>unfiled$public/New_Cases_with_HSE_Versions_Report_uNd</members>
+        <name>Report</name>
     </types>
     <types>
         <members>Account.Competitor</members>
@@ -149,6 +216,17 @@
         <members>Sample_Product__c.PSR000551_ShippingDetails_at_Sample_Prod</members>
         <members>Sample_Product__c.R2_D0507_Mandatory_Material_product</members>
         <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>KeyAccountAccountplanreports/Account_plan_objectives_and_tasks_wup</members>
+        <members>KeyAccountAccountplanreports/NBD_Opportunities_mFR</members>
+        <members>KeyAccountAccountplanreports/New_Opportunities_Report_96e</members>
+        <members>KeyAccountAccountplanreports/New_Report_d8T</members>
+        <members>KeyAccountAccountplanreports/Opportunity_Turnover_by_Application_RIH</members>
+        <members>KeyAccountAccountplanreports/Opportunity_Turnover_by_Country_cw2</members>
+        <members>KeyAccountAccountplanreports/Turnover_by_Region_hJW</members>
+        <members>unfiled$public/New_Cases_with_HSE_Versions_Report_uNd</members>
+        <name>Report</name>
     </types>
     <version>52.0</version>
 </Package>
