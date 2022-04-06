@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Fill_Due_Date</name>
+        <label>Fill Due Date Priority High</label>
+        <locationX>773</locationX>
+        <locationY>568</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DueDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case_Due_Date</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>HSE_Record_Type</name>
+        <label>HSE Record Type?</label>
+        <locationX>764</locationX>
+        <locationY>423</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>YES</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>HSE_Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Fill_Due_Date</targetReference>
+            </connector>
+            <label>YES</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>DueDate</name>
+        <dataType>Date</dataType>
+        <expression>IF (ISPICKVAL ({!$Record.Priority__c} , &apos;High&apos;), {!$Record.CreatedDate} +10, 
+IF (ISPICKVAL ({!$Record.Priority__c} , &apos;Medium&apos;), {!$Record.CreatedDate} +20, 
+IF (ISPICKVAL ({!$Record.Priority__c} , &apos;Low&apos;), {!$Record.CreatedDate} +40, {!$Record.CreatedDate} 
+)))</expression>
+    </formulas>
+    <interviewLabel>FLOW_02_HSE_UpdateDueDate {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FLOW_02_HSE_UpdateDueDate</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Case_Due_Date</name>
+        <label>Update Case Due Date</label>
+        <locationX>772</locationX>
+        <locationY>769</locationY>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>644</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>HSE_Record_Type</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>record</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+</Flow>
